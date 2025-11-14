@@ -5,3 +5,8 @@
 .feature-item .icon-box img {
     max-width: 185px;
 }
+
+.footer-logo {
+    background: linear-gradient(90deg, #fff6f5 0.18%, #ffff 100.18%);
+    padding: 40px 60px 40px 30px;
+}

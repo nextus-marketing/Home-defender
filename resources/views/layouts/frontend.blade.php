@@ -92,7 +92,7 @@
                     <div class="main-footer-box">
                         <!-- Footer Logo Start -->
                         <div class="footer-logo">
-                            <img src="/frontend/images/footer-logo.svg" alt="">
+                            <img src="/frontend/my-img/logo_new.png" alt="">
                         </div>
                         <!-- Footer Logo End -->
                         
