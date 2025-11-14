@@ -17,6 +17,29 @@
 </head>
 
 <body>
+    <style>
+        .btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #e63946; /* Red */
+    --bs-btn-border-color: #e63946;
+
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #c72f3a; /* Darker red */
+    --bs-btn-hover-border-color: #b82b35;
+
+    --bs-btn-focus-shadow-rgb: 230, 57, 70; /* Red tone */
+
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b82b35; /* Deeper red */
+    --bs-btn-active-border-color: #a82631;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #e63946;
+    --bs-btn-disabled-border-color: #e63946;
+}
+
+    </style>
     <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-sidebartype="full"
         data-sidebar-position="fixed" data-header-position="fixed">
         <div class="position-relative overflow-hidden radial-gradient min-vh-100">
@@ -38,7 +61,7 @@
                             <div class="col-sm-8 col-md-6 col-xl-9">
                                 <div class="text-center">
                                 <!-- Add dashbord logo here     -->
-                                <img src="/backend/dashbord-logo.png" width="180" alt="" />
+                                <img src="/frontend/my-img/backend-logo.png" width="180" alt="" />
                                     <br /><br />
                                     <h2 class="mb-3 fs-7 fw-bolder">Welcome to My Dashbord</h2>
                                     <p class=" mb-9">Your Admin Dashboard</p>

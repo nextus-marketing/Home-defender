@@ -20,11 +20,11 @@ class EnquiryController extends Controller
             ->editColumn('datetime', function ($enquiry) {
                 return toIndianDateTime($enquiry->created_at);
             }) 
-            ->editColumn('first_name', function ($enquiry) {
-                return $enquiry->first_name;
+            ->editColumn('full_name', function ($enquiry) {
+                return $enquiry->full_name;
             }) 
-            ->editColumn('last_name', function ($enquiry) {
-                return $enquiry->last_name;
+            ->editColumn('subject', function ($enquiry) {
+                return $enquiry->subject;
             }) 
             ->editColumn('email', function ($enquiry) {
                 return $enquiry->email;
@@ -40,7 +40,7 @@ class EnquiryController extends Controller
                 return $show;
             })   
            ->addIndexColumn()
-           ->rawColumns(['datetime','first_name','last_name','email','mobile','status','action'])->setRowId('id')->make(true);
+           ->rawColumns(['datetime','full_name','subject','email','mobile','status','action'])->setRowId('id')->make(true);
     }
 
     public function list(){

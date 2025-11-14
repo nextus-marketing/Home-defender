@@ -61,7 +61,7 @@
                     <div class="brand-logo d-flex align-items-center justify-content-between">
                         <a href="{{ route('admin.dashboard.index') }}" class="text-nowrap logo-img">
 						<!-- add dashbord logo here	 -->
-                        <img src="/backend/dashbord-logo.png" width="180" alt="" />
+                        <img src="/frontend/my-img/backend-logo.png" width="180" alt="" />
                         </a>
                         <div class="close-btn d-lg-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
                             <i class="ti ti-x fs-8 text-muted"></i>
@@ -102,7 +102,7 @@
                         
                         <div class="d-block d-lg-none">
                             <!-- Add dashbord logo here     -->
-							<img src="/backend/dashbord-logo.png" width="180" alt="" />
+							<img src="/frontend/my-img/backend-logo.png" width="180" alt="" />
                         </div>
                         <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="p-2">

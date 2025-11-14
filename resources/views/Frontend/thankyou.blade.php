@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 @section('title')
-    404 | Home Defender
+    Thankyou | Home Defender
 @endsection
 @section('content')
 <!-- Page Header Start -->
@@ -10,11 +10,11 @@
 				<div class="col-lg-12">
 					<!-- Page Header Box Start -->
 					<div class="page-header-box">
-						<h1 class="wow fadeInUp" data-cursor="-opaque">Page not found</h1>
+						<h1 class="wow fadeInUp" data-cursor="-opaque">Thank you</h1>
 						<nav class="wow fadeInUp" data-wow-delay="0.2s">
                             <ol class="breadcrumb">
 								<li class="breadcrumb-item"><a href="/">home</a></li>
-								<li class="breadcrumb-item active" aria-current="page">404 error page</li>
+								<li class="breadcrumb-item active" aria-current="page">Thankyou</li>
 							</ol>
 						</nav>
 					</div>
@@ -30,15 +30,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="error-page-image wow fadeInUp">
+                    <!-- <div class="error-page-image wow fadeInUp">
                         <img src="/frontend/images/404-error-img.png" alt="">
-                    </div>
+                    </div> -->
                     <div class="error-page-content">
                         <div class="section-title">
-                            <h2 class=" wow fadeInUp" data-cursor="-opaque" data-wow-delay="0.2s"><span>Oops!</span> page not found</h2>
+                            <h2 class=" wow fadeInUp" data-cursor="-opaque" data-wow-delay="0.2s"><span>Thank You </span> for Contacting Us</h2>
                         </div>
                         <div class="error-page-content-body">
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">The page you are looking for does not exist.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">We appreciate your message and have received it. Our team will review it and contact you soon.</p>
                             <a class="btn-default wow fadeInUp" data-wow-delay="0.6s" href="/">back to home</a>
                         </div>
                     </div>
