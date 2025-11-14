@@ -105,7 +105,7 @@
                                 </div>
                                 <div class="footer-contact-item-content">
                                     <p>phone number</p>
-                                    <h3><a href="tel:+456789254">+(1) 456 789 254</a></h3>
+                                    <h3><a href="tel:1-888-447-6320">+(1) 888 447 6320</a></h3>
                                 </div>
                             </div>
                             <!-- Footer Contact Item End -->
@@ -117,7 +117,7 @@
                                 </div>
                                 <div class="footer-contact-item-content">
                                     <p>email address</p>
-                                    <h3><a href="mailto:info@domainname.com">info@domain.com</a></h3>
+                                    <h3><a href="mailto:info@homedefender.net">info@homedefender.net</a></h3>
                                 </div>
                             </div>
                             <!-- Footer Contact Item End -->
@@ -129,7 +129,7 @@
                                 </div>
                                 <div class="footer-contact-item-content">
                                     <p>location</p>
-                                    <h3>123 Lorem Stree</h3>
+                                    <h3> Burke VA, 22015</h3>
                                 </div>
                             </div>
                             <!-- Footer Contact Item End -->
@@ -145,7 +145,7 @@
                         <!-- Footer Links Start -->
                         <div class="footer-links">
                             <h3>About Solutions</h3>
-                            <p>We provide advanced Security and CCTV solutions, ensuring 24/7 protection with high-quality systems.</p>
+                            <p>At <b>Home Defender</b> , we strive to deliver security products and monitoring systems that revolutionize the way people protect, monitor, and safeguard their homes and businesses.</p>
                         </div>
                         <!-- Footer Links End -->
 
@@ -180,12 +180,11 @@
                 <div class="col-lg-2 col-md-6">
                     <!-- Footer Links Start -->
                     <div class="footer-links">
-                        <h3>services</h3>
+                        <h3>Support & Policies</h3>
                         <ul>
-                            <li><a href="#0">CCTV System Installation</a></li>
-                            <li><a href="#0">Access Control Systems</a></li>
-                            <li><a href="#0">Home Security Systems</a></li>
-                            <li><a href="#0">24/7 Technical Support</a></li>
+                            <li><a href="#0">Contact Us</a></li>
+                            <li><a href="#0">Privacy Policy</a></li>
+                            <li><a href="#0">Terms & condition</a></li>
                         </ul>
                     </div>
                     <!-- Footer Links End -->
@@ -218,18 +217,6 @@
                             <p>Copyright © 2025 All Rights Reserved.</p>
                         </div>
                         <!-- Footer Copyright Text End -->
-                    </div>
-
-                    <div class="col-md-6">
-                        <!-- Footer Privacy Policy Start -->
-                        <div class="footer-privacy-policy">
-                            <ul>
-                                <li><a href="#">help</a></li>
-                                <li><a href="#">privacy policy</a></li>
-                                <li><a href="#">term's & condition</a></li>
-                            </ul>
-                        </div>
-                        <!-- Footer Privacy Policy End -->
                     </div>
                 </div>
             </div>

@@ -906,8 +906,8 @@
                                                     </figure>
                                                 </div>
                                                 <div class="author-content">
-                                                    <h3>Sophia Reynolds</h3>
-                                                    <p>Chief Executive Officer</p>
+                                                    <h3>Emily Carter</h3>
+                                                    <p>Chicago, Illinois</p>
                                                 </div>  
                                             </div>        
                                             <div class="testimonial-quote">
@@ -922,7 +922,7 @@
                                             <i class="fa-solid fa-star"></i>                                   
                                         </div>                              
                                         <div class="testimonial-content">
-                                            <p>"I couldn't be happier with the security system installed by this team. The CCTV cameras are high quality, the installation was seamless, and the support team is always ready to help. I feel much safer knowing my home is protected 24/7. Highly recommend their services!"</p>
+                                            <p>"The team at Secured Home Security provided excellent service from start to finish. They guided me through every step, from choosing the right package to the installation process. Their professionalism and attention to detail were impressive, making the whole experience smooth and hassle-free."</p>
                                         </div>                              
                                     </div>
                                 </div>
@@ -939,8 +939,8 @@
                                                     </figure>
                                                 </div>
                                                 <div class="author-content">
-                                                    <h3>Kathryn Murphy</h3>
-                                                    <p>Chief Executive Officer</p>
+                                                    <h3>Michael Anderson</h3>
+                                                    <p>Los Angeles, California</p>
                                                 </div>  
                                             </div>        
                                             <div class="testimonial-quote">
@@ -955,7 +955,9 @@
                                             <i class="fa-solid fa-star"></i>                                   
                                         </div>                                   
                                         <div class="testimonial-content">
-                                            <p>"I couldn't be happier with the security system installed by this team. The CCTV cameras are high quality, the installation was seamless, and the support team is always ready to help. I feel much safer knowing my home is protected 24/7. Highly recommend their services!"</p>
+                                            <p>"Secured Home Security has completely transformed the safety of our home. The system is
+                                                incredibly reliable and easy to use, giving us peace of mind 24/7. The smart features are top-notch, and I
+                                                love the convenience of controlling everything from my phone. Highly recommend it to anyone looking for a solid security solution!"</p>
                                         </div>                              
                                     </div>
                                 </div>
@@ -972,8 +974,8 @@
                                                     </figure>
                                                 </div>
                                                 <div class="author-content">
-                                                    <h3>John Miller</h3>
-                                                    <p>IT manager</p>
+                                                    <h3>Sarah Johnson</h3>
+                                                    <p>Dallas, Texas</p>
                                                 </div>  
                                             </div>        
                                             <div class="testimonial-quote">
@@ -988,7 +990,8 @@
                                             <i class="fa-solid fa-star"></i>                                   
                                         </div>                           
                                         <div class="testimonial-content">
-                                            <p>"I couldn't be happier with the security system installed by this team. The CCTV cameras are high quality, the installation was seamless, and the support team is always ready to help. I feel much safer knowing my home is protected 24/7. Highly recommend their services!"</p>
+                                            <p>"The support from Secured Home Security has been outstanding! Whenever I had questions or needed help with
+                                                the system, their team was always quick to respond and incredibly helpful. It’s reassuring to know that they are just a call away whenever I need assistance. Exceptional customer support!"</p>
                                         </div>                              
                                     </div>
                                 </div>
@@ -1007,234 +1010,132 @@
     </div>
     <!-- Our Testimonials Section End -->
 
-    <!-- Our FAQs Section Start -->
-    <div class="our-faqs">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Our FAQs Content Start -->
-                    <div class="our-faqs-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <h3 class="wow fadeInUp">FAQ</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Frequently </span>asked questions</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">Our FAQ section addresses common questions about our security and CCTV products, installation, and services. Find quick and reliable answers to help you make informed decisions.</p>
-                        </div>
-                        <!-- Section Title End -->
-
-                        <!-- Our FAQs List Start -->
-                        <div class="our-faqs-list wow fadeInUp" data-wow-delay="0.6s">
-                            <ul>
-                                <li>Crystal-Clear High-Definition Video Recording</li>
-                                <li>Seamless Real-Time Remote Monitoring Access</li>
-                                <li>Expansive Wide-Angle Camera Coverage</li>
-                            </ul>
-                        </div>
-                        <!-- Our FAQs List End -->
-                    </div>
-                    <!-- Our FAQs Content End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- FAQ Accordion Start -->
-                    <div class="faq-accordion faq-accordion-box" id="accordion">
-                        <!-- FAQ Item Start -->
-                        <div class="accordion-item wow fadeInUp">
-                            <h2 class="accordion-header" id="heading1">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                    What types of CCTV systems do you offer?
-                                </button>
-                            </h2>
-                            <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordion">
-                                <div class="accordion-body">
-                                    <p>Yes, our systems are equipped with remote monitoring capabilities that allow you to view live or recorded footage via your smartphone.</p>
-                                    <img src="/frontend/images/faqs-accordion-img.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FAQ Item End -->
-
-                        <!-- FAQ Item Start -->
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                            <h2 class="accordion-header" id="heading2">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                    Can I access my CCTV feed remotely?
-                                </button>
-                            </h2>
-                            <div id="collapse2" class="accordion-collapse collapse show" aria-labelledby="heading2" data-bs-parent="#accordion">
-                                <div class="accordion-body">
-                                    <p>Yes, our systems are equipped with remote monitoring capabilities that allow you to view live or recorded footage via your smartphone.</p>
-                                    <img src="/frontend/images/faqs-accordion-img.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FAQ Item End -->
-
-                        <!-- FAQ Item Start -->
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-                            <h2 class="accordion-header" id="heading3">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                    Do you offer installation services?
-                                </button>
-                            </h2>
-                            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
-                                <div class="accordion-body">
-                                    <p>Yes, our systems are equipped with remote monitoring capabilities that allow you to view live or recorded footage via your smartphone.</p>
-                                    <img src="/frontend/images/faqs-accordion-img.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FAQ Item End -->
-
-                        <!-- FAQ Item Start -->
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-                            <h2 class="accordion-header" id="heading4">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                    Are your cameras weatherproof?
-                                </button>
-                            </h2>
-                            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
-                                <div class="accordion-body">
-                                    <p>Yes, our systems are equipped with remote monitoring capabilities that allow you to view live or recorded footage via your smartphone.</p>
-                                    <img src="/frontend/images/faqs-accordion-img.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FAQ Item End -->
-                    </div>
-                    <!-- FAQ Accordion End -->                    
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our FAQs Section End -->
-
-    <!-- Our Blog Section Start -->
-    <div class="our-blog">
-        <div class="container">
-            <div class="row section-row">
-                <div class="col-lg-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title section-title-center">
-                        <h3 class="wow fadeInUp">latest post</h3>
-                        <h2 class="wow fadeInUp" data-cursor="-opaque" data-wow-delay="0.2s"><span>Our features</span> product</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <!-- Post Item Start -->
-                    <div class="post-item wow fadeInUp">
-                        <!-- Post Featured Image Start-->
-                        <div class="post-featured-image">
-                            <a href="#0" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="/frontend/images/post-1.jpg" alt="">
+        <div class="about-us">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-us-/frontend/images">
+                            <div class="about-img-1">
+                                <figure class="image-anime reveal">
+                                    <img src="/frontend/images/about-img-1.jpg" alt="">
                                 </figure>
-                            </a>
-
-                            <!-- Post Item Tag Start -->
-                            <div class="post-item-meta">
-                                <a href="#">20 Jan</a>
                             </div>
-                            <!-- Post Item Tag End -->
                         </div>
-                        <!-- Post Featured Image End -->
-
-                        <!-- Post Item Body Start -->
-                        <div class="post-item-body">
-                            <!-- Post Item Content Start -->
-                            <div class="post-item-content">
-                                <h2><a href="#0">Top 5 Benefits of Installing CCTV Cameras at Home</a></h2>
-                            </div>
-                            <!-- Post Item Content End -->
-
-                            <!-- Blog Item Button Start -->
-                            <div class="blog-item-btn">
-                                <a href="#0" class="readmore-btn">read more</a>
-                            </div>
-                            <!-- Blog Item Button End -->
-                        </div>
-                        <!-- Post Item Body End -->
                     </div>
-                    <!-- Post Item End -->
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <!-- Post Item Start -->
-                    <div class="post-item wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Post Featured Image Start-->
-                        <div class="post-featured-image">
-                            <a href="#0" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="/frontend/images/post-2.jpg" alt="">
-                                </figure>
-                            </a>
 
-                            <!-- Post Item Tag Start -->
-                            <div class="post-item-meta">
-                                <a href="#">20 Jan</a>
+                    <div class="col-lg-6">
+                        <div class="about-us-content">
+                            <div class="section-title">
+                                <h3 class="wow fadeInUp">We Provide</h3>
+                                <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Home security solutions </span> </h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.4s">Securing the things you treasure most — like your family, home and valuables.
+                                </br>
+                                </br>
+                                    Your family. Your home. Everything you own. You can’t always be there to protect what you care about most. But with Secured Home Security, you’ll benefit from multiple monitoring centers that ensure that help is always near and a single app to control all of your connected devices.
+                                </br>
+                                </br>
+                                    From monitored burglar and fire alarms, to video, smart lights, locks, doorbell cameras and thermostats…even personal emergency response…enjoy comfort and convenience knowing your home and loved ones are protected.
+                                </br>
+                                </br>
+                                    Choose Secured Home Security and check off one less thing to worry about in your busy lifestyle!</p>
                             </div>
-                            <!-- Post Item Tag End -->
-                        </div>
-                        <!-- Post Featured Image End -->
-
-                        <!-- Post Item Body Start -->
-                        <div class="post-item-body">
-                            <!-- Post Item Content Start -->
-                            <div class="post-item-content">
-                                <h2><a href="#0">The Future of Security Trends in CCTV Technology</a></h2>
                             </div>
-                            <!-- Post Item Content End -->
-
-                            <!-- Blog Item Button Start -->
-                            <div class="blog-item-btn">
-                                <a href="#0" class="readmore-btn">read more</a>
-                            </div>
-                            <!-- Blog Item Button End -->
-                        </div>
-                        <!-- Post Item Body End -->
-                    </div>
-                    <!-- Post Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Post Item Start -->
-                    <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
-                        <!-- Post Featured Image Start-->
-                        <div class="post-featured-image">
-                            <a href="#0" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="/frontend/images/post-3.jpg" alt="">
-                                </figure>
-                            </a>
-
-                            <!-- Post Item Tag Start -->
-                            <div class="post-item-meta">
-                                <a href="#">20 Jan</a>
-                            </div>
-                            <!-- Post Item Tag End -->
-                        </div>
-                        <!-- Post Featured Image End -->
-
-                        <!-- Post Item Body Start -->
-                        <div class="post-item-body">
-                            <!-- Post Item Content Start -->
-                            <div class="post-item-content">
-                                <h2><a href="#0">Tips for Securing Your Home with DIY CCTV Solutions</a></h2>
-                            </div>
-                            <!-- Post Item Content End -->
-
-                            <!-- Blog Item Button Start -->
-                            <div class="blog-item-btn">
-                                <a href="#0" class="readmore-btn">read more</a>
+                            <div class="about-us-btn" style="margin-top:20px;">
+                                <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="about-us">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <!-- CONTENT LEFT -->
+            <div class="col-lg-6">
+                <div class="about-us-content">
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">We Provide</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
+                            <span>Business security solutions</span>
+                        </h2>
+
+                        <p class="wow fadeInUp" data-wow-delay="0.4s">
+                           As a business owner, you work hard to make your business succeed, it’s your livelihood, so it’s important to protect it against internal and external crime, fire and environmental hazards.
+                            <br><br>
+                            Our security experts create a security solution based on the needs of your business. We ask the right questions, get to know your business objectives, opportunities and challenges. Then we find the right mix of products and services that are the perfect fit. And we’re there for you beyond that, every step of the way, understanding that your needs may evolve as your businesses grows or changes.
+                            <br><br>
+                            From consultation and design, to installation, monitoring and service, we integrate our products to provide smart, cost-effective, quality security solutions for you.
+                           
+                        </p>
+                    </div>
+
+                    <div class="about-us-btn" style="margin-top:20px;">
+                        <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IMAGE RIGHT -->
+            <div class="col-lg-6">
+                <div class="about-us-images">
+                    <div class="about-img-1">
+                        <figure class="image-anime reveal">
+                            <img src="/frontend/images/about-img-1.jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
+</div>
+
+<!-- Our Feature Section Start -->
+<div class="our-feature dark-section" style="text-align:center; padding:60px 0;">
+    <div class="container">
+
+        <!-- Title Center -->
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title">
+                    <h3 class="wow fadeInUp">let's connect</h3>
+                    <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
+                        <span>We’re always there for you with 24/7 award-winning monitoring.</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA BOXES -->
+        <div class="row justify-content-center mt-4">
+            <!-- Box 2 -->
+            <div class="cta-box-body wow fadeInUp" data-wow-delay="0.6s" style="justify-content: center;">
+                <div class="cta-box-item">
+                    <div class="icon-box">
+                        <img src="/frontend/images/icon-phone.svg" alt="">
+                    </div>
+                    <div class="cta-box-item-content">
+                        <p>Smart Security,Best Engineers</p>
+                        <h3><a href="tel:1-888-447-6320">+(1) 888 447 6320</a></h3>
+                    </div>
+                </div>
+                <div class="cta-box-item">
+                    <div class="icon-box">
+                        <img src="/frontend/images/icon-phone.svg" alt="">
+                    </div>
+                    <div class="cta-box-item-content">
+                        <p>Safe & Trusted Company</p>
+                        <h3><a href="tel:1-888-447-6320">+(1) 888 447 6320</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Our Feature Section End -->
+
 @endsection
