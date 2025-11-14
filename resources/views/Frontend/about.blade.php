@@ -1,6 +1,6 @@
 
 @extends('layouts.frontend')
-@section('title') About US | Home Defender @endsection
+@section('title') About Us | Home Defender @endsection
 @section('content')
 <div class="page-header parallaxie">
 		<div class="container">
@@ -67,7 +67,7 @@
                         <div class="our-commitment-img-box">
                             <div class="commitment-image-2">
                                 <figure class="image-anime reveal">
-                                    <img src="/frontend/images/commitment-image-2.jpg" alt="">
+                                    <img src="/frontend/my-img/security-guard-workspace.jpg" alt="">
                                 </figure>
                             </div>
                         </div>
@@ -201,10 +201,10 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <div class="about-us-/frontend/images">
+                        <div class="about-us-images">
                             <div class="about-img-1">
                                 <figure class="image-anime reveal">
-                                    <img src="/frontend/images/about-img-1.jpg" alt="">
+                                    <img src="/frontend/my-img/about.jpg" alt="">
                                 </figure>
                             </div>
                         </div>
@@ -280,14 +280,14 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="team-item wow fadeInUp">
                     <div class="team-image">
-                        <a href="team-single.html" data-cursor-text="View">
+                        <a href="#0" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="/frontend/images/team-1.jpg" alt="">
+                                <img src="/frontend/my-img/person-1.webp" alt="">
                             </figure>
                         </a>
                     </div>
                     <div class="team-content text-center">
-                        <h3><a href="team-single.html">Justin Novak</a></h3>
+                        <h3><a href="#0">Justin Novak</a></h3>
                         <p>Co founder</p>
                     </div>
                 </div>
@@ -296,14 +296,14 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
                     <div class="team-image">
-                        <a href="team-single.html" data-cursor-text="View">
+                        <a href="#0" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="/frontend/images/team-2.jpg" alt="">
+                                <img src="/frontend/my-img/person-2.jpg" alt="">
                             </figure>
                         </a>
                     </div>
                     <div class="team-content text-center">
-                        <h3><a href="team-single.html">Norton Berry</a></h3>
+                        <h3><a href="#0">Norton Berry</a></h3>
                         <p>Managing Director</p>
                     </div>
                 </div>
@@ -312,14 +312,14 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="team-item wow fadeInUp" data-wow-delay="0.4s">
                     <div class="team-image">
-                        <a href="team-single.html" data-cursor-text="View">
+                        <a href="#0" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="/frontend/images/team-3.jpg" alt="">
+                                <img src="/frontend/my-img/person-3.jpg" alt="">
                             </figure>
                         </a>
                     </div>
                     <div class="team-content text-center">
-                        <h3><a href="team-single.html">Edward Smith</a></h3>
+                        <h3><a href="#0">Edward Smith</a></h3>
                         <p>Investment Expert</p>
                     </div>
                 </div>

@@ -264,7 +264,7 @@
                         <div class="service-image">
                             <a href="#0" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="/frontend/images/service-image-1.jpg" alt="">
+                                    <img src="/frontend/my-img/private-security.jpg" alt="">
                                 </figure>
                             </a>                            
                         </div>
@@ -288,7 +288,7 @@
                         <div class="service-image">
                             <a href="#0" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="/frontend/images/service-image-2.jpg" alt="">
+                                    <img src="/frontend/my-img/bank.jpg" alt="">
                                 </figure>
                             </a>                            
                         </div>
@@ -312,7 +312,7 @@
                         <div class="service-image">
                             <a href="#0" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="/frontend/images/service-image-3.jpg" alt="">
+                                    <img src="/frontend/my-img/school.jpg" alt="">
                                 </figure>
                             </a>                            
                         </div>
@@ -368,7 +368,7 @@
                     <div class="our-support-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">Let's Explore</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Reliable technical </span>support anytime assistance</h2>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Performance That </span>Stands Apart </h2>
                             <p class="wow fadeInUp" data-wow-delay="0.4s">Our dedicated technical support team is available around the clock to ensure your security systems operate flawlessly.</p>
                         </div>
                         <div class="our-support-body wow fadeInUp" data-wow-delay="0.6s">
@@ -461,11 +461,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <!-- About Us /frontend/Images Start -->
-                    <div class="about-us-/frontend/images">
+                    <div class="about-us-images">
                         <!-- About Image 1 Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="/frontend/images/about-img-1.jpg" alt="">
+                                <img src="/frontend/my-img/monitoring.jpg" alt="">
                             </figure>
 
                             <!-- Experience Circle Start -->
@@ -577,55 +577,19 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <div class="our-commitment-images">
-                        <div class="our-commitment-img-box">
-                            <div class="commitment-image-1">
-                                <figure class="image-anime reveal">
-                                    <img src="/frontend/images/commitment-image-1.jpg" alt="">
-                                </figure>
-                            </div>
-                            <div class="satisfy-client-box">
-                                <div class="satisfy-client-content">
-                                    <h2><span class="counter">1.2</span>K</h2>
-                                    <p>Homes & Businesses Secured with Confidence</p>
-                                </div>
-                                <div class="satisfy-client-images">
-                                    <div class="satisfy-client-image">
-                                        <figure class="image-anime reveal">
-                                            <img src="/frontend/images/satisfy-client-img-1.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="satisfy-client-image">
-                                        <figure class="image-anime reveal">
-                                            <img src="/frontend/images/satisfy-client-img-2.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="satisfy-client-image">
-                                        <figure class="image-anime reveal">
-                                            <img src="/frontend/images/satisfy-client-img-3.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="satisfy-client-image">
-                                        <figure class="image-anime reveal">
-                                            <img src="/frontend/images/satisfy-client-img-4.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="satisfy-client-image">
-                                        <figure class="image-anime reveal">
-                                            <img src="/frontend/images/satisfy-client-img-5.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
+                    <!-- About Us /frontend/Images Start -->
+                    <div class="about-us-images">
+                        <!-- About Image 1 Start -->
+                        <div class="about-img-1">
+                            <figure class="image-anime reveal">
+                                <img src="/frontend/my-img/compresive.jpg" alt="">
+                            </figure>
+    
                         </div>
-                        <div class="our-commitment-img-box">
-                            <div class="commitment-image-2">
-                                <figure class="image-anime reveal">
-                                    <img src="/frontend/images/commitment-image-2.jpg" alt="">
-                                </figure>
-                            </div>
-                        </div>
+                        <!-- About Image 1 End -->
+               
                     </div>
+                    <!-- About Us /frontend/Images End -->
                 </div>
 
                 <div class="col-lg-6">
@@ -681,7 +645,7 @@
 
                 <div class="col-lg-6">
                     <div class="cta-box-image">
-                        <img src="/frontend/images/cta-box-image.png" alt="">
+                        <img src="/frontend/my-img/security-person.png" alt="">
                     </div>
                 </div>
             </div>
@@ -694,7 +658,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <div class="about-us-/frontend/images">
+                    <div class="about-us-images">
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
                                 <img src="/frontend/images/about-img-1.jpg" alt="">
@@ -778,7 +742,7 @@
                         <div class="about-us-images">
                             <div class="about-img-1">
                                 <figure class="image-anime reveal">
-                                    <img src="/frontend/images/about-img-1.jpg" alt="">
+                                    <img src="/frontend/my-img/essential-security.jpg" alt="">
                                 </figure>
                             </div>
                         </div>
@@ -798,7 +762,7 @@
                         <div class="about-us-images">
                             <div class="about-img-1">
                                 <figure class="image-anime reveal">
-                                    <img src="/frontend/images/about-img-1.jpg" alt="">
+                                    <img src="/frontend/my-img/smart-home.jpg" alt="">
                                 </figure>
                             </div>
                         </div>
@@ -855,7 +819,7 @@
                         <div class="about-us-images">
                             <div class="about-img-1">
                                 <figure class="image-anime reveal">
-                                    <img src="/frontend/images/about-img-1.jpg" alt="">
+                                    <img src="/frontend/my-img/home.avif" alt="">
                                 </figure>
 
                                 <div class="company-experience-circle">
@@ -1014,10 +978,10 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <div class="about-us-/frontend/images">
+                        <div class="about-us-images">
                             <div class="about-img-1">
                                 <figure class="image-anime reveal">
-                                    <img src="/frontend/images/about-img-1.jpg" alt="">
+                                    <img src="/frontend/my-img/home-solution.jpg" alt="">
                                 </figure>
                             </div>
                         </div>
@@ -1083,7 +1047,7 @@
                 <div class="about-us-images">
                     <div class="about-img-1">
                         <figure class="image-anime reveal">
-                            <img src="/frontend/images/about-img-1.jpg" alt="">
+                            <img src="/frontend/my-img/meeting.jpg" alt="">
                         </figure>
                     </div>
                 </div>
