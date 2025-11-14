@@ -528,142 +528,350 @@
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-lg-6 col-md-8">
-                    <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">Our Partners</h3>
                         <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Get Free
                         </span>Consultancy</h2>
                     </div>
-                    <!-- Section Title End -->
                 </div>
 
                 <div class="col-lg-6 col-md-4">
-                    <!-- Contact Now Circle Start -->
                     <div class="contact-now-circle">
                         <a href="#0"><img src="/frontend/images/contact-now-circle.svg" alt=""></a>
                     </div>
-                    <!-- Contact Now Circle End -->
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Our Feature Box Start -->
                     <div class="our-feature-box">
-                        <!-- Feature Item Start -->
                         <div class="feature-item wow fadeInUp">
                             <div class="icon-box">
                                 <img src="/frontend/my-img/client-01.png" alt="">
                             </div>
                         </div>
-                        <!-- Feature Item End -->
-
-                        <!-- Feature Item Start -->
                         <div class="feature-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="icon-box">
                                 <img src="/frontend/my-img/client-03.webp" alt="">
                             </div>
                         </div>
-                        <!-- Feature Item End -->
-
-                        <!-- Feature Item Start -->
                         <div class="feature-item wow fadeInUp" data-wow-delay="0.4s">
                             <div class="icon-box">
                                 <img src="/frontend/my-img/client-04.webp" alt="">
                             </div>
                         </div>
-                        <!-- Feature Item End -->
-
-                        <!-- Feature Item Start -->
                         <div class="feature-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="icon-box">
                                 <img src="/frontend/my-img/client-05.png" alt="">
                             </div>
                         </div>
-                        <!-- Feature Item End -->
                     </div>
-                    <!-- Our Feature Box End -->
                 </div>
             </div>
         </div>
     </div>
     <!-- Our Feature Section End -->
 
-    <!-- Our Support Section Start -->
-    <div class="our-support">
+    <!-- Our Commitment Section Start -->
+    <div class="our-commitment">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <!-- Our Support /frontend/Images Start -->
-                    <div class="our-support-/frontend/images">
-                        <div class="our-support-image box-1">
-                            <figure class="image-anime reveal">
-                                <img src="/frontend/images/support-image-1.jpg" alt="">
-                            </figure>
+                    <div class="our-commitment-images">
+                        <div class="our-commitment-img-box">
+                            <div class="commitment-image-1">
+                                <figure class="image-anime reveal">
+                                    <img src="/frontend/images/commitment-image-1.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="satisfy-client-box">
+                                <div class="satisfy-client-content">
+                                    <h2><span class="counter">1.2</span>K</h2>
+                                    <p>Homes & Businesses Secured with Confidence</p>
+                                </div>
+                                <div class="satisfy-client-images">
+                                    <div class="satisfy-client-image">
+                                        <figure class="image-anime reveal">
+                                            <img src="/frontend/images/satisfy-client-img-1.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="satisfy-client-image">
+                                        <figure class="image-anime reveal">
+                                            <img src="/frontend/images/satisfy-client-img-2.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="satisfy-client-image">
+                                        <figure class="image-anime reveal">
+                                            <img src="/frontend/images/satisfy-client-img-3.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="satisfy-client-image">
+                                        <figure class="image-anime reveal">
+                                            <img src="/frontend/images/satisfy-client-img-4.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="satisfy-client-image">
+                                        <figure class="image-anime reveal">
+                                            <img src="/frontend/images/satisfy-client-img-5.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="our-support-image box-2">
-                            <figure class="image-anime reveal">
-                                <img src="/frontend/images/support-image-2.jpg" alt="">
-                            </figure>
-                        </div>
-                        <div class="our-support-circle">
-                            <a href="/contact"><img src="/frontend/images/contact-now-circle-2.svg" alt=""></a>
+                        <div class="our-commitment-img-box">
+                            <div class="commitment-image-2">
+                                <figure class="image-anime reveal">
+                                    <img src="/frontend/images/commitment-image-2.jpg" alt="">
+                                </figure>
+                            </div>
                         </div>
                     </div>
-                    <!-- Our Support /frontend/Images End -->
                 </div>
 
                 <div class="col-lg-6">
-                    <!-- Our Support Content Start -->
-                    <div class="our-support-content">
-                        <!-- Section Title Start -->
+                    <div class="our-commitment-content">
                         <div class="section-title">
-                            <h3 class="wow fadeInUp">technical support</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Reliable technical </span>support anytime assistance</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">Our dedicated technical support team is available around the clock to ensure your security systems operate flawlessly.</p>
+                            <h3 class="wow fadeInUp">Our Commitment</h3>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Comprehensive Home Security </span> for Every Homeowner</h2>
                         </div>
-                        <!-- Section Title End -->
-
-                        <!-- Our Support Body Start -->
-                        <div class="our-support-body wow fadeInUp" data-wow-delay="0.6s">
-                            <!-- Support Item Start -->
-                            <div class="support-item">
-                                <div class="icon-box">
-                                    <img src="/frontend/images/icon-support-item-1.svg" alt="">
-                                </div>
-                                <div class="support-item-content">
-                                    <h3>CCTV Installation</h3>
-                                    <p>We provide professional CCTV installation services.</p>
-                                </div>
-                            </div>
-                            <!-- Support Item End -->
-
-                            <!-- Support Item Start -->
-                            <div class="support-item">
-                                <div class="icon-box">
-                                    <img src="/frontend/images/icon-support-item-2.svg" alt="">
-                                </div>
-                                <div class="support-item-content">
-                                    <h3>Digital Security</h3>
-                                    <p>We provide professional CCTV installation services.</p>
-                                </div>
-                            </div>
-                            <!-- Support Item End -->
-                        </div>
-                        <!-- Our Support Body End -->
-
-                        <!-- Our Support Button Start -->
-                        <div class="our-support-btn wow fadeInUp" data-wow-delay="0.8s">
-                            <a href="/contact" class="btn-default">contact now</a>
-                        </div>
-                        <!-- Our Support Button End -->
                     </div>
-                    <!-- Our Support Content End -->
+                   
+                    <div class="commitment-list wow fadeInUp" data-wow-delay="0.6s">
+                        <ul>
+                            <li>Smart Doorbell Cameras</li>
+                            <li>Door & Window Sensors</li>
+                            <li>Comprehensive Security Systems</li>
+                            <li>24/7 Monitoring & Emergency Response</li>
+                            <li>Affordable Solutions for Every Budget</li>
+                        </ul>
+                    </div>
+                    <div class="about-us-btn" style="margin-top: 30px;">
+                        <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Our Support Section End -->
+    <!-- Our Commitment Section End -->
+
+    <!-- CTA Box Section Start -->
+    <div class="cta-box dark-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="cta-box-content">
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">contact us</h3>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Tailored<span> Home Security Solutions </span></h2>
+                            <p>From doorbell cameras to full home security systems, Prime Home Safety offers a wide range of services to keep your home safe and secure. Our network of trusted professionals ensures high-quality installations and ongoing support.</p>
+                        </div>
+                        <div class="cta-box-body wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="cta-box-item">
+                                <div class="icon-box">
+                                    <img src="/frontend/images/icon-phone.svg" alt="">
+                                </div>
+                                <div class="cta-box-item-content">
+                                    <p>Contact Us</p>
+                                    <h3><a href="tel:1-888-447-6320">+(1) 888 447 6320</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="cta-box-image">
+                        <img src="/frontend/images/cta-box-image.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CTA Box Section End -->
+
+    <!-- About Us Section Start -->
+    <div class="about-us">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-us-/frontend/images">
+                        <div class="about-img-1">
+                            <figure class="image-anime reveal">
+                                <img src="/frontend/images/about-img-1.jpg" alt="">
+                            </figure>
+
+                            <div class="company-experience-circle">
+                                <img src="/frontend/images/experience-circle.svg" alt="">
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="about-us-content">
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">We Provide</h3>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Secure Your Home with </span> Expert-Backed Protection</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">We provide a latest and modern technology of security equipment. Our focus on give best security systems. Always helping experts for your security.</p>
+                        </div>
+                        <div class="commitment-list wow fadeInUp" data-wow-delay="0.6s">
+                        <ul>
+                            <li>New Homeowners</li>
+                            <li>Relocating Homeowners</li>
+                            <li>Second Homeowners</li>
+                            <li>Upgrading Existing Security</li>
+                        </ul>
+                    </div>
+                        </div>
+                        <div class="about-us-btn" style="margin-top:20px;">
+                            <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Us Section End -->
+
+<!-- Our Testimonials Section Start -->
+<!-- Our Testimonials Section Start -->
+<div class="our-testimonials">
+    <div class="container">
+
+        <!-- SECTION TITLE -->
+        <div class="row section-row">
+            <div class="col-lg-12">
+                <div class="section-title section-title-center">
+                    <h3 class="wow fadeInUp">testimonials</h3>
+                    <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
+                        Get Connected to <span>Home Defender Experts Near You!</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- BLOCK 1 -->
+        <div class="about-us">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <!-- CONTENT LEFT -->
+                    <div class="col-lg-6">
+                        <div class="about-us-content">
+                            <div class="section-title">
+                                <h3 class="wow fadeInUp">We Provide</h3>
+                                <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
+                                    <span>Essential Security</span>
+                                </h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.4s">
+                                    Want to protect what you care about most – your family and your home? Our Essential Home Security package is professionally installed security that you can arm and disarm from anywhere and is backed up by award-winning, 24/7 monitoring.
+                                </p>
+                            </div>
+                            <div class="about-us-btn" style="margin-top:20px;">
+                                <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- IMAGE RIGHT -->
+                    <div class="col-lg-6">
+                        <div class="about-us-images">
+                            <div class="about-img-1">
+                                <figure class="image-anime reveal">
+                                    <img src="/frontend/images/about-img-1.jpg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- BLOCK 2 -->
+        <div class="about-us">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <!-- IMAGE LEFT -->
+                    <div class="col-lg-6">
+                        <div class="about-us-images">
+                            <div class="about-img-1">
+                                <figure class="image-anime reveal">
+                                    <img src="/frontend/images/about-img-1.jpg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CONTENT RIGHT -->
+                    <div class="col-lg-6">
+                        <div class="about-us-content">
+                            <div class="section-title">
+                                <h3 class="wow fadeInUp">We Provide</h3>
+                                <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
+                                    <span>Home Automation</span>
+                                </h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.4s">
+                                    Want to keep an eye on your home? Our Home Automation package introduces video to your security solution. Know what’s happening inside or outside your home with all features of the Essential Security package.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about-us-btn" style="margin-top:20px;">
+                            <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- BLOCK 3 -->
+        <div class="about-us">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <!-- CONTENT LEFT -->
+                    <div class="col-lg-6">
+                        <div class="about-us-content">
+                            <div class="section-title">
+                                <h3 class="wow fadeInUp">We Provide</h3>
+                                <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
+                                    <span>Connected Home</span>
+                                </h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.4s">
+                                    Ready to get really smart? The Connected Home package protects your home and adds next-level convenience with video, energy management, and remote access control features.
+                                </p>
+                            </div>
+
+                            <div class="about-us-btn" style="margin-top:20px;">
+                                <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- IMAGE RIGHT -->
+                    <div class="col-lg-6">
+                        <div class="about-us-images">
+                            <div class="about-img-1">
+                                <figure class="image-anime reveal">
+                                    <img src="/frontend/images/about-img-1.jpg" alt="">
+                                </figure>
+
+                                <div class="company-experience-circle">
+                                    <img src="/frontend/images/experience-circle.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Our Testimonials Section End -->
 
     
 
@@ -675,7 +883,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title section-title-center">
                         <h3 class="wow fadeInUp">testimonials</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Trusted feedback </span>from our clients</h2>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">We are <span>Trusted 15+   </span>Countries Worldwide</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>               
