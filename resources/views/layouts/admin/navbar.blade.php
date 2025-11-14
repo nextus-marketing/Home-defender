@@ -100,7 +100,7 @@
         <li class="sidebar-item">
             <a class="sidebar-link @if(Route::is('admin.enquiries.*')) active @endif" href="{{ route('admin.enquiries.index') }}" aria-expanded="false">
                 <span>
-                    <i class="ti ti-users"></i>
+                    <i class="ti ti-message-2"></i>
                 </span>
                 <span class="hide-menu">Enquiries</span>
             </a>

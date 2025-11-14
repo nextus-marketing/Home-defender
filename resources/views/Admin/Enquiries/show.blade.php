@@ -13,10 +13,6 @@
                 <i class="ti ti-phone text-dark fs-6"></i>
                 <h6 class="fs-4 fw-semibold mb-0">{{ $enquiry->mobile }}</h6>
             </li>
-            <li class="d-flex align-items-center gap-3 mb-4">
-                <i class="ti ti-clock text-dark fs-6"></i>
-                <h6 class="fs-4 fw-semibold mb-0">{{ toIndianDateTime($enquiry->created_at) }}</h6>
-            </li>
         </ul>
     </div>
 </div>

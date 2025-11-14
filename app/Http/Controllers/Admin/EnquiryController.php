@@ -17,9 +17,11 @@ class EnquiryController extends Controller
         $query = Enquiry::where('id','!=',0);
 
         return DataTables::eloquent($query)
-            ->editColumn('datetime', function ($enquiry) {
-                return toIndianDateTime($enquiry->created_at);
-            }) 
+           ->editColumn('datetime', function ($autoenquiry) {
+                return \Carbon\Carbon::parse($autoenquiry->created_at)
+                    ->setTimezone('Asia/Kolkata')
+                    ->format('d-m-Y || h:i A');
+            })
             ->editColumn('full_name', function ($enquiry) {
                 return $enquiry->full_name;
             }) 
