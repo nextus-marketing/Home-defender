@@ -163,7 +163,7 @@
                         
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="/contact" class="btn-default">Have any Questions? </a>
+                            <a href="/contact" class="btn-default">Get Support</a>
                         </div>
                         <!-- Header Btn End -->
 					</div>
@@ -177,6 +177,53 @@
 	<!-- Header End -->
 
 @yield(section: 'content')
+
+
+@if(!Request::is('contact'))
+    <!-- Popup Overlay -->
+    <div id="promoPopup" class="promo-popup-overlay">
+        <div class="promo-popup">
+
+            <!-- Logo Centered -->
+            <div class="popup-logo">
+                <img src="/frontend/my-img/logo_new.png" alt="Logo">
+            </div>
+
+            <span class="close-popup">&times;</span>
+
+            <h2>Get <span style="color:#e60000;">3 Months FREE</span> Monitoring!</h2>
+            <p>Call now and secure your home with our exclusive limited-time offer.</p>
+
+            <div class="our-support-btn">
+                <a href="/contact" class="btn-default">Contact Now</a>
+            </div>
+
+        </div>
+    </div>
+@endif
+
+
+
+<script>
+    // Show popup after 2 seconds
+    setTimeout(function() {
+        document.getElementById("promoPopup").style.display = "flex";
+    }, 2000);
+
+    // Close Popup
+    document.querySelector(".close-popup").onclick = function () {
+        document.getElementById("promoPopup").style.display = "none";
+    };
+
+    // Close when clicking outside the popup
+    window.onclick = function (e) {
+        if (e.target == document.getElementById("promoPopup")) {
+            document.getElementById("promoPopup").style.display = "none";
+        }
+    };
+</script>
+
+
 
 <a href="tel:+18884476320" class="call-now-btn">
     <i class="fa fa-phone"></i> Call Now

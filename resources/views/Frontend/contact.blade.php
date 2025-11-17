@@ -1,6 +1,33 @@
 @extends('layouts.frontend')
 @section('title') Contact Us | Home Defender @endsection
 @section('content')
+<style>
+/* Fix content sticking to the left on laptop screens */
+@media (max-width: 1400px) {
+    .page-contact-us .container,
+    .contact-form-section .container {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .contact-us-content,
+    .contact-info-list,
+    .contact-us-form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* Extra fix for 1366px laptops */
+@media (max-width: 1200px) {
+    .page-contact-us .row,
+    .contact-form-section .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+</style>
+
 <!-- Page Header Start -->
 	<div class="page-header parallaxie">
 		<div class="container">
@@ -22,7 +49,7 @@
     <div class="page-contact-us">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4">
+                <div class="col-lg-5">
                     <div class="contact-us-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">contact us</h3>
@@ -41,7 +68,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-8">
+                <div class="col-lg-7">
                     <div class="contact-info-list">
                         <div class="contact-info-item wow fadeInUp">
                             <div class="icon-box">

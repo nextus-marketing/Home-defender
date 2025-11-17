@@ -6,6 +6,15 @@
     padding: 10px 0;
 }
 
+.our-support.about-support {
+    background: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.our-testimonials {
+    padding: 10px 0;
+}
 </style>
     <!-- Hero Section Start -->
     <div class="hero dark-section parallaxie">
@@ -281,10 +290,7 @@
                             <div class="service-content">
                                 <h3><a href="#0">Private Security</a></h3>
                                 <p>Give the best quality of security systems and facility of latest technology for the people get security.</p>
-                            </div>
-                            <div class="service-btn">
-                                <a href="#0" class="readmore-btn">Discover More</a>
-                            </div>                      
+                            </div>                  
                         </div>
                     </div>
                 </div>
@@ -305,10 +311,7 @@
                             <div class="service-content">
                                 <h3><a href="#0">Banking Sector</a></h3>
                                 <p>Give the best quality of security systems and facility of latest technology for the people get security.</p>
-                            </div>
-                            <div class="service-btn">
-                                <a href="#0" class="readmore-btn">Discover More</a>
-                            </div>                       
+                            </div>                      
                         </div>
                     </div>
                 </div>
@@ -329,17 +332,16 @@
                             <div class="service-content">
                                 <h3><a href="#0">Education Institute</a></h3>
                                 <p>Give the best quality of security systems and facility of latest technology for the people get security.</p>
-                            </div>
-                            <div class="service-btn">
-                                <a href="#0" class="readmore-btn">Discover More</a>
-                            </div>                         
+                            </div>                       
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-12">
                     <div class="section-footer-text wow fadeInUp" data-wow-delay="1.2s">
-                        <p><span>Free</span>Let's make something great work together.<a href="/contact">get free quote</a></p>
+                        <p><span>Free</span>
+                        </br>
+                        Let's make something great work together.<a href="/contact">get a quote</a></p>
                     </div>
                 </div>
             </div>            
@@ -459,7 +461,7 @@
         </div>
     </div>
     <!-- CTA Box Section End -->
-
+     
 
     <!-- About Us Section Start -->
     <div class="about-us">
@@ -796,6 +798,7 @@
                             <li>Upgrading Existing Security</li>
                         </ul>
                     </div>
+                    </br>
                         </div>
                         <div class="about-us-btn" style="margin-top:20px;">
                             <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
@@ -809,14 +812,14 @@
 
 <!-- Our Testimonials Section Start -->
 <!-- Our Testimonials Section Start -->
-<div class="our-testimonials">
+<div class="our-testimonials pt-5">
     <div class="container">
 
         <!-- SECTION TITLE -->
         <div class="row section-row">
             <div class="col-lg-12">
                 <div class="section-title section-title-center">
-                    <h3 class="wow fadeInUp">testimonials</h3>
+                    <h3 class="wow fadeInUp">Resources</h3>
                     <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
                         Get Connected to <span>Home Defender Experts Near You!</span>
                     </h2>
