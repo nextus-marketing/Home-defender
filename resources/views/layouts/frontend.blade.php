@@ -83,6 +83,108 @@
 
 @yield(section: 'content')
 
+<a href="tel:+18884476320" class="call-now-btn">
+    <i class="fa fa-phone"></i> Call Now
+</a>
+<style>
+    .call-now-btn {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    background: #ff0000;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.4);
+    animation: floatBtn 2.2s ease-in-out infinite;
+    z-index: 999;
+}
+
+/* Phone Icon Style */
+.call-now-btn i {
+    font-size: 18px;
+}
+
+/* Hover Effect */
+.call-now-btn:hover {
+    background: #d80000;
+    box-shadow: 0 12px 25px rgba(255, 0, 0, 0.6);
+    transform: translateY(-4px);
+}
+
+/* Keyframe Animation */
+@keyframes floatBtn {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+    100% { transform: translateY(0); }
+}
+
+</style>
+
+<button id="scrollTopBtn">
+    <i class="fa fa-arrow-up"></i>
+</button>
+
+<style>
+    #scrollTopBtn {
+    position: fixed;
+    bottom: 20px; /* above Call Now button */
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: none; /* hidden by default */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.4);
+    animation: floatUp 2.2s ease-in-out infinite;
+    z-index: 999;
+}
+
+/* Hover effect */
+#scrollTopBtn:hover {
+    background: #d80000;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(255, 0, 0, 0.5);
+}
+
+
+</style>
+
+<script>
+    const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+    // Show button when scrolling
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 200) {
+            scrollTopBtn.style.display = "flex";
+        } else {
+            scrollTopBtn.style.display = "none";
+        }
+    });
+
+    // Scroll to top smoothly
+    scrollTopBtn.addEventListener("click", function () {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+</script>
+
+
     <!-- Main Footer Start -->
     <footer class="main-footer">
         <div class="container">
@@ -182,23 +284,23 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-    <!-- Newsletter Form Start -->
-    <div class="newsletter-form footer-links">
-        <h3>Follow Us</h3>
-        <p>Stay updated with the latest security trends and offers by subscribing to our newsletter.</p>
-        <!-- Footer Social Links Start -->
-        <div class="footer-social-links">
-            <ul>
-                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-            </ul>
-        </div>
-        <!-- Footer Social Links End -->
-    </div>
-    <!-- Newsletter Form End -->
-</div>
+                <!-- Newsletter Form Start -->
+                <div class="newsletter-form footer-links">
+                    <h3>Follow Us</h3>
+                    <p>Stay updated with the latest security trends and offers by subscribing to our newsletter.</p>
+                    <!-- Footer Social Links Start -->
+                    <div class="footer-social-links">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- Footer Social Links End -->
+                </div>
+                <!-- Newsletter Form End -->
+            </div>
 
             </div>
         </div>
