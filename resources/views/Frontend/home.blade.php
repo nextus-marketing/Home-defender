@@ -15,7 +15,6 @@
     padding: 10px 0;
 }
 </style>
-    <!-- Hero Section Start -->
     <div class="hero dark-section parallaxie">
         <div class="container">
             <div class="row align-items-center">
@@ -30,19 +29,13 @@
                             <div class="hero-btn">
                                 <a href="tel:1-888-447-6320" class="btn-default">Contact Us</a>
                             </div>
-                            <!-- Hero Button End -->
-
-                            <!-- Video Play Button Start -->
                             <div class="hero-body wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="hero-btn">
                                 <a href="/contact" class="btn-default">Send Enquiry</a>
                             </div>
                             </div>
-                            <!-- Video Play Button End -->
                         </div>
-                        <!-- Hero Content Body End -->
                     </div>
-                    <!-- Hero Content Box End -->
                 </div>
 
                 <div class="col-lg-6">
@@ -55,8 +48,6 @@
             </div>
         </div>
     </div>
-    <!-- Hero Section End -->
-
     <style>
    .call-now-btn {
     opacity: 0;
@@ -71,16 +62,14 @@
     pointer-events: auto;
 }
 
-    </style>
+</style>
 
     <!-- Best Service Section Start -->
     <div class="best-services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Best Service Box Start -->
                     <div class="best-services-box">
-                        <!-- Best Service Item Start -->
                         <div class="best-service-item wow fadeInUp">
                             <div class="icon-box">
                                 <img src="/frontend/images/icon-best-service-1.svg" alt="">
@@ -89,9 +78,6 @@
                                 <h3>Premium Indoor Cameras</h3>
                             </div>
                         </div>
-                        <!-- Best Service Item End -->
-
-                        <!-- Best Service Item Start -->
                         <div class="best-service-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="icon-box">
                                 <img src="/frontend/images/icon-best-service-2.svg" alt="">
@@ -100,9 +86,6 @@
                                 <h3>24/7 Quick Alarms Response</h3>
                             </div>
                         </div>
-                        <!-- Best Service Item End -->
-
-                        <!-- Best Service Item Start -->
                         <div class="best-service-item wow fadeInUp" data-wow-delay="0.4s">
                             <div class="icon-box">
                                 <img src="/frontend/images/icon-best-service-3.svg" alt="">
@@ -111,9 +94,7 @@
                                 <h3>Amazing Security Systems</h3>
                             </div>
                         </div>
-                        <!-- Best Service Item End -->
                     </div>
-                    <!-- Best Service Box End -->
                 </div>
             </div>
         </div>
@@ -130,7 +111,6 @@
                         <h3 class="wow fadeInUp">We Provides</h3>
                         <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>When you need, </span> better security installation</h2>
                     </div>
-                    <!-- Section Title End -->
                 </div>
             </div>
 
@@ -201,9 +181,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <!-- What We Do Content Start -->
                     <div class="what-we-do-content">
-                        <!-- Section Title Start -->
                         <div class="section-title section-title-center">
                             <h3 class="wow fadeInUp">what we do</h3>
                             <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Delivering trusted </span>security and surveillance</h2>
@@ -212,7 +190,6 @@
                         </div>
                         <!-- Section Title End -->
 
-                        <!-- About Need Help Box Start -->
                         <div class="about-need-help wow fadeInUp" data-wow-delay="0.8s">
                             <div class="icon-box">
                                 <img src="/frontend/images/icon-need-help.svg" alt="">
@@ -222,17 +199,12 @@
                                 <h3><a href="tel:+15714501674">+(1) 571 - 450 - 1674</a></h3>
                             </div>
                         </div>
-                        <!-- About Need Help Box End -->
-                    </div>
-                    <!-- What We Do Content End -->                    
+                    </div>               
                 </div>
 
                 <div class="col-lg-6">
-                    <!-- What We Counter Image Start -->
-                    <div class="what-we-counter-image">                       
-                        <!-- What We Counter Box Start -->
+                    <div class="what-we-counter-image">
                         <div class="what-we-counter-box">
-                            <!-- What We Counter Item Start -->
                             <div class="what-we-counter-item">
                                 <div class="icon-box">
                                     <img src="/frontend/images/icon-what-we-counter-1.svg" alt="">
@@ -242,9 +214,6 @@
                                     <p>Give development of security for home and offices complexity</p>
                                 </div>
                             </div>
-                            <!-- What We Counter Item End -->
-
-                            <!-- What We Counter Item Start -->
                             <div class="what-we-counter-item">
                                 <div class="icon-box">
                                     <img src="/frontend/images/icon-what-we-counter-2.svg" alt="">
@@ -254,19 +223,13 @@
                                     <p>We are ready to give you security service in reasonable price</p>
                                 </div>
                             </div>
-                            <!-- What We Counter Item End -->
                         </div>
-                        <!-- What We Counter Box End -->
-
-                        <!-- What We Image Start -->
                         <div class="what-we-image">
                             <figure>
                                 <img src="/frontend/images/what-we-image.jpg" alt="">
                             </figure>
                         </div>
-                        <!-- What We Image End -->
                     </div>
-                    <!-- What We Counter Image End -->
                 </div>
             </div>
         </div>
@@ -279,7 +242,6 @@
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-lg-12">
-                    <!-- Section Title Start -->
                     <div class="section-title section-title-center">
                         <h3 class="wow fadeInUp">What We Provide</h3>
                         <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>We Provide Awesome </span> Expert Security Service</h2>
@@ -295,7 +257,7 @@
                             <a href="#0" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="/frontend/my-img/private-security.jpg" alt="">
-                                </figure>
+                                </figure>                                                                   
                             </a>                            
                         </div>
                         <div class="service-body">
@@ -433,7 +395,6 @@
     </div>
     <!-- Our Support Section End -->
 
-
     <!-- CTA Box Section Start -->
     <div class="cta-box dark-section">
         <div class="container">
@@ -483,37 +444,24 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <!-- About Us /frontend/Images Start -->
                     <div class="about-us-images">
-                        <!-- About Image 1 Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
                                 <img src="/frontend/my-img/monitoring.jpg" alt="">
                             </figure>
-    
                         </div>
-                        <!-- About Image 1 End -->
-               
                     </div>
-                    <!-- About Us /frontend/Images End -->
                 </div>
 
                 <div class="col-lg-6">
-                    <!-- Hero Content Box Start -->
                     <div class="about-us-content">
-                        <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">We Provide</h3>
                             <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Latest Monitoring </span> Systems</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.4s">We provide a latest and modern technology of security equipment. Our focus on give best security systems. Always helping experts for your security.</p>
                         </div>
-                        <!-- Section Title End -->
                         </div>
-                        <!-- About Experience Box End -->
-
-                        <!-- About Us Body Start -->
                         <div class="about-us-body wow fadeInUp" data-wow-delay="0.8s">
-                            <!-- About Contact Box Start -->
                             <div class="about-contact-box">
                                 <div class="icon-box">
                                     <img src="/frontend/images/icon-about-contact.svg" alt="">
@@ -523,17 +471,11 @@
                                     <h3><a href="tel:1-888-447-6320">+(1) 888- 447 6320</a></h3>
                                 </div>
                             </div>
-                            <!-- About Contact Box End -->
-
-                            <!-- About Contact Button Start -->
                             <div class="about-us-btn">
                                 <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
                             </div>
-                            <!-- About Contact Button End -->
                         </div>
-                        <!-- About Us Body End -->
                     </div>
-                    <!-- Hero Content Box End -->
                 </div>
             </div>
         </div>
@@ -595,9 +537,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <!-- About Us /frontend/Images Start -->
                     <div class="about-us-images">
-                        <!-- About Image 1 Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
                                 <img src="/frontend/my-img/compresive.jpg" alt="">
@@ -607,7 +547,6 @@
                         <!-- About Image 1 End -->
                
                     </div>
-                    <!-- About Us /frontend/Images End -->
                 </div>
 
                 <div class="col-lg-6">
@@ -675,7 +614,6 @@
         <div class="row justify-content-center">
         
             <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
                 <div class="service-item wow fadeInUp">
                     <div class="service-image">
                         <a href="#0" data-cursor-text="View">
@@ -696,7 +634,6 @@
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
                 <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
                     <div class="service-image">
                         <a href="#0" data-cursor-text="View">
@@ -717,7 +654,6 @@
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
                 <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
                     <div class="service-image">
                         <a href="#0" data-cursor-text="View">
@@ -738,7 +674,6 @@
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
                 <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
                     <div class="service-image">
                         <a href="#0" data-cursor-text="View">
@@ -755,11 +690,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- Service Item End -->
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
                 <div class="service-item wow fadeInUp" data-wow-delay="0.8s">
                     <div class="service-image">
                         <a href="#0" data-cursor-text="View">
@@ -776,7 +709,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Service Item End -->
             </div>
 
         </div>
@@ -823,14 +755,9 @@
             </div>
         </div>
     </div>
-    <!-- About Us Section End -->
-
-<!-- Our Testimonials Section Start -->
-<!-- Our Testimonials Section Start -->
 <div class="our-testimonials pt-5">
     <div class="container">
 
-        <!-- SECTION TITLE -->
         <div class="row section-row">
             <div class="col-lg-12">
                 <div class="section-title section-title-center">
@@ -847,7 +774,6 @@
             <div class="container">
                 <div class="row align-items-center">
 
-                    <!-- CONTENT LEFT -->
                     <div class="col-lg-6">
                         <div class="about-us-content">
                             <div class="section-title">
@@ -862,11 +788,10 @@
                             <div class="about-us-btn" style="margin-top:20px;">
                                 <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
                             </div>
-</br>
+                            </br>
                         </div>
                     </div>
 
-                    <!-- IMAGE RIGHT -->
                     <div class="col-lg-6">
                         <div class="about-us-images">
                             <div class="about-img-1">
@@ -881,12 +806,9 @@
             </div>
         </div>
 
-        <!-- BLOCK 2 -->
         <div class="about-us">
             <div class="container">
                 <div class="row align-items-center">
-
-                    <!-- IMAGE LEFT -->
                     <div class="col-lg-6">
                         <div class="about-us-images">
                             <div class="about-img-1">
@@ -897,7 +819,6 @@
                         </div>
                     </div>
 
-                    <!-- CONTENT RIGHT -->
                     <div class="col-lg-6">
                         <div class="about-us-content">
                             <div class="section-title">
@@ -919,12 +840,9 @@
             </div>
         </div>
 
-        <!-- BLOCK 3 -->
         <div class="about-us">
             <div class="container">
                 <div class="row align-items-center">
-
-                    <!-- CONTENT LEFT -->
                     <div class="col-lg-6">
                         <div class="about-us-content">
                             <div class="section-title">
@@ -940,11 +858,10 @@
                             <div class="about-us-btn" style="margin-top:20px;">
                                 <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
                             </div>
-</br>
+                            </br>
                         </div>
                     </div>
 
-                    <!-- IMAGE RIGHT -->
                     <div class="col-lg-6">
                         <div class="about-us-images">
                             <div class="about-img-1">
@@ -954,17 +871,11 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-
     </div>
 </div>
-
-<!-- Our Testimonials Section End -->
-
-    
 
     <!-- Our Testimonials Section Start -->
     <div class="our-testimonials">
@@ -980,11 +891,9 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Testimonial Slide Start -->
                     <div class="testimonial-slider">
                         <div class="swiper">
                             <div class="swiper-wrapper" data-cursor-text="Drag">
-                                <!-- Testimonial Slide Start -->
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="testimonial-header">
@@ -1015,9 +924,6 @@
                                         </div>                              
                                     </div>
                                 </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="testimonial-header">
@@ -1050,9 +956,6 @@
                                         </div>                              
                                     </div>
                                 </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="testimonial-header">
@@ -1084,7 +987,6 @@
                                         </div>                              
                                     </div>
                                 </div>
-                                <!-- Testimonial Slide End -->
                             </div>
                             <div class="testimonial-btn">
                                 <div class="testimonial-button-prev"></div>
@@ -1092,13 +994,10 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Testimonial Slide End -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Our Testimonials Section End -->
-
         <div class="about-us">
             <div class="container">
                 <div class="row align-items-center">
@@ -1141,7 +1040,6 @@
     <div class="about-us">
     <div class="container">
         <div class="row align-items-center">
-            <!-- CONTENT LEFT -->
             <div class="col-lg-6">
                 <div class="about-us-content">
                     <div class="section-title">
@@ -1167,7 +1065,6 @@
                 </div>
             </div>
 
-            <!-- IMAGE RIGHT -->
             <div class="col-lg-6">
                 <div class="about-us-images">
                     <div class="about-img-1">
@@ -1182,11 +1079,9 @@
     </div>
 </div>
 
-<!-- Our Feature Section Start -->
 <div class="our-feature dark-section" style="text-align:center; padding:60px 0;">
     <div class="container">
 
-        <!-- Title Center -->
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="section-title">
@@ -1198,7 +1093,6 @@
             </div>
         </div>
 
-        <!-- CTA BOXES -->
         <div class="row justify-content-center mt-4">
             <!-- Box 2 -->
             <div class="cta-box-body wow fadeInUp" data-wow-delay="0.6s" style="justify-content: center;">
@@ -1224,7 +1118,5 @@
         </div>
     </div>
 </div>
-
-    <!-- Our Feature Section End -->
 
 @endsection
