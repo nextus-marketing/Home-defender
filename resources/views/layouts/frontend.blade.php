@@ -91,7 +91,7 @@
     position: fixed;
     bottom: 30px;
     left: 30px;
-    background: #ff0000;
+    background: #d80000;
     color: #fff;
     padding: 12px 25px;
     border-radius: 50px;
@@ -138,7 +138,7 @@
     right: 30px;
     width: 45px;
     height: 45px;
-    background: #ff0000;
+    background: #d80000;
     color: #fff;
     border: none;
     outline: none;
