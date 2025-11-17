@@ -1,3 +1,19 @@
+.hero {
+    position: relative;
+    background: url(../images/hero-bg-2.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0 140px;
+}
+
+.section-title h1 {
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    cursor: none;
+}
+
 .heightlite {
     color: #e01c08;
 }
@@ -27,7 +43,7 @@
 /* flot icon */
 .call-now-btn {
     position: fixed;
-    bottom: 50px;
+    bottom: 20px;
     left: 30px;
     background: #d80000;
     color: #fff;

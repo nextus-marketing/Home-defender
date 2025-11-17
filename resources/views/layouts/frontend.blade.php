@@ -202,8 +202,6 @@
     </div>
 @endif
 
-
-
 <script>
     // Show popup after 2 seconds
     setTimeout(function() {
@@ -228,6 +226,26 @@
 <a href="tel:+18884476320" class="call-now-btn">
     <i class="fa fa-phone"></i> Call Now
 </a>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const callBtn = document.querySelector(".call-now-btn");
+    const heroSection = document.querySelector(".hero");
+
+    function toggleButton() {
+        const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+
+        if (window.scrollY > heroBottom - 100) {
+            callBtn.classList.add("show");
+        } else {
+            callBtn.classList.remove("show");
+        }
+    }
+
+    window.addEventListener("scroll", toggleButton);
+});
+</script>
+
 
 
 <button id="scrollTopBtn">

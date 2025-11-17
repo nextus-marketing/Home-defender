@@ -15,6 +15,7 @@
 .our-testimonials {
     padding: 10px 0;
 }
+
 </style>
     <!-- Hero Section Start -->
     <div class="hero dark-section parallaxie">
@@ -57,6 +58,22 @@
         </div>
     </div>
     <!-- Hero Section End -->
+
+    <style>
+   .call-now-btn {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: 0.4s ease;
+}
+
+.call-now-btn.show {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+    </style>
 
     <!-- Best Service Section Start -->
     <div class="best-services">
@@ -461,7 +478,7 @@
         </div>
     </div>
     <!-- CTA Box Section End -->
-     
+
 
     <!-- About Us Section Start -->
     <div class="about-us">
