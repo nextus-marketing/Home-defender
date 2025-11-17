@@ -141,7 +141,7 @@
             </div>
         </div>
     </div>
-    <!-- Contact Us Form Section End -->
+<!-- Contact Us Form Section End -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <script>

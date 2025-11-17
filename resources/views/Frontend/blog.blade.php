@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 @section('title')
-    Blog | Home Defender
+    Blogs | Home Defender
 @endsection
 @section('content')
 <div class="page-header parallaxie">
@@ -9,11 +9,11 @@
 				<div class="col-lg-12">
 					<!-- Page Header Box Start -->
 					<div class="page-header-box">
-						<h1 class="wow fadeInUp" data-cursor="-opaque">our blog</h1>
+						<h1 class="wow fadeInUp" data-cursor="-opaque">Blogs</h1>
 						<nav class="wow fadeInUp" data-wow-delay="0.2s">
                             <ol class="breadcrumb">
 								<li class="breadcrumb-item"><a href="/">home</a></li>
-								<li class="breadcrumb-item active" aria-current="page">our blog</li>
+								<li class="breadcrumb-item active" aria-current="page"> blog</li>
 							</ol>
 						</nav>
 					</div>
