@@ -14,5 +14,91 @@
 .footer-copyright {
     border-top: 1px solid var(--dark-divider-color);
     padding: 28px 0;
-    margin-top: 60px;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+    .about-img-1 {
+        padding-right: 6px;
+    }
+}
+
+
+/* flot icon */
+.call-now-btn {
+    position: fixed;
+    bottom: 70px;
+    left: 30px;
+    background: #d80000;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.4);
+    animation: floatBtn 2.2s ease-in-out infinite;
+    z-index: 999;
+}
+
+/* Phone Icon Style */
+.call-now-btn i {
+    font-size: 18px;
+}
+
+/* Hover Effect */
+.call-now-btn:hover {
+    background: #d80000;
+    box-shadow: 0 12px 25px rgba(255, 0, 0, 0.6);
+    transform: translateY(-4px);
+}
+
+/* Keyframe Animation */
+@keyframes floatBtn {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* scroll to top */
+
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    /* above Call Now button */
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    background: #d80000;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    /* hidden by default */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.4);
+    animation: floatUp 2.2s ease-in-out infinite;
+    z-index: 999;
+}
+
+/* Hover effect */
+#scrollTopBtn:hover {
+    background: #d80000;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(255, 0, 0, 0.5);
 }

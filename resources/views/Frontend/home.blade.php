@@ -5,6 +5,7 @@
     .why-choose-us {
     padding: 10px 0;
 }
+
 </style>
     <!-- Hero Section Start -->
     <div class="hero dark-section parallaxie">
@@ -776,9 +777,6 @@
                                 <img src="/frontend/images/about-img-1.jpg" alt="">
                             </figure>
 
-                            <div class="company-experience-circle">
-                                <img src="/frontend/images/experience-circle.svg" alt="">
-                            </div>  
                         </div>
                     </div>
                 </div>
@@ -846,6 +844,7 @@
                             <div class="about-us-btn" style="margin-top:20px;">
                                 <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
                             </div>
+</br>
                         </div>
                     </div>
 
@@ -923,6 +922,7 @@
                             <div class="about-us-btn" style="margin-top:20px;">
                                 <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
                             </div>
+</br>
                         </div>
                     </div>
 
@@ -947,6 +947,7 @@
 
     </div>
 </div>
+
 <!-- Our Testimonials Section End -->
 
     
@@ -1151,6 +1152,7 @@
                     <div class="about-us-btn" style="margin-top:20px;">
                         <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
                     </div>
+</br>
                 </div>
             </div>
 

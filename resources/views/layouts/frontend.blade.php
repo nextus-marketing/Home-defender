@@ -68,7 +68,7 @@
                         
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="/contact" class="btn-default">get a quote</a>
+                            <a href="/contact" class="btn-default">Have any Questions? </a>
                         </div>
                         <!-- Header Btn End -->
 					</div>
@@ -86,82 +86,12 @@
 <a href="tel:+18884476320" class="call-now-btn">
     <i class="fa fa-phone"></i> Call Now
 </a>
-<style>
-    .call-now-btn {
-    position: fixed;
-    bottom: 30px;
-    left: 30px;
-    background: #d80000;
-    color: #fff;
-    padding: 12px 25px;
-    border-radius: 50px;
-    font-size: 16px;
-    font-weight: 600;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.4);
-    animation: floatBtn 2.2s ease-in-out infinite;
-    z-index: 999;
-}
 
-/* Phone Icon Style */
-.call-now-btn i {
-    font-size: 18px;
-}
-
-/* Hover Effect */
-.call-now-btn:hover {
-    background: #d80000;
-    box-shadow: 0 12px 25px rgba(255, 0, 0, 0.6);
-    transform: translateY(-4px);
-}
-
-/* Keyframe Animation */
-@keyframes floatBtn {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
-    100% { transform: translateY(0); }
-}
-
-</style>
 
 <button id="scrollTopBtn">
     <i class="fa fa-arrow-up"></i>
 </button>
 
-<style>
-    #scrollTopBtn {
-    position: fixed;
-    bottom: 20px; /* above Call Now button */
-    right: 30px;
-    width: 45px;
-    height: 45px;
-    background: #d80000;
-    color: #fff;
-    border: none;
-    outline: none;
-    border-radius: 50%;
-    font-size: 20px;
-    cursor: pointer;
-    display: none; /* hidden by default */
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.4);
-    animation: floatUp 2.2s ease-in-out infinite;
-    z-index: 999;
-}
-
-/* Hover effect */
-#scrollTopBtn:hover {
-    background: #d80000;
-    transform: translateY(-4px);
-    box-shadow: 0 12px 25px rgba(255, 0, 0, 0.5);
-}
-
-
-</style>
 
 <script>
     const scrollTopBtn = document.getElementById("scrollTopBtn");
@@ -263,7 +193,6 @@
                         <ul>
                             <li><a href="/">home</a></li>
                             <li><a href="/about">about us</a></li>
-                            <li><a href="/services">services</a></li>
                             <li><a href="/blog">blog</a></li>
                         </ul>
                     </div>

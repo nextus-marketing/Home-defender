@@ -5,8 +5,15 @@
 @section('content')
 <style>
     .post-entry h2 {
-    font-size: 28px;
+    font-size: 20px;
 }
+  @media (max-width: 767px) {
+        .post-content,
+        .post-entry {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
 </style>
 <div class="page-header parallaxie">
 		<div class="container">
