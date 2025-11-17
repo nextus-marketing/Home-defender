@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="description" content="Home Defender offers reliable smart home security solutions with 24/7 monitoring to protect your family. Get 3 Months of Free Monitoring! Call Now for Details."/>
     <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
-    <link rel="canonical" href="https://homedefender.net/" />
+    <link rel="canonical" href="https://homedefender.net/"/>
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/favicon.png">
 	<!-- Google Fonts Css-->
@@ -183,21 +183,16 @@
     <!-- Popup Overlay -->
     <div id="promoPopup" class="promo-popup-overlay">
         <div class="promo-popup">
-
             <!-- Logo Centered -->
             <div class="popup-logo">
                 <img src="/frontend/my-img/logo_new.png" alt="Logo">
             </div>
-
             <span class="close-popup">&times;</span>
-
             <h2>Get <span style="color:#e60000;">3 Months FREE</span> Monitoring!</h2>
             <p>Call now and secure your home with our exclusive limited-time offer.</p>
-
             <div class="our-support-btn">
                 <a href="/contact" class="btn-default">Contact Now</a>
             </div>
-
         </div>
     </div>
 @endif

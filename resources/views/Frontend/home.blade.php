@@ -2,10 +2,9 @@
 @section('title') Home Defender | Affordable Smart Home Security Solutions @endsection
 @section('content')
 <style>
-    .why-choose-us {
+   .why-choose-us {
     padding: 10px 0;
 }
-
 .our-support.about-support {
     background: transparent;
     background-repeat: no-repeat;
@@ -15,7 +14,6 @@
 .our-testimonials {
     padding: 10px 0;
 }
-
 </style>
     <!-- Hero Section Start -->
     <div class="hero dark-section parallaxie">
