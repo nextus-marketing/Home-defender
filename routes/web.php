@@ -18,6 +18,9 @@ Route::view('/about', 'Frontend.about')->name('about');
 Route::view('/blog', 'Frontend.blog')->name('blog');
 Route::view('//blog-details', 'Frontend./blog-details')->name('/blog-details');
 Route::view('/contact', 'Frontend.contact')->name('contact');
+Route::view('/privacy-policy', 'Frontend.privacy-policy')->name('privacy-policy');
+Route::view('/terms-and-condition', 'Frontend.terms-and-condition')->name('terms-and-condition');
+
 Route::view('/thankyou', 'Frontend.thankyou')->name('thankyou');
 
 Route::fallback(function () {

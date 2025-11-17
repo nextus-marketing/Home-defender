@@ -1,6 +1,11 @@
 @extends('layouts.frontend')
 @section('title') Home Defender @endsection
 @section('content')
+<style>
+    .why-choose-us {
+    padding: 10px 0;
+}
+</style>
     <!-- Hero Section Start -->
     <div class="hero dark-section parallaxie">
         <div class="container">
@@ -359,7 +364,7 @@
                             </figure>
                         </div>
                         <div class="our-support-circle">
-                            <a href="#0"><img src="/frontend/images/contact-now-circle-2.svg" alt=""></a>
+                            <a href="/contact"><img src="/frontend/images/contact-now-circle-2.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -467,12 +472,7 @@
                             <figure class="image-anime reveal">
                                 <img src="/frontend/my-img/monitoring.jpg" alt="">
                             </figure>
-
-                            <!-- Experience Circle Start -->
-                            <div class="company-experience-circle">
-                                <img src="/frontend/images/experience-circle.svg" alt="">
-                            </div>
-                            <!-- Experience Circle End -->      
+    
                         </div>
                         <!-- About Image 1 End -->
                
@@ -652,6 +652,118 @@
         </div>
     </div>
     <!-- CTA Box Section End -->
+<div class="page-services">
+    <div class="container">
+        <div class="row justify-content-center">
+        
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp">
+                    <div class="service-image">
+                        <a href="#0" data-cursor-text="View">
+                            <figure class="image-anime">
+                                <img src="/frontend/images/service-image-1.jpg" alt="">
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="service-body">
+                        <div class="service-content">
+                            <h3><a href="#0">Home Security Systems Installation</a></h3>
+                            <p>Comprehensive protection for your home with advanced security systems.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-image">
+                        <a href="#0" data-cursor-text="View">
+                            <figure class="image-anime">
+                                <img src="/frontend/my-img/door-bell.jpg" alt="">
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="service-body">
+                        <div class="service-content">
+                            <h3><a href="#0">Smart Doorbell Camera Installation</a></h3>
+                            <p>Monitor your front door from anywhere with our state-of-the-art doorbell cameras.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-image">
+                        <a href="#0" data-cursor-text="View">
+                            <figure class="image-anime">
+                                <img src="/frontend/my-img/sensors.jpg" alt="">
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="service-body">
+                        <div class="service-content">
+                            <h3><a href="#0">Door & Window Sensors</a></h3>
+                            <p>Enhance your home security with reliable door and window sensors.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-image">
+                        <a href="#0" data-cursor-text="View">
+                            <figure class="image-anime">
+                                <img src="/frontend/my-img/watching.jpg" alt="">
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="service-body">
+                        <div class="service-content">
+                            <h3><a href="#0">24/7 Monitoring Services</a></h3>
+                            <p>Round-the-clock monitoring to keep your home safe at all times.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="service-image">
+                        <a href="#0" data-cursor-text="View">
+                            <figure class="image-anime">
+                                <img src="/frontend/my-img/home-integration.jpg" alt="">
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="service-body">
+                        <div class="service-content">
+                            <h3><a href="#0">Smart Home Integration</a></h3>
+                            <p>We provide professional CCTV installation services offering high-quality cameras.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+
+        </div>
+    </div>
+</div>
 
     <!-- About Us Section Start -->
     <div class="about-us">

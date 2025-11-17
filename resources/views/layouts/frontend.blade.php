@@ -149,16 +149,7 @@
                         </div>
                         <!-- Footer Links End -->
 
-                        <!-- Footer Social Links Start -->
-                        <div class="footer-social-links">
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>                                    								
-                            </ul>
-                        </div>
-                        <!-- Footer Social Links End -->
+                        
                     </div>
                     <!-- About Footer End -->               
                 </div>
@@ -182,28 +173,33 @@
                     <div class="footer-links">
                         <h3>Support & Policies</h3>
                         <ul>
-                            <li><a href="#0">Contact Us</a></li>
-                            <li><a href="#0">Privacy Policy</a></li>
-                            <li><a href="#0">Terms & condition</a></li>
+                            <li><a href="/contact">Contact Us</a></li>
+                            <li><a href="/privacy-policy">Privacy Policy</a></li>
+                            <li><a href="/terms-and-condition">Terms & condition</a></li>
                         </ul>
                     </div>
                     <!-- Footer Links End -->
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <!-- Newsletter Form Start -->
-                    <div class="newsletter-form footer-links">
-                        <h3>Subscribe</h3>
-                        <p>Stay updated with the latest security trends offers by subscribing to our newsletter.</p>
-                        <form id="newsletterForm" action="#" method="POST">
-                            <div class="form-group">
-                                <input type="email" name="email" class="form-control" id="mail" placeholder="Enter Your Email" required="">
-                                <button type="submit" class="newsletter-btn"><i class="fa-regular fa-paper-plane"></i></button>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- Newsletter Form End -->
-                </div>
+    <!-- Newsletter Form Start -->
+    <div class="newsletter-form footer-links">
+        <h3>Follow Us</h3>
+        <p>Stay updated with the latest security trends and offers by subscribing to our newsletter.</p>
+        <!-- Footer Social Links Start -->
+        <div class="footer-social-links">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <!-- Footer Social Links End -->
+    </div>
+    <!-- Newsletter Form End -->
+</div>
+
             </div>
         </div>
 
