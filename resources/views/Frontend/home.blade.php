@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title') Home Defender @endsection
+@section('title') Home Defender | Affordable Smart Home Security Solutions @endsection
 @section('content')
 <style>
     .why-choose-us {
@@ -933,10 +933,6 @@
                                 <figure class="image-anime reveal">
                                     <img src="/frontend/my-img/home.avif" alt="">
                                 </figure>
-
-                                <div class="company-experience-circle">
-                                    <img src="/frontend/images/experience-circle.svg" alt="">
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -957,12 +953,10 @@
         <div class="container">
             <div class="row section-row">
                 <div class="col-lg-12">
-                    <!-- Section Title Start -->
                     <div class="section-title section-title-center">
                         <h3 class="wow fadeInUp">testimonials</h3>
                         <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">We are <span>Trusted 15+   </span>Countries Worldwide</h2>
                     </div>
-                    <!-- Section Title End -->
                 </div>               
             </div>
 
@@ -1126,10 +1120,9 @@
             </div>
         </div>
 
-        <div class="about-us">
+    <div class="about-us">
     <div class="container">
         <div class="row align-items-center">
-
             <!-- CONTENT LEFT -->
             <div class="col-lg-6">
                 <div class="about-us-content">
@@ -1152,7 +1145,7 @@
                     <div class="about-us-btn" style="margin-top:20px;">
                         <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
                     </div>
-</br>
+                </br>
                 </div>
             </div>
 

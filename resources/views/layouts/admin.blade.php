@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        @php
-            $host = request()->getHost();
-        @endphp
-
         <!-- TITLE -->
         <title>@yield('title')</title>
 
@@ -20,7 +16,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         
         <!-- FAVICON -->
-        <!-- <link rel="shortcut icon" type="image/png" href="/favicon.png" /> -->
+        <link rel="shortcut icon" type="image/png" href="/frontend/my-img/favicon.png" />
 
         <!-- BASIC CSS -->
         <link  id="themeColors"  rel="stylesheet" href="/backend/dist/css/style.min.css" />

@@ -27,7 +27,7 @@
 /* flot icon */
 .call-now-btn {
     position: fixed;
-    bottom: 70px;
+    bottom: 50px;
     left: 30px;
     background: #d80000;
     color: #fff;
@@ -101,4 +101,14 @@
     background: #d80000;
     transform: translateY(-4px);
     box-shadow: 0 12px 25px rgba(255, 0, 0, 0.5);
+}
+
+.main-menu ul li a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2em;
+    padding: 14px 20px !important;
+    color: var(--text-color);
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
 }

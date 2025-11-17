@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>@yield(section: 'title')</title>
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<meta name="description" content="">
-    <title>@yield(section: 'title')</title>
+	<meta name="description" content="Home Defender offers reliable smart home security solutions with 24/7 monitoring to protect your family. Get 3 Months of Free Monitoring! Call Now for Details."/>
+    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+    <link rel="canonical" href="https://homedefender.net/" />
 	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="/frontend/images/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/favicon.png">
 	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -31,17 +33,110 @@
 	<link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
     <!-- Mouse Cursor Css File -->
 	<link rel="stylesheet" href="/frontend/css/my.css">
+    
+ <script type="application/ld+json" class="rank-math-schema">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Place",
+      "@id": "https://homedefender.net/#place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Burke",
+        "addressRegion": "Virginia",
+        "postalCode": "22015",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://homedefender.net/#organization",
+      "name": "Home Defender",
+      "url": "https://homedefender.net",
+      "email": "Info@homedefender.net",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Burke",
+        "addressRegion": "Virginia",
+        "postalCode": "22015",
+        "addressCountry": "US"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://homedefender.net/#logo",
+        "url": "https://homedefender.net/frontend/my-img/logo_new.png",
+        "caption": "Home Defender",
+        "inLanguage": "en-US",
+        "width": "450",
+        "height": "150"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-888-447-6320",
+          "contactType": "sales"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-571-500-8149",
+          "contactType": "sales"
+        }
+      ],
+      "description": "Home Defender offers reliable smart home security solutions with 24/7 monitoring to protect your family. Get 3 Months of Free Monitoring! Call Now for Details.",
+      "legalName": "marketingteamnextus@gmail.com",
+      "location": {
+        "@id": "https://homedefender.net/contact"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://homedefender.net/#website",
+      "url": "https://homedefender.net",
+      "name": "Home Defender",
+      "publisher": {
+        "@id": "https://homedefender.net/"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://homedefender.net/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://homedefender.net/wp-content/uploads/2020/06/service-01-770x500-1.webp?wsr",
+      "url": "https://homedefender.net/wp-content/uploads/2020/06/service-01-770x500-1.webp?wsr",
+      "width": "200",
+      "height": "200",
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://homedefender.net/#webpage",
+      "url": "https://homedefender.net/",
+      "name": "Home Defender | Affordable Smart Home Security Solutions",
+      "datePublished": "2020-05-21T03:20:11+00:00",
+      "dateModified": "2025-08-27T18:59:24+00:00",
+      "about": {
+        "@id": "https://homedefender.net/about"
+      },
+      "isPartOf": {
+        "@id": "https://homedefender.net/"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://homedefender.net/frontend/images/hero-bg-2.jpg"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}
+</script>
+
 </head>
 <body>
 
-    <!-- Preloader Start -->
-	<!-- <div class="preloader">
-		<div class="loading-container">
-			<div class="loading"></div>
-			<div id="loading-icon"><img src="/frontend/images/loader.svg" alt=""></div>
-		</div>
-	</div> -->
-	<!-- Preloader End -->
 
     <!-- Header Start -->
 	<header class="main-header">
