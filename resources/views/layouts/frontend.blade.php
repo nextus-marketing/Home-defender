@@ -156,7 +156,7 @@
                                 <li class="nav-item"><a class="nav-link" href="/">Home</a>
                                 </li>                                
                                 <li class="nav-item"><a class="nav-link" href="/about">About Us</a>
-                                <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/blogs">Blogs</a></li>
                                 <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>                         
                             </ul>
                         </div>
@@ -347,7 +347,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <ul>
                             <li><a href="/">home</a></li>
                             <li><a href="/about">about us</a></li>
-                            <li><a href="/blog">blog</a></li>
+                            <li><a href="/blogs">blogs</a></li>
                         </ul>
                     </div>
                     <!-- Footer Links End -->

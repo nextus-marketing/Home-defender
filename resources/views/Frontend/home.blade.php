@@ -1,24 +1,28 @@
 @extends('layouts.frontend')
-@section('title') Home Defender | Affordable Smart Home Security Solutions @endsection
+@section('title')
+    Home Defender | Affordable Smart Home Security Solutions
+@endsection
 @section('content')
-<style>
-   .why-choose-us {
-    padding: 10px 0;
-}
-.our-support.about-support {
-    background: transparent;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-.our-testimonials {
-    padding: 10px 0;
-}
-.about-us {
-    padding: 9px 0 100px;
-}
+    <style>
+        .why-choose-us {
+            padding: 10px 0;
+        }
 
-</style>
+        .our-support.about-support {
+            background: transparent;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .our-testimonials {
+            padding: 10px 0;
+        }
+
+        .about-us {
+            padding: 9px 0 100px;
+        }
+    </style>
     <div class="hero dark-section parallaxie">
         <div class="container">
             <div class="row align-items-center">
@@ -27,7 +31,8 @@
                         <div class="section-title">
                             <h3 class="wow fadeInUp">welcome to home defender</h3>
                             <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">We Are Your Solutions</h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">Creating a smart Surveillance for the present and future</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">Creating a smart Surveillance for the present and
+                                future</p>
                         </div>
                         <div class="hero-body wow fadeInUp" data-wow-delay="0.6s">
                             <div class="hero-btn">
@@ -35,8 +40,8 @@
                             </div>
                             <div class="hero-body wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="hero-btn">
-                                <a href="/contact" class="btn-default">Send Enquiry</a>
-                            </div>
+                                    <a href="/contact" class="btn-default">Send Enquiry</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -53,20 +58,19 @@
         </div>
     </div>
     <style>
-   .call-now-btn {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transition: 0.4s ease;
-}
+        .call-now-btn {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            transition: 0.4s ease;
+        }
 
-.call-now-btn.show {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
-
-</style>
+        .call-now-btn.show {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+    </style>
 
     <!-- Best Service Section Start -->
     <div class="best-services">
@@ -113,7 +117,8 @@
                     <!-- Section Title Start -->
                     <div class="section-title section-title-center">
                         <h3 class="wow fadeInUp">We Provides</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>When you need, </span> better security installation</h2>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>When you need, </span>
+                            better security installation</h2>
                     </div>
                 </div>
             </div>
@@ -128,7 +133,8 @@
                             <div class="why-choose-item-content">
                                 <h3><span class="heightlite">Video Surveillance</span>
                                     Reliable and Proven</h3>
-                                <p>We provide the best latest technology of equipment and our staff are available in 24/7 at clients call.</p>
+                                <p>We provide the best latest technology of equipment and our staff are available in 24/7 at
+                                    clients call.</p>
                             </div>
                         </div>
                         <div class="why-choose-item wow fadeInUp" data-wow-delay="0.6s">
@@ -137,8 +143,9 @@
                             </div>
                             <div class="why-choose-item-content">
                                 <h3><span class="heightlite">Security Professional</span>
-                                Experts and Staff</h3>
-                                <p> We provide the best latest technology of equipment and our staff are available in 24/7 at clients call.</p>
+                                    Experts and Staff</h3>
+                                <p> We provide the best latest technology of equipment and our staff are available in 24/7
+                                    at clients call.</p>
                             </div>
                         </div>
                     </div>
@@ -160,8 +167,9 @@
                             </div>
                             <div class="why-choose-item-content">
                                 <h3><span class="heightlite">Security Professional</span>
-                                Experts and Staff</h3>
-                                <p>We provide the best latest technology of equipment and our staff are available in 24/7 at clients call.</p>
+                                    Experts and Staff</h3>
+                                <p>We provide the best latest technology of equipment and our staff are available in 24/7 at
+                                    clients call.</p>
                             </div>
                         </div>
                         <div class="why-choose-item wow fadeInUp" data-wow-delay="0.6s">
@@ -170,8 +178,9 @@
                             </div>
                             <div class="why-choose-item-content">
                                 <h3><span class="heightlite">Our Security Service</span>
-                                24/7 Support</h3>
-                                <p>We provide the best latest technology of equipment and our staff are available in 24/7 at clients call.</p>
+                                    24/7 Support</h3>
+                                <p>We provide the best latest technology of equipment and our staff are available in 24/7 at
+                                    clients call.</p>
                             </div>
                         </div>
                     </div>
@@ -188,9 +197,15 @@
                     <div class="what-we-do-content">
                         <div class="section-title section-title-center">
                             <h3 class="wow fadeInUp">what we do</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Delivering trusted </span>security and surveillance</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">At our core, we are dedicated to delivering trusted security and surveillance solutions that provide peace of mind for homes and businesses alike. Our expertise spans from the installation of advanced CCTV systems.</p>
-                            <p class="wow fadeInUp" data-wow-delay="0.6s">We understand that every property is unique, which is why we offer tailored solutions designed to meet your specific needs. Our state-of-the-art technology ensures high-definition video, reliable performance, and seamless connectivity, empowering you to monitor and protect your property at all times.</p>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Delivering trusted
+                                </span>security and surveillance</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">At our core, we are dedicated to delivering
+                                trusted security and surveillance solutions that provide peace of mind for homes and
+                                businesses alike. Our expertise spans from the installation of advanced CCTV systems.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.6s">We understand that every property is unique,
+                                which is why we offer tailored solutions designed to meet your specific needs. Our
+                                state-of-the-art technology ensures high-definition video, reliable performance, and
+                                seamless connectivity, empowering you to monitor and protect your property at all times.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -203,7 +218,7 @@
                                 <h3><a href="tel:+15714501674">+(1) 571 - 450 - 1674</a></h3>
                             </div>
                         </div>
-                    </div>               
+                    </div>
                 </div>
 
                 <div class="col-lg-6">
@@ -248,7 +263,8 @@
                 <div class="col-lg-12">
                     <div class="section-title section-title-center">
                         <h3 class="wow fadeInUp">What We Provide</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>We Provide Awesome </span> Expert Security Service</h2>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>We Provide Awesome
+                            </span> Expert Security Service</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -261,17 +277,18 @@
                             <a href="#0" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="/frontend/my-img/private-security.jpg" alt="">
-                                </figure>                                                                   
-                            </a>                            
+                                </figure>
+                            </a>
                         </div>
                         <div class="service-body">
                             <div class="icon-box">
                                 <img src="/frontend/images/icon-service-item-1.svg" alt="">
-                            </div>        
+                            </div>
                             <div class="service-content">
                                 <h3><a href="#0">Private Security</a></h3>
-                                <p>Give the best quality of security systems and facility of latest technology for the people get security.</p>
-                            </div>                  
+                                <p>Give the best quality of security systems and facility of latest technology for the
+                                    people get security.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -283,16 +300,17 @@
                                 <figure class="image-anime">
                                     <img src="/frontend/my-img/bank.jpg" alt="">
                                 </figure>
-                            </a>                            
+                            </a>
                         </div>
                         <div class="service-body">
                             <div class="icon-box">
                                 <img src="/frontend/images/icon-service-item-2.svg" alt="">
-                            </div>        
+                            </div>
                             <div class="service-content">
                                 <h3><a href="#0">Banking Sector</a></h3>
-                                <p>Give the best quality of security systems and facility of latest technology for the people get security.</p>
-                            </div>                      
+                                <p>Give the best quality of security systems and facility of latest technology for the
+                                    people get security.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -304,16 +322,17 @@
                                 <figure class="image-anime">
                                     <img src="/frontend/my-img/school.jpg" alt="">
                                 </figure>
-                            </a>                            
+                            </a>
                         </div>
                         <div class="service-body">
                             <div class="icon-box">
                                 <img src="/frontend/images/icon-service-item-3.svg" alt="">
-                            </div>        
+                            </div>
                             <div class="service-content">
                                 <h3><a href="#0">Education Institute</a></h3>
-                                <p>Give the best quality of security systems and facility of latest technology for the people get security.</p>
-                            </div>                       
+                                <p>Give the best quality of security systems and facility of latest technology for the
+                                    people get security.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -321,11 +340,11 @@
                 <div class="col-lg-12">
                     <div class="section-footer-text wow fadeInUp" data-wow-delay="1.2s">
                         <p><span>Free</span>
-                        </br>
-                        Let's make something great work together.<a href="/contact">get a quote</a></p>
+                            </br>
+                            Let's make something great work together.<a href="/contact">get a quote</a></p>
                     </div>
                 </div>
-            </div>            
+            </div>
         </div>
     </div>
     <!-- Our Services Section End -->
@@ -357,11 +376,13 @@
                     <div class="our-support-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">Let's Explore</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Performance That </span>Stands Apart </h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">Our dedicated technical support team is available around the clock to ensure your security systems operate flawlessly.</p>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Performance That
+                                </span>Stands Apart </h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">Our dedicated technical support team is
+                                available around the clock to ensure your security systems operate flawlessly.</p>
                         </div>
                         <div class="our-support-body wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="support-item" >
+                            <div class="support-item">
                                 <div class="icon-box">
                                     <img src="/frontend/images/icon-support-item-1.svg" alt="">
                                 </div>
@@ -370,7 +391,7 @@
                                     <p>Unparalleled performance and reliability, the ultimate monitoring solution.</p>
                                 </div>
                             </div>
-                            <div class="support-item" >
+                            <div class="support-item">
                                 <div class="icon-box">
                                     <img src="/frontend/images/icon-support-item-2.svg" alt="">
                                 </div>
@@ -379,7 +400,7 @@
                                     <p>Unleash unparalleled reliability with our security & monitoring product.</p>
                                 </div>
                             </div>
-                            <div class="support-item" >
+                            <div class="support-item">
                                 <div class="icon-box">
                                     <img src="/frontend/images/icon-support-item-2.svg" alt="">
                                 </div>
@@ -407,7 +428,8 @@
                     <div class="cta-box-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">contact us</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Get Connected to  </span>Home Defender Experts Near You!</h2>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Get Connected to
+                                </span>Home Defender Experts Near You!</h2>
                         </div>
                         <div class="cta-box-body wow fadeInUp" data-wow-delay="0.6s">
                             <div class="cta-box-item">
@@ -461,28 +483,31 @@
                     <div class="about-us-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">We Provide</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Latest Monitoring </span> Systems</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">We provide a latest and modern technology of security equipment. Our focus on give best security systems. Always helping experts for your security.</p>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Latest Monitoring
+                                </span> Systems</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">We provide a latest and modern technology of
+                                security equipment. Our focus on give best security systems. Always helping experts for your
+                                security.</p>
                         </div>
+                    </div>
+                    <div class="about-us-body wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="about-contact-box">
+                            <div class="icon-box">
+                                <img src="/frontend/images/icon-about-contact.svg" alt="">
+                            </div>
+                            <div class="about-contact-box-content">
+                                <p>Call Directly 24/7</p>
+                                <h3><a href="tel:1-888-447-6320">+(1) 888- 447 6320</a></h3>
+                            </div>
                         </div>
-                        <div class="about-us-body wow fadeInUp" data-wow-delay="0.8s">
-                            <div class="about-contact-box">
-                                <div class="icon-box">
-                                    <img src="/frontend/images/icon-about-contact.svg" alt="">
-                                </div>
-                                <div class="about-contact-box-content">
-                                    <p>Call Directly 24/7</p>
-                                    <h3><a href="tel:1-888-447-6320">+(1) 888- 447 6320</a></h3>
-                                </div>
-                            </div>
-                            <div class="about-us-btn">
-                                <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
-                            </div>
+                        <div class="about-us-btn">
+                            <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- About Us Section End -->
 
@@ -495,7 +520,7 @@
                     <div class="section-title">
                         <h3 class="wow fadeInUp">Our Partners</h3>
                         <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Get Free
-                        </span>Consultancy</h2>
+                            </span>Consultancy</h2>
                     </div>
                 </div>
 
@@ -546,10 +571,10 @@
                             <figure class="image-anime reveal">
                                 <img src="/frontend/my-img/compresive.jpg" alt="">
                             </figure>
-    
+
                         </div>
                         <!-- About Image 1 End -->
-               
+
                     </div>
                 </div>
 
@@ -557,10 +582,11 @@
                     <div class="our-commitment-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">Our Commitment</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Comprehensive Home Security </span> for Every Homeowner</h2>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Comprehensive Home
+                                    Security </span> for Every Homeowner</h2>
                         </div>
                     </div>
-                   
+
                     <div class="commitment-list wow fadeInUp" data-wow-delay="0.6s">
                         <ul>
                             <li>Smart Doorbell Cameras</li>
@@ -587,8 +613,11 @@
                     <div class="cta-box-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">contact us</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Tailored<span> Home Security Solutions </span></h2>
-                            <p>From doorbell cameras to full home security systems, Prime Home Safety offers a wide range of services to keep your home safe and secure. Our network of trusted professionals ensures high-quality installations and ongoing support.</p>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Tailored<span> Home
+                                    Security Solutions </span></h2>
+                            <p>From doorbell cameras to full home security systems, Prime Home Safety offers a wide range of
+                                services to keep your home safe and secure. Our network of trusted professionals ensures
+                                high-quality installations and ongoing support.</p>
                         </div>
                         <div class="cta-box-body wow fadeInUp" data-wow-delay="0.6s">
                             <div class="cta-box-item">
@@ -613,111 +642,111 @@
         </div>
     </div>
     <!-- CTA Box Section End -->
-<div class="page-services">
-    <div class="container">
-        <div class="row justify-content-center">
-        
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item wow fadeInUp">
-                    <div class="service-image">
-                        <a href="#0" data-cursor-text="View">
-                            <figure class="image-anime">
-                                <img src="/frontend/images/service-image-1.jpg" alt="">
-                            </figure>
-                        </a>
-                    </div>
+    <div class="page-services">
+        <div class="container">
+            <div class="row justify-content-center">
 
-                    <div class="service-body">
-                        <div class="service-content">
-                            <h3><a href="#0">Home Security Systems Installation</a></h3>
-                            <p>Comprehensive protection for your home with advanced security systems.</p>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item wow fadeInUp">
+                        <div class="service-image">
+                            <a href="#0" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img src="/frontend/images/service-image-1.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="service-body">
+                            <div class="service-content">
+                                <h3><a href="#0">Home Security Systems Installation</a></h3>
+                                <p>Comprehensive protection for your home with advanced security systems.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Item End -->
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-image">
+                            <a href="#0" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img src="/frontend/my-img/door-bell.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="service-body">
+                            <div class="service-content">
+                                <h3><a href="#0">Smart Doorbell Camera Installation</a></h3>
+                                <p>Monitor your front door from anywhere with our state-of-the-art doorbell cameras.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Item End -->
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-image">
+                            <a href="#0" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img src="/frontend/my-img/sensors.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="service-body">
+                            <div class="service-content">
+                                <h3><a href="#0">Door & Window Sensors</a></h3>
+                                <p>Enhance your home security with reliable door and window sensors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Item End -->
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-image">
+                            <a href="#0" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img src="/frontend/my-img/watching.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="service-body">
+                            <div class="service-content">
+                                <h3><a href="#0">24/7 Monitoring Services</a></h3>
+                                <p>Round-the-clock monitoring to keep your home safe at all times.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- Service Item End -->
-            </div>
 
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="service-image">
-                        <a href="#0" data-cursor-text="View">
-                            <figure class="image-anime">
-                                <img src="/frontend/my-img/door-bell.jpg" alt="">
-                            </figure>
-                        </a>
-                    </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="service-image">
+                            <a href="#0" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img src="/frontend/my-img/home-integration.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
 
-                    <div class="service-body">
-                        <div class="service-content">
-                            <h3><a href="#0">Smart Doorbell Camera Installation</a></h3>
-                            <p>Monitor your front door from anywhere with our state-of-the-art doorbell cameras.</p>
+                        <div class="service-body">
+                            <div class="service-content">
+                                <h3><a href="#0">Smart Home Integration</a></h3>
+                                <p>We provide professional CCTV installation services offering high-quality cameras.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- Service Item End -->
+
             </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="service-image">
-                        <a href="#0" data-cursor-text="View">
-                            <figure class="image-anime">
-                                <img src="/frontend/my-img/sensors.jpg" alt="">
-                            </figure>
-                        </a>
-                    </div>
-
-                    <div class="service-body">
-                        <div class="service-content">
-                            <h3><a href="#0">Door & Window Sensors</a></h3>
-                            <p>Enhance your home security with reliable door and window sensors.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Service Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="service-image">
-                        <a href="#0" data-cursor-text="View">
-                            <figure class="image-anime">
-                                <img src="/frontend/my-img/watching.jpg" alt="">
-                            </figure>
-                        </a>
-                    </div>
-
-                    <div class="service-body">
-                        <div class="service-content">
-                            <h3><a href="#0">24/7 Monitoring Services</a></h3>
-                            <p>Round-the-clock monitoring to keep your home safe at all times.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="service-image">
-                        <a href="#0" data-cursor-text="View">
-                            <figure class="image-anime">
-                                <img src="/frontend/my-img/home-integration.jpg" alt="">
-                            </figure>
-                        </a>
-                    </div>
-
-                    <div class="service-body">
-                        <div class="service-content">
-                            <h3><a href="#0">Smart Home Integration</a></h3>
-                            <p>We provide professional CCTV installation services offering high-quality cameras.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
-</div>
 
     <!-- About Us Section Start -->
     <div class="about-us">
@@ -738,148 +767,153 @@
                     <div class="about-us-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">We Provide</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Secure Your Home with </span> Expert-Backed Protection</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">We provide a latest and modern technology of security equipment. Our focus on give best security systems. Always helping experts for your security.</p>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Secure Your Home
+                                    with </span> Expert-Backed Protection</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">We provide a latest and modern technology of
+                                security equipment. Our focus on give best security systems. Always helping experts for your
+                                security.</p>
                         </div>
                         <div class="commitment-list wow fadeInUp" data-wow-delay="0.6s">
-                        <ul>
-                            <li>New Homeowners</li>
-                            <li>Relocating Homeowners</li>
-                            <li>Second Homeowners</li>
-                            <li>Upgrading Existing Security</li>
-                        </ul>
-                    </div>
-                    </br>
+                            <ul>
+                                <li>New Homeowners</li>
+                                <li>Relocating Homeowners</li>
+                                <li>Second Homeowners</li>
+                                <li>Upgrading Existing Security</li>
+                            </ul>
                         </div>
-                        <div class="about-us-btn" style="margin-top:20px;">
-                            <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
+                        </br>
+                    </div>
+                    <div class="about-us-btn" style="margin-top:20px;">
+                        <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="our-testimonials pt-5">
+        <div class="container">
+
+            <div class="row section-row">
+                <div class="col-lg-12">
+                    <div class="section-title section-title-center">
+                        <h3 class="wow fadeInUp">Resources</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
+                            Get Connected to <span>Home Defender Experts Near You!</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BLOCK 1 -->
+            <div class="about-us">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="about-us-content">
+                                <div class="section-title">
+                                    <h3 class="wow fadeInUp">We Provide</h3>
+                                    <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
+                                        <span>Essential Security</span>
+                                    </h2>
+                                    <p class="wow fadeInUp" data-wow-delay="0.4s">
+                                        Want to protect what you care about most – your family and your home? Our Essential
+                                        Home Security package is professionally installed security that you can arm and
+                                        disarm from anywhere and is backed up by award-winning, 24/7 monitoring.
+                                    </p>
+                                </div>
+                                <div class="about-us-btn" style="margin-top:20px;">
+                                    <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
+                                </div>
+                                </br>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="about-us-images">
+                                <div class="about-img-1">
+                                    <figure class="image-anime reveal">
+                                        <img src="/frontend/my-img/essential-security.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-us">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="about-us-images">
+                                <div class="about-img-1">
+                                    <figure class="image-anime reveal">
+                                        <img src="/frontend/my-img/smart-home.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about-us-content">
+                                <div class="section-title">
+                                    <h3 class="wow fadeInUp">We Provide</h3>
+                                    <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
+                                        <span>Home Automation</span>
+                                    </h2>
+                                    <p class="wow fadeInUp" data-wow-delay="0.4s">
+                                        Want to keep an eye on your home? Our Home Automation package introduces video to
+                                        your security solution. Know what’s happening inside or outside your home with all
+                                        features of the Essential Security package.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="about-us-btn" style="margin-top:20px;">
+                                <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-us">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="about-us-content">
+                                <div class="section-title">
+                                    <h3 class="wow fadeInUp">We Provide</h3>
+                                    <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
+                                        <span>Connected Home</span>
+                                    </h2>
+                                    <p class="wow fadeInUp" data-wow-delay="0.4s">
+                                        Ready to get really smart? The Connected Home package protects your home and adds
+                                        next-level convenience with video, energy management, and remote access control
+                                        features.
+                                    </p>
+                                </div>
+                                <div class="about-us-btn" style="margin-top:20px;">
+                                    <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
+                                </div>
+                                </br>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="about-us-images">
+                                <div class="about-img-1">
+                                    <figure class="image-anime reveal">
+                                        <img src="/frontend/my-img/home.avif" alt="">
+                                    </figure>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-<div class="our-testimonials pt-5">
-    <div class="container">
-
-        <div class="row section-row">
-            <div class="col-lg-12">
-                <div class="section-title section-title-center">
-                    <h3 class="wow fadeInUp">Resources</h3>
-                    <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
-                        Get Connected to <span>Home Defender Experts Near You!</span>
-                    </h2>
-                </div>
-            </div>
-        </div>
-
-        <!-- BLOCK 1 -->
-        <div class="about-us">
-            <div class="container">
-                <div class="row align-items-center">
-
-                    <div class="col-lg-6">
-                        <div class="about-us-content">
-                            <div class="section-title">
-                                <h3 class="wow fadeInUp">We Provide</h3>
-                                <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
-                                    <span>Essential Security</span>
-                                </h2>
-                                <p class="wow fadeInUp" data-wow-delay="0.4s">
-                                    Want to protect what you care about most – your family and your home? Our Essential Home Security package is professionally installed security that you can arm and disarm from anywhere and is backed up by award-winning, 24/7 monitoring.
-                                </p>
-                            </div>
-                            <div class="about-us-btn" style="margin-top:20px;">
-                                <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
-                            </div>
-                            </br>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="about-us-images">
-                            <div class="about-img-1">
-                                <figure class="image-anime reveal">
-                                    <img src="/frontend/my-img/essential-security.jpg" alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="about-us">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about-us-images">
-                            <div class="about-img-1">
-                                <figure class="image-anime reveal">
-                                    <img src="/frontend/my-img/smart-home.jpg" alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="about-us-content">
-                            <div class="section-title">
-                                <h3 class="wow fadeInUp">We Provide</h3>
-                                <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
-                                    <span>Home Automation</span>
-                                </h2>
-                                <p class="wow fadeInUp" data-wow-delay="0.4s">
-                                    Want to keep an eye on your home? Our Home Automation package introduces video to your security solution. Know what’s happening inside or outside your home with all features of the Essential Security package.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="about-us-btn" style="margin-top:20px;">
-                            <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="about-us">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about-us-content">
-                            <div class="section-title">
-                                <h3 class="wow fadeInUp">We Provide</h3>
-                                <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
-                                    <span>Connected Home</span>
-                                </h2>
-                                <p class="wow fadeInUp" data-wow-delay="0.4s">
-                                    Ready to get really smart? The Connected Home package protects your home and adds next-level convenience with video, energy management, and remote access control features.
-                                </p>
-                            </div>
-
-                            <div class="about-us-btn" style="margin-top:20px;">
-                                <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
-                            </div>
-                            </br>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="about-us-images">
-                            <div class="about-img-1">
-                                <figure class="image-anime reveal">
-                                    <img src="/frontend/my-img/home.avif" alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
     <!-- Our Testimonials Section Start -->
     <div class="our-testimonials">
@@ -888,9 +922,10 @@
                 <div class="col-lg-12">
                     <div class="section-title section-title-center">
                         <h3 class="wow fadeInUp">testimonials</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">We are <span>Trusted 15+   </span>Countries Worldwide</h2>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">We are <span>Trusted 15+
+                            </span>Countries Worldwide</h2>
                     </div>
-                </div>               
+                </div>
             </div>
 
             <div class="row">
@@ -910,8 +945,8 @@
                                                 <div class="author-content">
                                                     <h3>Emily Carter</h3>
                                                     <p>Chicago, Illinois</p>
-                                                </div>  
-                                            </div>        
+                                                </div>
+                                            </div>
                                             <div class="testimonial-quote">
                                                 <img src="/frontend/images/testimonial-quote.svg" alt="">
                                             </div>
@@ -921,11 +956,14 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>                                   
-                                        </div>                              
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
                                         <div class="testimonial-content">
-                                            <p>"The team at Secured Home Security provided excellent service from start to finish. They guided me through every step, from choosing the right package to the installation process. Their professionalism and attention to detail were impressive, making the whole experience smooth and hassle-free."</p>
-                                        </div>                              
+                                            <p>"The team at Secured Home Security provided excellent service from start to
+                                                finish. They guided me through every step, from choosing the right package
+                                                to the installation process. Their professionalism and attention to detail
+                                                were impressive, making the whole experience smooth and hassle-free."</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -940,8 +978,8 @@
                                                 <div class="author-content">
                                                     <h3>Michael Anderson</h3>
                                                     <p>Los Angeles, California</p>
-                                                </div>  
-                                            </div>        
+                                                </div>
+                                            </div>
                                             <div class="testimonial-quote">
                                                 <img src="/frontend/images/testimonial-quote.svg" alt="">
                                             </div>
@@ -951,13 +989,16 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>                                   
-                                        </div>                                   
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
                                         <div class="testimonial-content">
-                                            <p>"Secured Home Security has completely transformed the safety of our home. The system is
-                                                incredibly reliable and easy to use, giving us peace of mind 24/7. The smart features are top-notch, and I
-                                                love the convenience of controlling everything from my phone. Highly recommend it to anyone looking for a solid security solution!"</p>
-                                        </div>                              
+                                            <p>"Secured Home Security has completely transformed the safety of our home. The
+                                                system is
+                                                incredibly reliable and easy to use, giving us peace of mind 24/7. The smart
+                                                features are top-notch, and I
+                                                love the convenience of controlling everything from my phone. Highly
+                                                recommend it to anyone looking for a solid security solution!"</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -972,8 +1013,8 @@
                                                 <div class="author-content">
                                                     <h3>Sarah Johnson</h3>
                                                     <p>Dallas, Texas</p>
-                                                </div>  
-                                            </div>        
+                                                </div>
+                                            </div>
                                             <div class="testimonial-quote">
                                                 <img src="/frontend/images/testimonial-quote.svg" alt="">
                                             </div>
@@ -983,12 +1024,15 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>                                   
-                                        </div>                           
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
                                         <div class="testimonial-content">
-                                            <p>"The support from Secured Home Security has been outstanding! Whenever I had questions or needed help with
-                                                the system, their team was always quick to respond and incredibly helpful. It’s reassuring to know that they are just a call away whenever I need assistance. Exceptional customer support!"</p>
-                                        </div>                              
+                                            <p>"The support from Secured Home Security has been outstanding! Whenever I had
+                                                questions or needed help with
+                                                the system, their team was always quick to respond and incredibly helpful.
+                                                It’s reassuring to know that they are just a call away whenever I need
+                                                assistance. Exceptional customer support!"</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1002,125 +1046,135 @@
             </div>
         </div>
     </div>
-        <div class="about-us">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about-us-images">
-                            <div class="about-img-1">
-                                <figure class="image-anime reveal">
-                                    <img src="/frontend/my-img/home-solution.jpg" alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="about-us-content">
-                            <div class="section-title">
-                                <h3 class="wow fadeInUp">We Provide</h3>
-                                <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Home security solutions </span> </h2>
-                                <p class="wow fadeInUp" data-wow-delay="0.4s">Securing the things you treasure most — like your family, home and valuables.
-                                </br>
-                                </br>
-                                    Your family. Your home. Everything you own. You can’t always be there to protect what you care about most. But with Secured Home Security, you’ll benefit from multiple monitoring centers that ensure that help is always near and a single app to control all of your connected devices.
-                                </br>
-                                </br>
-                                    From monitored burglar and fire alarms, to video, smart lights, locks, doorbell cameras and thermostats…even personal emergency response…enjoy comfort and convenience knowing your home and loved ones are protected.
-                                </br>
-                                </br>
-                                    Choose Secured Home Security and check off one less thing to worry about in your busy lifestyle!</p>
-                            </div>
-                            </div>
-                            <div class="about-us-btn" style="margin-top:20px;">
-                                <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
-                            </div>
+    <div class="about-us">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-us-images">
+                        <div class="about-img-1">
+                            <figure class="image-anime reveal">
+                                <img src="/frontend/my-img/home-solution.jpg" alt="">
+                            </figure>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-    <div class="about-us">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="about-us-content">
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">We Provide</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
-                            <span>Business security solutions</span>
-                        </h2>
-
-                        <p class="wow fadeInUp" data-wow-delay="0.4s">
-                           As a business owner, you work hard to make your business succeed, it’s your livelihood, so it’s important to protect it against internal and external crime, fire and environmental hazards.
-                            <br><br>
-                            Our security experts create a security solution based on the needs of your business. We ask the right questions, get to know your business objectives, opportunities and challenges. Then we find the right mix of products and services that are the perfect fit. And we’re there for you beyond that, every step of the way, understanding that your needs may evolve as your businesses grows or changes.
-                            <br><br>
-                            From consultation and design, to installation, monitoring and service, we integrate our products to provide smart, cost-effective, quality security solutions for you.
-                           
-                        </p>
+                <div class="col-lg-6">
+                    <div class="about-us-content">
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">We Provide</h3>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Home security
+                                    solutions </span> </h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">Securing the things you treasure most — like
+                                your family, home and valuables.
+                                </br>
+                                </br>
+                                Your family. Your home. Everything you own. You can’t always be there to protect what you
+                                care about most. But with Secured Home Security, you’ll benefit from multiple monitoring
+                                centers that ensure that help is always near and a single app to control all of your
+                                connected devices.
+                                </br>
+                                </br>
+                                From monitored burglar and fire alarms, to video, smart lights, locks, doorbell cameras and
+                                thermostats…even personal emergency response…enjoy comfort and convenience knowing your home
+                                and loved ones are protected.
+                                </br>
+                                </br>
+                                Choose Secured Home Security and check off one less thing to worry about in your busy
+                                lifestyle!</p>
+                        </div>
                     </div>
-
                     <div class="about-us-btn" style="margin-top:20px;">
                         <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
                     </div>
-                </br>
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="about-us-images">
-                    <div class="about-img-1">
-                        <figure class="image-anime reveal">
-                            <img src="/frontend/my-img/meeting.jpg" alt="">
-                        </figure>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-<div class="our-feature dark-section" style="text-align:center; padding:60px 0;">
-    <div class="container">
-
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">let's connect</h3>
-                    <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
-                        <span>We’re always there for you with 24/7 award-winning monitoring.</span>
-                    </h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="row justify-content-center mt-4">
-            <!-- Box 2 -->
-            <div class="cta-box-body wow fadeInUp" data-wow-delay="0.6s" style="justify-content: center;">
-                <div class="cta-box-item">
-                    <div class="icon-box">
-                        <img src="/frontend/images/icon-phone.svg" alt="">
-                    </div>
-                    <div class="cta-box-item-content">
-                        <p>Smart Security,Best Engineers</p>
-                        <h3><a href="tel:1-888-447-6320">+(1) 888 447 6320</a></h3>
-                    </div>
-                </div>
-                <div class="cta-box-item">
-                    <div class="icon-box">
-                        <img src="/frontend/images/icon-phone.svg" alt="">
-                    </div>
-                    <div class="cta-box-item-content">
-                        <p>Safe & Trusted Company</p>
-                        <h3><a href="tel:1-888-447-6320">+(1) 888 447 6320</a></h3>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    </div>
 
+    <div class="about-us">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-us-content">
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">We Provide</h3>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
+                                <span>Business security solutions</span>
+                            </h2>
+
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">
+                                As a business owner, you work hard to make your business succeed, it’s your livelihood, so
+                                it’s important to protect it against internal and external crime, fire and environmental
+                                hazards.
+                                <br><br>
+                                Our security experts create a security solution based on the needs of your business. We ask
+                                the right questions, get to know your business objectives, opportunities and challenges.
+                                Then we find the right mix of products and services that are the perfect fit. And we’re
+                                there for you beyond that, every step of the way, understanding that your needs may evolve
+                                as your businesses grows or changes.
+                                <br><br>
+                                From consultation and design, to installation, monitoring and service, we integrate our
+                                products to provide smart, cost-effective, quality security solutions for you.
+                            </p>
+                        </div>
+                        <div class="about-us-btn" style="margin-top:20px;">
+                            <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
+                        </div>
+                        </br>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-us-images">
+                        <div class="about-img-1">
+                            <figure class="image-anime reveal">
+                                <img src="/frontend/my-img/meeting.jpg" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="our-feature dark-section" style="text-align:center; padding:60px 0;">
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">let's connect</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
+                            <span>We’re always there for you with 24/7 award-winning monitoring.</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <!-- Box 2 -->
+                <div class="cta-box-body wow fadeInUp" data-wow-delay="0.6s" style="justify-content: center;">
+                    <div class="cta-box-item">
+                        <div class="icon-box">
+                            <img src="/frontend/images/icon-phone.svg" alt="">
+                        </div>
+                        <div class="cta-box-item-content">
+                            <p>Smart Security,Best Engineers</p>
+                            <h3><a href="tel:1-888-447-6320">+(1) 888 447 6320</a></h3>
+                        </div>
+                    </div>
+                    <div class="cta-box-item">
+                        <div class="icon-box">
+                            <img src="/frontend/images/icon-phone.svg" alt="">
+                        </div>
+                        <div class="cta-box-item-content">
+                            <p>Safe & Trusted Company</p>
+                            <h3><a href="tel:1-888-447-6320">+(1) 888 447 6320</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection

@@ -26,8 +26,8 @@ use App\Http\Controllers\Admin\ItemcategoryController;
 
 //End of use statements
 
-Route::middleware(['auth', 'admin', 'preventBackHistory'])->group(function () {
-    Route::prefix('admin')->name('admin.')->group(function () {
+        Route::middleware(['auth', 'admin', 'preventBackHistory'])->group(function () {
+        Route::prefix('admin')->name('admin.')->group(function () {
         // Slider
         Route::resource('cruds', CrudController::class);
         Route::post('cruds/data', [CrudController::class, 'data'])->name('cruds.data');
