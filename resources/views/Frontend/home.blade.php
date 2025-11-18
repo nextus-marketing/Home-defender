@@ -14,6 +14,9 @@
 .our-testimonials {
     padding: 10px 0;
 }
+.about-us {
+    padding: 9px 0 100px;
+}
 </style>
     <div class="hero dark-section parallaxie">
         <div class="container">

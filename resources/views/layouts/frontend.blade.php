@@ -332,11 +332,10 @@ document.addEventListener("DOMContentLoaded", function () {
                         <!-- Footer Links Start -->
                         <div class="footer-links">
                             <h3>About Solutions</h3>
-                            <p>At <b>Home Defender</b> , we strive to deliver security products and monitoring systems that revolutionize the way people protect, monitor, and safeguard their homes and businesses.</p>
+                            <p>At <b class="heightlite">Home Defender</b> , we strive to deliver security products and monitoring systems that revolutionize the way people protect, monitor, and safeguard their homes and businesses.</p>
                         </div>
                         <!-- Footer Links End -->
 
-                        
                     </div>
                     <!-- About Footer End -->               
                 </div>
