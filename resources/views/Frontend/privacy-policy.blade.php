@@ -15,6 +15,7 @@
         }
     }
 </style>
+
 <div class="page-header parallaxie">
 		<div class="container">
 			<div class="row align-items-center">
@@ -35,9 +36,9 @@
 <div class="post-content">
     <!-- Post Entry Start -->
     <div class="post-entry">
-</br>
-</br>
-</br>
+    </br>
+    </br>
+    </br>
         <p>A properly installed CCTV system not only helps in crime prevention but also aids in investigations by providing clear and recorded footage. Businesses benefit from increased employee and asset protection, while homeowners gain peace of mind knowing their loved ones and property are secure. Whether for residential, commercial, or industrial purposes, investing in a reliable CCTV installation is a proactive approach to safety and surveillance.</p>
 
         <p>In today's evolving world, security is more important than ever. Our blog provides in-depth articles on CCTV technology, surveillance best practices, and innovative security solutions to help you make informed decisions. Whether you're a homeowner, business owner, or security enthusiast, our expert insights will keep you updated on the best ways to protect what matters most.</p>
@@ -96,11 +97,8 @@
             <strong>Address:</strong> 9620 Hillock ct, Burke VA, 22015
         </p>
 
-
         <p data-wow-delay="3s">By using our services, you consent to the terms of this Privacy Policy.</p>
-
     </div>
-    <!-- Post Entry End -->
 </div>
 
 @endsection

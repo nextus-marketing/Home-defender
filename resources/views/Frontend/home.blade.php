@@ -876,7 +876,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="about-us">
                 <div class="container">
                     <div class="row align-items-center">
@@ -899,7 +898,6 @@
                                 </br>
                             </div>
                         </div>
-
                         <div class="col-lg-6">
                             <div class="about-us-images">
                                 <div class="about-img-1">
@@ -1102,7 +1100,6 @@
                             <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
                                 <span>Business security solutions</span>
                             </h2>
-
                             <p class="wow fadeInUp" data-wow-delay="0.4s">
                                 As a business owner, you work hard to make your business succeed, it’s your livelihood, so
                                 it’s important to protect it against internal and external crime, fire and environmental
@@ -1133,14 +1130,12 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 
     <div class="our-feature dark-section" style="text-align:center; padding:60px 0;">
         <div class="container">
-
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title">
@@ -1151,7 +1146,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="row justify-content-center mt-4">
                 <!-- Box 2 -->
                 <div class="cta-box-body wow fadeInUp" data-wow-delay="0.6s" style="justify-content: center;">

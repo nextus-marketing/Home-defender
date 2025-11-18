@@ -89,7 +89,7 @@ use App\Http\Controllers\Admin\ItemcategoryController;
         Route::post('products/list',[ProductController::class, 'list'])->name('products.list');
         Route::post('products/change-home_featured-status', [ProductController::class, 'changeHomeFeaturedStatus'])->name('products.change.home_featured.status');
         Route::post('products/change-status',[ProductController::class, 'changeStatus'])->name('products.change.status');
-
+            
         // Service
         Route::resource('services', ServiceController::class);
         Route::post('services/data', [ServiceController::class, 'data'])->name('services.data');
