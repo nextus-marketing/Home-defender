@@ -957,7 +957,7 @@
                                             <i class="fa-solid fa-star"></i>
                                         </div>
                                         <div class="testimonial-content">
-                                            <p>"The team at Secured Home Security provided excellent service from start to
+                                        <p>"The team at Secured Home Security provided excellent service from start to
                                                 finish. They guided me through every step, from choosing the right package
                                                 to the installation process. Their professionalism and attention to detail
                                                 were impressive, making the whole experience smooth and hassle-free."</p>

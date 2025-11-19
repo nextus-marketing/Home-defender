@@ -316,7 +316,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 </div>
                                 <div class="footer-contact-item-content">
                                     <p>location</p>
-                                    <h3> Burke VA, 22015</h3>
+                                    <h3>Jersey City, NJ 07097</h3>
                                 </div>
                             </div>
                             <!-- Footer Contact Item End -->

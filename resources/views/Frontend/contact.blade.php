@@ -85,7 +85,7 @@
                             </div>
                             <div class="contact-item-content">
                                 <p>email address</p>
-                                <h3><a href="mailto:info@homedefender.net">info@homedefender.net</a></h3>
+                                <h3 style="font-size: 19px;"><a href="mailto:info@homedefender.net">info@homedefender.net</a></h3>
                             </div>
                         </div>
                         <div class="contact-info-item location-item wow fadeInUp" data-wow-delay="0.4s">
@@ -94,7 +94,7 @@
                             </div>
                             <div class="contact-item-content">
                                 <p>location</p>
-                                <h3>9620 Hillock ct, Burke VA, 22015</h3>
+                                <h3>Jersey City, NJ 07097</h3>
                             </div>
                         </div>
                     </div>

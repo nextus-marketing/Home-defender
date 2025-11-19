@@ -94,7 +94,7 @@
 
        <p>
             <strong>Phone:</strong> <a href="tel:+18884476320">+1-888-447-6320</a><br>
-            <strong>Address:</strong> 9620 Hillock ct, Burke VA, 22015
+            <strong>Address:</strong> Jersey City, NJ 07097
         </p>
 
         <p data-wow-delay="3s">By using our services, you consent to the terms of this Privacy Policy.</p>
