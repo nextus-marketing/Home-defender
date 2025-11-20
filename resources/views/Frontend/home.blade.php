@@ -25,7 +25,8 @@
     background-position: center center;
     background-size: cover;
     padding: 60px 0;
-}
+    }
+    
     </style>
     <div class="hero dark-section parallaxie">
         <div class="container">
@@ -219,7 +220,7 @@
                             </div>
                             <div class="need-help-content">
                                 <p>Call for Any Kind Of Services</p>
-                                <h3><a href="tel:+15714501674">+(1) 571 - 450 - 1674</a></h3>
+                                <h3><a href="tel:18884476320">+1(888) 447-6320</a></h3>
                             </div>
                         </div>
                     </div>
@@ -416,7 +417,7 @@
                             </div>
                         </div>
                         <div class="our-support-btn wow fadeInUp" data-wow-delay="0.8s">
-                            <a href="/contact" class="btn-default">contact now</a>
+                            <a href="tel:1-888-447-6320" class="btn-default">contact now</a>
                         </div>
                     </div>
                 </div>
@@ -443,7 +444,7 @@
                                 </div>
                                 <div class="cta-box-item-content">
                                     <p>Smart Security,Best Engineers</p>
-                                    <h3><a href="tel:1-888-447-6320">+(1) 888 447 6320</a></h3>
+                                    <h3><a href="tel:1-888-447-6320">+1(888) 447-6320</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -493,7 +494,7 @@
                             </div>
                             <div class="about-contact-box-content">
                                 <p>Call Directly 24/7</p>
-                                <h3><a href="tel:1-888-447-6320">+(1) 888- 447 6320</a></h3>
+                                <h3><a href="tel:1-888-447-6320">+1(888) 447-6320</a></h3>
                             </div>
                         </div>
                         <div class="about-us-btn">
@@ -866,16 +867,8 @@
                         </div>
                         <div class="cta-box-item-content">
                             <p>Smart Security,Best Engineers</p>
-                            <h3><a href="tel:1-888-447-6320">+(1) 888 447 6320</a></h3>
-                        </div>
-                    </div>
-                    <div class="cta-box-item">
-                        <div class="icon-box">
-                            <img src="/frontend/images/icon-phone.svg" alt="">
-                        </div>
-                        <div class="cta-box-item-content">
-                            <p>Safe & Trusted Company</p>
-                            <h3><a href="tel:1-888-447-6320">+(1) 888 447 6320</a></h3>
+                            <h3><a href="tel:1-888-447-6320">+1(888) 447-6320
+</a></h3>
                         </div>
                     </div>
                 </div>

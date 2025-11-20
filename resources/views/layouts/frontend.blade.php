@@ -163,7 +163,7 @@
                         
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="/contact" class="btn-default">Get Support</a>
+                            <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
                         </div>
                         <!-- Header Btn End -->
 					</div>
@@ -185,13 +185,13 @@
         <div class="promo-popup">
             <!-- Logo Centered -->
             <div class="popup-logo">
-                <img src="/frontend/my-img/logo_new.png" alt="Logo">
+                <img src="/frontend/my-img/logo/logo-1.png" alt="Logo">
             </div>
             <span class="close-popup">&times;</span>
             <h2>Get <span style="color:#e60000;">3 Months FREE</span> Monitoring!</h2>
             <p>Call now and secure your home with our exclusive limited-time offer.</p>
             <div class="our-support-btn">
-                <a href="/contact" class="btn-default">Contact Now</a>
+                <a href="tel:1-888-447-6320" class="btn-default">Contact Now</a>
             </div>
         </div>
     </div>
@@ -218,7 +218,7 @@
 
 
 
-<a href="tel:+18884476320" class="call-now-btn">
+<a href="tel:1-888-447-6320" class="call-now-btn">
     <i class="fa fa-phone"></i> Call Now
 </a>
 
@@ -295,7 +295,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 </div>
                                 <div class="footer-contact-item-content">
                                     <p>phone number</p>
-                                    <h3><a href="tel:1-888-447-6320">+(1) 888 447 6320</a></h3>
+                                    <h3><a href="tel:18884476320">+1(888) 447-6320</a></h3>
                                 </div>
                             </div>
                             <!-- Footer Contact Item End -->

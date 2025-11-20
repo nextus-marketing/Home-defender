@@ -1,32 +1,7 @@
 @extends('layouts.frontend')
 @section('title') Contact Us | Home Defender @endsection
 @section('content')
-<style>
-/* Fix content sticking to the left on laptop screens */
-@media (max-width: 1400px) {
-    .page-contact-us .container,
-    .contact-form-section .container {
-        padding-left: 30px !important;
-        padding-right: 30px !important;
-    }
 
-    .contact-us-content,
-    .contact-info-list,
-    .contact-us-form {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-}
-
-/* Extra fix for 1366px laptops */
-@media (max-width: 1200px) {
-    .page-contact-us .row,
-    .contact-form-section .row {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-    }
-}
-</style>
 
 <!-- Page Header Start -->
 	<div class="page-header parallaxie">
@@ -76,7 +51,7 @@
                             </div>
                             <div class="contact-item-content">
                                 <p>phone number</p>
-                                <h3><a href="tel:+456789254">+(1) 456 789 254</a></h3>
+                                <h3><a href="tel:+18884476320">+1(888) 447-6320</a></h3>
                             </div>
                         </div>
                         <div class="contact-info-item wow fadeInUp" data-wow-delay="0.2s">
@@ -85,7 +60,7 @@
                             </div>
                             <div class="contact-item-content">
                                 <p>email address</p>
-                                <h3 style="font-size: 19px;"><a href="mailto:info@homedefender.net">info@homedefender.net</a></h3>
+                                <h3 style="font-size: 17px;"><a href="mailto:info@homedefender.net">info@homedefender.net</a></h3>
                             </div>
                         </div>
                         <div class="contact-info-item location-item wow fadeInUp" data-wow-delay="0.4s">

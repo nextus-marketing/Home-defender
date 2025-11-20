@@ -33,11 +33,6 @@
     margin-top: 25px;
 }
 
-@media only screen and (max-width: 767px) {
-    .about-img-1 {
-        padding-right: 6px;
-    }
-}
 
 /* flot icon */
 .call-now-btn {
@@ -256,4 +251,24 @@
 .about-img-1 {
     position: relative;
     padding-right: 46px;
+}
+
+@media (max-width: 767px) {
+   .about-img-1 {
+    position: relative;
+    padding-right: 0px;
+}
+}
+
+
+.row {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+@media (max-width: 767px) {
+    .row {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 }

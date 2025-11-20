@@ -55,31 +55,6 @@
                                  Stay ahead with insights that help you protect your home, business, and assets effectively.
                                   Gain valuable knowledge on advanced CCTV systems.</p>           
                         </div>
-                        <div class="post-tag-links">
-                            <div class="row align-items-center">
-                                <div class="col-lg-8">
-                                    <div class="post-tags wow fadeInUp" data-wow-delay="0.5s">
-                                        <span class="tag-links">
-                                            Tags:
-                                            <a href="#">Secure</a>
-                                            <a href="#">monitoring</a>
-                                            <a href="#">protect</a>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4">
-                                    <div class="post-social-sharing wow fadeInUp" data-wow-delay="0.5s">
-                                        <ul>
-                                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

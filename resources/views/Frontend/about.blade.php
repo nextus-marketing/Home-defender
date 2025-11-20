@@ -3,8 +3,8 @@
 @section('title') About Us | Home Defender @endsection
 @section('content')
 <style>
-    .page-team {
-    padding: 5px 0 70px;
+ .page-team {
+    padding: 5px 0 10px;
 }
 .our-testimonials {
     padding: 10px 0;
@@ -277,15 +277,15 @@
                             <li>Upgrading Existing Security</li>
                         </ul>
                     </div>
-
+                    </br>
                     <div class="about-us-btn" style="margin-top:20px;">
                         <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
                     </div>
                 </div>
             </div>
-
+            
             <!-- Image Second -->
-            <div class="col-lg-6">
+            <div class="col-lg-6 mt-2">
                 <div class="about-us-images">
                     <div class="about-img-1">
                         <figure class="image-anime reveal">
@@ -590,13 +590,29 @@
                     <div class="team-image">
                         <a href="#0" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="/frontend/my-img/person-3.jpg" alt="">
+                                <img src="/frontend/my-img/person-4.jpg" alt="">
                             </figure>
                         </a>
                     </div>
                     <div class="team-content text-center">
                         <h3><a href="#0">Edward Smith</a></h3>
                         <p>Investment Expert</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="team-item wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="team-image">
+                        <a href="#0" data-cursor-text="View">
+                            <figure class="image-anime">
+                                <img src="/frontend/my-img/person-3.jpg" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="team-content text-center">
+                        <h3><a href="#0">Jonathan Blake</a></h3>
+                        <p>Head of Client Relations</p>
                     </div>
                 </div>
             </div>

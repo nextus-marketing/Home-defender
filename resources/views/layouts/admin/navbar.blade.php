@@ -107,6 +107,18 @@
         </li>
         @endcan
 
+        @can('blog-view')
+            <li class="sidebar-item">
+                <a class="sidebar-link @if (Route::is('admin.blogs.*')) active @endif"
+                    href="{{ route('admin.blogs.index') }}" aria-expanded="false">
+                    <span>
+                        <i class="ti ti-topology-star-3"></i>
+                    </span>
+                    <span class="hide-menu">Blogs</span>
+                </a>
+            </li>
+        @endcan
+
         <!-- @can('setting-view')
         <li class="sidebar-item">
             <a class="sidebar-link @if(Route::is('admin.settings.*')) active @endif" href="{{ route('admin.settings.index') }}" aria-expanded="false">
