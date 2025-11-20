@@ -2,6 +2,9 @@
 @section('title')
     Home Defender | Affordable Smart Home Security Solutions
 @endsection
+@section('meta')
+<meta name="description" content="Buy quality OEM used engines and transmissions in the USA. Affordable, reliable auto parts with warranty and fast nationwide shipping.">
+@endsection
 @section('content')
     <style>
         .why-choose-us {

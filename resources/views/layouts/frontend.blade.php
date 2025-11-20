@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<meta name="description" content="Home Defender offers reliable smart home security solutions with 24/7 monitoring to protect your family. Get 3 Months of Free Monitoring! Call Now for Details."/>
+	
     <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
     <link rel="canonical" href="https://homedefender.net/"/>
 	<!-- Favicon Icon -->
@@ -33,6 +33,13 @@
 	<link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
     <!-- Mouse Cursor Css File -->
 	<link rel="stylesheet" href="/frontend/css/my.css">
+
+     @if(View::hasSection('meta'))
+    @yield('meta')
+@elseif(View::hasSection('meta_description'))
+    <meta name="description" content="@yield('meta_description')">
+@endif
+    @yield('structured_data')
     
  <script type="application/ld+json" class="rank-math-schema">
 {

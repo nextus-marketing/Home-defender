@@ -1,8 +1,64 @@
 @extends('layouts.frontend')
+
 @section('title')
-    Blog Details | Home Defender
+    {{ $blog->meta_title }}
 @endsection
+
+@section('meta_description')
+    {{ $blog->meta_description }}
+@endsection
+
 @section('content')
+@section('structured_data')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ url()->current() }}"
+      },
+      "headline": "{{ addslashes($blog->meta_title ?? $blog->title) }}",
+      "description": "{{ addslashes(strip_tags($blog->meta_description ?? Str::limit($blog->content ?? '', 150))) }}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ addslashes($blog->author_name ?? 'Admin') }}"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "OEM Used Car Part",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ url('/frontend/my-img/logo/logo-2.png') }}"
+        }
+      },
+      "datePublished": "{{ $blog->created_at->toIso8601String() }}",
+      "dateModified": "{{ $blog->updated_at->toIso8601String() }}"
+    }
+    @if(!empty($blog->faqs) && count($blog->faqs) > 0)
+    ,
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        @foreach($blog->faqs as $faq)
+        {
+          "@type": "Question",
+          "name": "{{ addslashes($faq['question']) }}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{ addslashes(strip_tags($faq['answer'])) }}"
+          }
+        }@if(!$loop->last),@endif
+        @endforeach
+      ]
+    }
+    @endif
+  ]
+}
+</script>
+@endsection
 <style>
     .page-blog {
     padding: 0px 0;
@@ -11,6 +67,9 @@
     padding: 50px 0;
 }
 .post-entry h3 {
+    font-size: 26px;
+}
+.post-entry h2 {
     font-size: 24px;
 }
 </style>
