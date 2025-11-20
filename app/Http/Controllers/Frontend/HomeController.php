@@ -18,14 +18,14 @@ class HomeController extends Controller
 {
 
 public function index()
-{
-    // $blogs = Blog::where('status', 'ACTIVE')
-    //     ->withCount('visitors')
-    //     ->orderBy('publish_date', 'desc')
-    //     ->paginate(6); 
-    // return view('Frontend.blogs', compact('blogs'));
-    return view('Frontend.blogs');
-}
+    {
+        $blogs = Blog::where('status', 'ACTIVE')
+            ->withCount('visitors')
+            ->orderBy('publish_date', 'desc')
+            ->paginate(6);
+
+        return view('Frontend.blogs', compact('blogs'));
+    }
 
    
     public function blog_details(Request $request, $slug)
