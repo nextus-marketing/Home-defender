@@ -10,7 +10,7 @@
     <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
     <link rel="canonical" href="https://homedefender.net/"/>
 	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/logo/favicon.png">
 	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -145,7 +145,7 @@
 				<div class="container">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="/">
-                        <img src="/frontend/my-img/logo_new.png" alt="Logo" style="width:161px; height: 51px; object-fit:contain;">
+                        <img src="/frontend/my-img/logo/logo-2.png" alt="Logo" style="width:161px; height: 51px; object-fit:contain;">
                     </a>
 					<!-- Logo End -->
 
@@ -279,8 +279,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="main-footer-box">
                         <!-- Footer Logo Start -->
                         <div class="footer-logo">
-                            <img src="/frontend/my-img/logo_new.png" alt="">
+                            <a href="/">
+                                <img src="/frontend/my-img/logo/logo-1.png" alt="The Bookify Logo">
+                            </a>
                         </div>
+
                         <!-- Footer Logo End -->
                         
                         <!-- Footer Contact Details Start -->

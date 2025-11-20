@@ -16,7 +16,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         
         <!-- FAVICON -->
-        <link rel="shortcut icon" type="image/png" href="/frontend/my-img/favicon.png" />
+        <link rel="shortcut icon" type="image/png" href="/frontend/my-img/logo/favicon.png"/>
 
         <!-- BASIC CSS -->
         <link  id="themeColors"  rel="stylesheet" href="/backend/dist/css/style.min.css" />
@@ -57,7 +57,7 @@
                     <div class="brand-logo d-flex align-items-center justify-content-between">
                         <a href="{{ route('admin.dashboard.index') }}" class="text-nowrap logo-img">
 						<!-- add dashbord logo here	 -->
-                        <img src="/frontend/my-img/backend-logo.png" width="180" alt="" />
+                        <img src="/frontend/my-img/logo/logo-1.png" width="180" alt="" />
                         </a>
                         <div class="close-btn d-lg-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
                             <i class="ti ti-x fs-8 text-muted"></i>
@@ -98,7 +98,7 @@
                         
                         <div class="d-block d-lg-none">
                             <!-- Add dashbord logo here     -->
-							<img src="/frontend/my-img/backend-logo.png" width="180" alt="" />
+							<img src="/frontend/my-img/logo/logo-1.png" width="180" alt="" />
                         </div>
                         <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="p-2">

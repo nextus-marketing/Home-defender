@@ -61,9 +61,9 @@
                             <div class="col-sm-8 col-md-6 col-xl-9">
                                 <div class="text-center">
                                 <!-- Add dashbord logo here     -->
-                                <img src="/frontend/my-img/backend-logo.png" width="180" alt="" />
+                                <img src="/frontend/my-img/logo/logo-1.png" width="180" alt="" />
                                     <br /><br />
-                                    <h2 class="mb-3 fs-7 fw-bolder">Welcome to My Dashbord</h2>
+                                    <h2 class="mb-3 fs-7 fw-bolder">Welcome to Home Defender Dashbord</h2>
                                     <p class=" mb-9">Your Admin Dashboard</p>
                                 </div>
                                 <form method="POST" action="{{ route('login') }}">
