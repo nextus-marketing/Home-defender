@@ -252,3 +252,8 @@
     background-size: cover;
     padding: 27px 0;
 }
+
+.about-img-1 {
+    position: relative;
+    padding-right: 46px;
+}
