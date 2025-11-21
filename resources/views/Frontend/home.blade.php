@@ -37,7 +37,7 @@
                 <div class="col-lg-6">
                     <div class="hero-content">
                         <div class="section-title">
-                            <h3 class="wow fadeInUp">welcome to home defender</h3>
+                            <h3 class="wow fadeInUp">welcome to home defender Security</h3>
                             <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">We Are Your Solutions</h1>
                             <p class="wow fadeInUp" data-wow-delay="0.4s">Creating a smart Surveillance for the present and
                                 future</p>
