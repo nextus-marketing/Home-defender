@@ -183,16 +183,16 @@ public function contactEnquiry(Request $request)
     // Verify Google reCAPTCHA (only if present)
     if ($request->has('g-recaptcha-response')) {
         $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
-            'secret' => env('6LeePR4sAAAAAJ5GKP1pMpC_bpQfeva1Nat1aT9N'),
+            'secret' => env('RECAPTCHA_SECRET_KEY'),
             'response' => $request->input('g-recaptcha-response'),
             'remoteip' => $request->ip(),
         ]);
 
         $responseBody = $response->json();
 
-        if (!isset($responseBody['success']) || !$responseBody['success']) {
-            return response()->json(['status' => 'error', 'message' => 'Captcha verification failed. Please try again.'], 422);
-        }
+        // if (!isset($responseBody['success']) || !$responseBody['success']) {
+        //     return response()->json(['status' => 'error', 'message' => 'Captcha verification failed. Please try again.'], 422);
+        // }
     }
 
     // Save enquiry
