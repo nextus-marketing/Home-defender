@@ -125,7 +125,7 @@
                                     </div>
                                     <div class="form-group col-md-12 mb-4 text-center">
                                         <div class="d-inline-block">
-                                            <div class="g-recaptcha" data-sitekey="6LcENB4sAAAAAEGxUINA9babQOy3Y6HJBupxcjBR"></div>
+                                            <div class="g-recaptcha" data-sitekey="6LeePR4sAAAAAJ5GKP1pMpC_bpQfeva1Nat1aT9N"></div>
                                              <div class="field_error" id="captcha-error" style="color:#ff0000; margin-top:5px;"></div>
                                         </div>
                                     </div>
