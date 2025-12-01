@@ -94,9 +94,6 @@
     background-size: cover;
     padding: 60px 0;
     }
-
-
-    
     </style>
     <div class="hero dark-section parallaxie">
         <div class="container">
@@ -111,7 +108,7 @@
                         </div>
                         <div class="hero-body wow fadeInUp" data-wow-delay="0.6s">
                             <div class="hero-btn">
-                                <a href="tel:1-888-447-6320" class="btn-default">Talk to Us</a>
+                                <a href="tel:1-888-447-6320" class="btn-default">Speak With an Expert</a>
                             </div>
                         </div>
                     </div>
@@ -281,7 +278,7 @@
                             </div>
                             <div class="need-help-content">
                                 <p>Call for Any Kind Of Services</p>
-                                <h3><a href="tel:18884476320">+1(888) 447-6320</a></h3>
+                                <h3><a href="tel:18884476320">+1 (888) 447-6320</a></h3>
                             </div>
                         </div>
                     </div>
@@ -323,97 +320,6 @@
     </div>
     <!-- What We Do Section End -->
 
-
-    <!-- Our Services Section Start -->
-    <div class="our-services">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-12">
-                    <div class="section-title section-title-center">
-                        <h3 class="wow fadeInUp">What We Provide</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>We Provide Awesome
-                            </span> Expert Security Service</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item wow fadeInUp">
-                        <div class="service-image">
-                            <a href="#0" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="/frontend/my-img/private-security.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <div class="service-body">
-                            <div class="icon-box">
-                                <img src="/frontend/images/icon-service-item-1.svg" alt="">
-                            </div>
-                            <div class="service-content">
-                                <h3><a href="#0">Private Security</a></h3>
-                                <p>Our trained security officers provide personalized protection solutions, ensuring safety for individuals, residences, and business premises with high vigilance and professionalism.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-image">
-                            <a href="#0" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="/frontend/my-img/bank.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <div class="service-body">
-                            <div class="icon-box">
-                                <img src="/frontend/images/icon-service-item-2.svg" alt="">
-                            </div>
-                            <div class="service-content">
-                                <h3><a href="#0">Banking Sector</a></h3>
-                                <p>We offer specialized security services for financial institutions, safeguarding assets, customers, and staff with advanced surveillance, strict access control, and trained security personnel.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-image">
-                            <a href="#0" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="/frontend/my-img/school.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <div class="service-body">
-                            <div class="icon-box">
-                                <img src="/frontend/images/icon-service-item-3.svg" alt="">
-                            </div>
-                            <div class="service-content">
-                                <h3><a href="#0">Education Institute</a></h3>
-                                <p>Our team ensures a safe learning environment with dedicated campus security, controlled entry systems, and continuous monitoring to protect students, staff, and school property.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-12">
-                    <div class="section-footer-text wow fadeInUp" data-wow-delay="1.2s">
-                        <h3> Let's make <span class="heightlite">something great</span>  work together.</h3>
-                        <div class="our-support-btn wow fadeInUp" data-wow-delay="0.8s" style="margin-top: 20px;">
-                            <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Services Section End -->
 
 
     <!-- Our Support Section Start -->
@@ -477,7 +383,7 @@
                             </div>
                         </div>
                         <div class="our-support-btn wow fadeInUp" data-wow-delay="0.8s">
-                            <a href="tel:1-888-447-6320" class="btn-default">Call now</a>
+                            <a href="tel:1-888-447-6320" class="btn-default">Call for Best Offers</a>
                         </div>
                     </div>
                 </div>
@@ -504,7 +410,7 @@
                                 </div>
                                 <div class="cta-box-item-content">
                                     <p>Smart Security,Best Engineers</p>
-                                    <h3><a href="tel:1-888-447-6320">+1(888) 447-6320</a></h3>
+                                    <h3><a href="tel:1-888-447-6320">+1 (888) 447-6320</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -554,7 +460,7 @@
                             </div>
                             <div class="about-contact-box-content">
                                 <p>Call Directly 24/7</p>
-                                <h3><a href="tel:1-888-447-6320">+1(888) 447-6320</a></h3>
+                                <h3><a href="tel:1-888-447-6320">+1 (888) 447-6320</a></h3>
                             </div>
                         </div>
                         <div class="about-us-btn">
@@ -654,7 +560,7 @@
                         </ul>
                     </div>
                     <div class="about-us-btn" style="margin-top: 30px;">
-                        <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
+                        <a href="tel:1-888-447-6320" class="btn-default">Call for Instant Help</a>
                     </div>
                 </div>
             </div>
@@ -923,7 +829,7 @@
                         </div>
                         <div class="cta-box-item-content">
                             <p>Smart Security,Best Engineers</p>
-                            <h3><a href="tel:1-888-447-6320">+1(888) 447-6320
+                            <h3><a href="tel:1-888-447-6320">+1 (888) 447-6320
                         </a></h3>
                         </div>
                     </div>
@@ -949,7 +855,7 @@
                             </div>
                             <div class="footer-contact-item-content">
                                 <p>phone number</p>
-                                <h3><a href="tel:18884476320">+1(888) 447-6320</a></h3>
+                                <h3><a href="tel:18884476320">+1 (888) 447-6320</a></h3>
                             </div>
                         </div>
 
