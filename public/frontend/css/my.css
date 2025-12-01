@@ -47,25 +47,28 @@
     margin-top: 25px;
 }
 
-
-/* flot icon */
+/* Floating Call Icon */
 .call-now-btn {
     position: fixed;
     bottom: 20px;
     left: 30px;
     background: #d80000;
     color: #fff;
-    padding: 12px 25px;
+    padding: 18px 20px;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
-    display: flex;
+    display: flex !important;
+    opacity: 1 !important;
+    visibility: visible !important;
     align-items: center;
     gap: 8px;
     box-shadow: 0 8px 20px rgba(255, 0, 0, 0.4);
-    animation: floatBtn 2.2s ease-in-out infinite;
-    z-index: 999;
+    z-index: 999999 !important;
+
+    /* NEW Animation */
+    animation: pulseGlow 2s infinite;
 }
 
 /* Phone Icon Style */
@@ -80,23 +83,23 @@
     transform: translateY(-4px);
 }
 
-/* Keyframe Animation */
-@keyframes floatBtn {
+/* ⭐ Pulse Glow Animation */
+@keyframes pulseGlow {
     0% {
-        transform: translateY(0);
+        transform: scale(1.1);
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.5);
     }
-
-    50% {
-        transform: translateY(-8px);
+    70% {
+        transform: scale(1.06);
+        box-shadow: 0 0 20px 12px rgba(255, 0, 0, 0);
     }
-
     100% {
-        transform: translateY(0);
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
     }
 }
 
-/* scroll to top */
-
+/* Scroll To Top Button */
 #scrollTopBtn {
     position: fixed;
     bottom: 20px;
@@ -118,13 +121,14 @@
     z-index: 999;
 }
 
-/* Hover effect */
+/* Hover Effect for Scroll Button */
 #scrollTopBtn:hover {
     background: #d80000;
     transform: translateY(-4px);
     box-shadow: 0 12px 25px rgba(255, 0, 0, 0.5);
 }
 
+/* Menu Styling */
 .main-menu ul li a {
     font-size: 18px;
     font-weight: 600;
@@ -134,6 +138,7 @@
     text-transform: capitalize;
     transition: all 0.3s ease-in-out;
 }
+
 
 /* Popup Overlay */
 /* Overlay */

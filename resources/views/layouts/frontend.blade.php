@@ -227,27 +227,8 @@
 
 
 <a href="tel:1-888-447-6320" class="call-now-btn">
-    <i class="fa fa-phone"></i> Call Now
+    <i class="fa fa-phone"></i>
 </a>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    const callBtn = document.querySelector(".call-now-btn");
-    const heroSection = document.querySelector(".hero");
-
-    function toggleButton() {
-        const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
-
-        if (window.scrollY > heroBottom - 100) {
-            callBtn.classList.add("show");
-        } else {
-            callBtn.classList.remove("show");
-        }
-    }
-
-    window.addEventListener("scroll", toggleButton);
-});
-</script>
 
 
 
