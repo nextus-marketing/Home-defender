@@ -837,11 +837,12 @@
             </div>
         </div>
     </div>
-     <footer class="main-footer">
+    <footer class="main-footer">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="main-footer-box">
+
                     <div class="footer-logo">
                         <a href="/home-ads">
                             <img src="/frontend/my-img/logo/logo-1.png" alt="The Bookify Logo">
@@ -849,6 +850,7 @@
                     </div>
 
                     <div class="footer-contact-details">
+
                         <div class="footer-contact-item">
                             <div class="icon-box">
                                 <img src="/frontend/images/icon-phone.svg" alt="">
@@ -878,8 +880,10 @@
                                 <h3>Jersey City, NJ 07097</h3>
                             </div>
                         </div>
-                    </div>
-                </div>
+
+                    </div> <!-- /.footer-contact-details -->
+
+                </div> <!-- /.main-footer-box -->
             </div>
         </div>
     </div>
@@ -896,4 +900,5 @@
         </div>
     </div>
 </footer>
+
 @endsection
