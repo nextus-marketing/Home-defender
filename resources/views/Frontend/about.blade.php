@@ -86,7 +86,7 @@
                     <div class="our-commitment-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">About Us</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>15 Years of Excellence </span> in Security Solutions</h2>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>15 Years Of Excellence </span> In Security Solutions</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.4s">Home Defender is one of the top 100 security companies in the country by SDM Magazine.
                             </br>
                             With over 15 years of expertise in the field, we have been committed to delivering the best in security and automation solutions. Home Defender has consistently ranked among the top 100 security companies in the nation by SDM Magazine, a testament to our dedication to quality and innovation.
@@ -227,8 +227,8 @@
                     <div class="section-title">
                         <h3 class="wow fadeInUp">We Provide</h3>
                         <h2 class="wow fadeInUp" data-wow-delay="0.2s">
-                            <span>Secure Yourself </span> with the Most-Trusted, 
-                            Easy-To-Use Systems on the Market
+                            <span>Secure Yourself </span> With The Most-Trusted, 
+                            Easy-To-Use Systems On The Market
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.4s">
                             The integrity of your home or business is of utmost importance. 
@@ -351,9 +351,11 @@
                                         <span>Essential Security</span>
                                     </h2>
                                     <p class="wow fadeInUp" data-wow-delay="0.4s">
-                                        Want to protect what you care about most – your family and your home? Our Essential
-                                        Home Security package is professionally installed security that you can arm and
-                                        disarm from anywhere and is backed up by award-winning, 24/7 monitoring.
+                                     Keep your loved ones and home safe with our Essential Home Protection package. 
+                                     Professionally installed and easy to control from your smartphone,
+                                     our system lets you arm and disarm your security from anywhere.
+                                     Enjoy peace of mind knowing your home is monitored 24/7 by
+                                     our award-winning security team.
                                     </p>
                                 </div>
                                 <div class="about-us-btn" style="margin-top:20px;">
@@ -396,9 +398,9 @@
                                         <span>Home Automation</span>
                                     </h2>
                                     <p class="wow fadeInUp" data-wow-delay="0.4s">
-                                        Want to keep an eye on your home? Our Home Automation package introduces video to
-                                        your security solution. Know what’s happening inside or outside your home with all
-                                        features of the Essential Security package.
+                                    Take control of your home like never before. Our Home Automation package adds video monitoring to your security system,
+                                     so you can see what’s happening inside and outside your home in real-time. 
+                                    Enjoy all the features of our Essential Security package, now with enhanced visibility and convenience.
                                     </p>
                                 </div>
                             </div>
@@ -420,9 +422,9 @@
                                         <span>Connected Home</span>
                                     </h2>
                                     <p class="wow fadeInUp" data-wow-delay="0.4s">
-                                        Ready to get really smart? The Connected Home package protects your home and adds
-                                        next-level convenience with video, energy management, and remote access control
-                                        features.
+                                      Experience the future of home protection. Our Connected Home package not only keeps your home safe but
+                                       also brings unmatched convenience with live video monitoring, energy management, 
+                                       and full remote access control. Protect, monitor, and manage your home—all from anywhere.
                                     </p>
                                 </div>
                                 <div class="about-us-btn" style="margin-top:20px;">
@@ -462,8 +464,8 @@
                     <div class="about-us-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">We Provide</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Home security
-                                    solutions </span> </h2>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Home Security
+                                    Solutions </span> </h2>
                             <p class="wow fadeInUp" data-wow-delay="0.4s">Securing the things you treasure most — like
                                 your family, home and valuables.
                                 </br>
@@ -500,7 +502,7 @@
                         <div class="section-title">
                             <h3 class="wow fadeInUp">We Provide</h3>
                             <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
-                                <span>Business security solutions</span>
+                                <span>Business Security Solutions</span>
                             </h2>
                             <p class="wow fadeInUp" data-wow-delay="0.4s">
                                 As a business owner, you work hard to make your business succeed, it’s your livelihood, so

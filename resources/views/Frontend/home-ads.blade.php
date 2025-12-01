@@ -19,6 +19,34 @@
         right: 15px;
     }
 }
+@media only screen and (max-width: 767px) {
+    .what-we-counter-item-content h3 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-logo {
+        padding: 12px 15px 6px 15px; /* even smaller for very small screens */
+    }
+}
+
+/* Desktop (Default) */
+.section-title h1 {
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    cursor: none;
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    .section-title h1 {
+        font-size: 54px;
+    }
+}
+
 
 </style>
 <header class="main-header">
@@ -66,6 +94,8 @@
     background-size: cover;
     padding: 60px 0;
     }
+
+
     
     </style>
     <div class="hero dark-section parallaxie">
@@ -75,7 +105,7 @@
                     <div class="hero-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">welcome to home defender</h3>
-                            <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">We Are Your Solutions</h1>
+                            <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Get 3 Months FREE Monitoring!</h1>
                             <p class="wow fadeInUp" data-wow-delay="0.4s">Creating a smart Surveillance for the present and
                                 future</p>
                         </div>
@@ -260,25 +290,27 @@
                 <div class="col-lg-6">
                     <div class="what-we-counter-image">
                         <div class="what-we-counter-box">
-                            <div class="what-we-counter-item">
-                                <div class="icon-box">
-                                    <img src="/frontend/images/icon-what-we-counter-1.svg" alt="">
+                                <div class="what-we-counter-item">
+                                    <div class="icon-box d-none d-sm-block">
+                                        <img src="/frontend/images/icon-what-we-counter-1.svg" alt="">
+                                    </div>
+
+                                    <div class="what-we-counter-item-content">
+                                        <h3><span class="counter">450</span>+</h3>
+                                        <p>Give development of security for home and offices complexity</p>
+                                    </div>
                                 </div>
-                                <div class="what-we-counter-item-content">
-                                    <h3><span class="counter">450</span>+</h3>
-                                    <p>Give development of security for home and offices complexity</p>
+                                <div class="what-we-counter-item">
+                                    <div class="icon-box d-none d-sm-block">
+                                        <img src="/frontend/images/icon-what-we-counter-2.svg" alt="">
+                                    </div>
+                                    <div class="what-we-counter-item-content">
+                                        <h3><span class="counter">875</span>+</h3>
+                                        <p>We are ready to give you security service in reasonable price</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="what-we-counter-item">
-                                <div class="icon-box">
-                                    <img src="/frontend/images/icon-what-we-counter-2.svg" alt="">
-                                </div>
-                                <div class="what-we-counter-item-content">
-                                    <h3><span class="counter">875</span>+</h3>
-                                    <p>We are ready to give you security service in reasonable price</p>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="what-we-image">
                             <figure>
                                 <img src="/frontend/images/what-we-image.jpg" alt="">

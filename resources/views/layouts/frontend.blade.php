@@ -275,7 +275,7 @@ document.addEventListener("DOMContentLoaded", function () {
             behavior: "smooth"
         });
     });
-</script>
+</script>       
 
 
     <!-- Main Footer Start -->

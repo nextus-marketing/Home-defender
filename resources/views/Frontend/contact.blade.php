@@ -28,7 +28,7 @@
                     <div class="contact-us-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">contact us</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Secure your</span> with us</h2>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Secure Your</span> With Us</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.4s">Have questions or need a customized security solution? Our team is here to assist you. Get in touch with us today.</p>
                         </div>
                         <div class="contact-social-list wow fadeInUp" data-wow-delay="0.6s">
