@@ -145,6 +145,7 @@
 
 
     <!-- Header Start -->
+     @if (!Request::is('home-ads'))
 	<header class="main-header">
 		<div class="header-sticky">
 			<nav class="navbar navbar-expand-lg">
@@ -180,12 +181,13 @@
 			<div class="responsive-menu"></div>
 		</div>
 	</header>
+    @endif
 	<!-- Header End -->
 
 @yield(section: 'content')
 
 
-@if(!Request::is('contact'))
+@if(!Request::is('contact') && !Request::is('home-ads'))
     <!-- Popup Overlay -->
     <div id="promoPopup" class="promo-popup-overlay">
         <div class="promo-popup">
@@ -277,110 +279,89 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     <!-- Main Footer Start -->
-    <footer class="main-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Main Footer Box Start -->
-                    <div class="main-footer-box">
-                        <!-- Footer Logo Start -->
-                        <div class="footer-logo">
-                            <a href="/">
-                                <img src="/frontend/my-img/logo/logo-1.png" alt="The Bookify Logo">
-                            </a>
-                        </div>
-
-                        <!-- Footer Logo End -->
-                        
-                        <!-- Footer Contact Details Start -->
-                        <div class="footer-contact-details">
-                            <!-- Footer Contact Item Start -->
-                            <div class="footer-contact-item">
-                                <div class="icon-box">
-                                    <img src="/frontend/images/icon-phone.svg" alt="">
-                                </div>
-                                <div class="footer-contact-item-content">
-                                    <p>phone number</p>
-                                    <h3><a href="tel:18884476320">+1(888) 447-6320</a></h3>
-                                </div>
-                            </div>
-                            <!-- Footer Contact Item End -->
-
-                            <!-- Footer Contact Item Start -->
-                            <div class="footer-contact-item">
-                                <div class="icon-box">
-                                    <img src="/frontend/images/icon-mail.svg" alt="">
-                                </div>
-                                <div class="footer-contact-item-content">
-                                    <p>email address</p>
-                                    <h3><a href="mailto:info@homedefender.net">info@homedefender.net</a></h3>
-                                </div>
-                            </div>
-                            <!-- Footer Contact Item End -->
-
-                            <!-- Footer Contact Item Start -->
-                            <div class="footer-contact-item">
-                                <div class="icon-box">
-                                    <img src="/frontend/images/icon-location.svg" alt="">
-                                </div>
-                                <div class="footer-contact-item-content">
-                                    <p>location</p>
-                                    <h3>Jersey City, NJ 07097</h3>
-                                </div>
-                            </div>
-                            <!-- Footer Contact Item End -->
-                        </div>
-                        <!-- Footer Contact Details End --> 
+     @if(!Request::is('home-ads'))
+   <footer class="main-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="main-footer-box">
+                    <div class="footer-logo">
+                        <a href="/">
+                            <img src="/frontend/my-img/logo/logo-1.png" alt="The Bookify Logo">
+                        </a>
                     </div>
-                    <!-- Main Footer Box End -->
-                </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <!-- About Footer Start -->
-                    <div class="about-footer">
-                        <!-- Footer Links Start -->
-                        <div class="footer-links">
-                            <h3>About Solutions</h3>
-                            <p>At <b class="heightlite">Home Defender</b> , we strive to deliver security products and monitoring systems that revolutionize the way people protect, monitor, and safeguard their homes and businesses.</p>
+                    <div class="footer-contact-details">
+                        <div class="footer-contact-item">
+                            <div class="icon-box">
+                                <img src="/frontend/images/icon-phone.svg" alt="">
+                            </div>
+                            <div class="footer-contact-item-content">
+                                <p>phone number</p>
+                                <h3><a href="tel:18884476320">+1(888) 447-6320</a></h3>
+                            </div>
                         </div>
-                        <!-- Footer Links End -->
 
+                        <div class="footer-contact-item">
+                            <div class="icon-box">
+                                <img src="/frontend/images/icon-mail.svg" alt="">
+                            </div>
+                            <div class="footer-contact-item-content">
+                                <p>email address</p>
+                                <h3><a href="mailto:info@homedefender.net">info@homedefender.net</a></h3>
+                            </div>
+                        </div>
+
+                        <div class="footer-contact-item">
+                            <div class="icon-box">
+                                <img src="/frontend/images/icon-location.svg" alt="">
+                            </div>
+                            <div class="footer-contact-item-content">
+                                <p>location</p>
+                                <h3>Jersey City, NJ 07097</h3>
+                            </div>
+                        </div>
                     </div>
-                    <!-- About Footer End -->               
-                </div>
 
-                <div class="col-lg-2 col-md-6">
-                    <!-- Footer Links Start -->
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="about-footer">
                     <div class="footer-links">
-                        <h3>Quick link</h3>
-                        <ul>
-                            <li><a href="/">home</a></li>
-                            <li><a href="/about">about us</a></li>
-                            <li><a href="/blogs">blogs</a></li>
-                        </ul>
+                        <h3>About Solutions</h3>
+                        <p>At <b class="heightlite">Home Defender</b>, we strive to deliver security products and monitoring systems that revolutionize the way people protect, monitor, and safeguard their homes and businesses.</p>
                     </div>
-                    <!-- Footer Links End -->
-                </div>
+                </div>               
+            </div>
 
-                <div class="col-lg-2 col-md-6">
-                    <!-- Footer Links Start -->
-                    <div class="footer-links">
-                        <h3>Support & Policies</h3>
-                        <ul>
-                            <li><a href="/contact">Contact Us</a></li>
-                            <li><a href="/privacy-policy">Privacy Policy</a></li>
-                            <li><a href="/terms-and-condition">Terms & condition</a></li>
-                        </ul>
-                    </div>
-                    <!-- Footer Links End -->
+            <div class="col-lg-2 col-md-6">
+                <div class="footer-links">
+                    <h3>Quick link</h3>
+                    <ul>
+                        <li><a href="/">home</a></li>
+                        <li><a href="/about">about us</a></li>
+                        <li><a href="/blogs">blogs</a></li>
+                    </ul>
                 </div>
+            </div>
 
-                <div class="col-lg-4 col-md-6">
-                <!-- Newsletter Form Start -->
+            <div class="col-lg-2 col-md-6">
+                <div class="footer-links">
+                    <h3>Support & Policies</h3>
+                    <ul>
+                        <li><a href="/contact">Contact Us</a></li>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="/terms-and-condition">Terms & condition</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
                 <div class="newsletter-form footer-links">
                     <h3>Follow Us</h3>
                     <p>Stay updated with the latest security trends and offers by subscribing to our newsletter.</p>
-                    <!-- Footer Social Links Start -->
+
                     <div class="footer-social-links">
                         <ul>
                             <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
@@ -389,30 +370,26 @@ document.addEventListener("DOMContentLoaded", function () {
                             <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                         </ul>
                     </div>
-                    <!-- Footer Social Links End -->
                 </div>
-                <!-- Newsletter Form End -->
             </div>
 
-            </div>
         </div>
+    </div>
 
-        <!-- Footer Copyright Start -->
-        <div class="footer-copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <!-- Footer Copyright Text Start -->
-                        <div class="footer-copyright-text">
-                            <p>Copyright © 2025 All Rights Reserved.</p>
-                        </div>
-                        <!-- Footer Copyright Text End -->
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-copyright-text">
+                        <p>Copyright © 2025 All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Footer Copyright End -->
-    </footer>
+    </div>
+</footer>
+@endif
+
     <!-- Main Footer End -->
 
     <!-- Jquery Library File -->

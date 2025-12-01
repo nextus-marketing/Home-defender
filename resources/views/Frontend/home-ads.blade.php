@@ -6,6 +6,43 @@
 <meta name="description" content="Buy quality OEM used engines and transmissions in the USA. Affordable, reliable auto parts with warranty and fast nationwide shipping.">
 @endsection
 @section('content')
+
+<style>
+    @media (max-width: 768px) {
+    .main-header .navbar .container {
+        justify-content: center !important;
+    }
+
+    /* Keep Call Now button right aligned on mobile */
+    .header-btn {
+        position: absolute;
+        right: 15px;
+    }
+}
+
+</style>
+<header class="main-header">
+    <div class="header-sticky">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container d-flex justify-content-between align-items-center">
+
+                <!-- Logo Left -->
+                <a class="navbar-brand" href="/home-ads">
+                    <img src="/frontend/my-img/logo/logo-2.png" alt="Logo" 
+                         style="width:161px; height: 51px; object-fit:contain;">
+                </a>
+
+                <!-- Call Now Right -->
+                <div class="header-btn">
+                    <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+</header>
+
+
     <style>
         .why-choose-us {
             padding: 10px 0;
@@ -44,12 +81,7 @@
                         </div>
                         <div class="hero-body wow fadeInUp" data-wow-delay="0.6s">
                             <div class="hero-btn">
-                                <a href="tel:1-888-447-6320" class="btn-default">Contact Us</a>
-                            </div>
-                            <div class="hero-body wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="hero-btn">
-                                    <a href="/contact" class="btn-default">Send Enquiry</a>
-                                </div>
+                                <a href="tel:1-888-447-6320" class="btn-default">Talk to Us</a>
                             </div>
                         </div>
                     </div>
@@ -342,7 +374,7 @@
                     <div class="section-footer-text wow fadeInUp" data-wow-delay="1.2s">
                         <h3> Let's make <span class="heightlite">something great</span>  work together.</h3>
                         <div class="our-support-btn wow fadeInUp" data-wow-delay="0.8s" style="margin-top: 20px;">
-                            <a href="/contact" class="btn-default">get a quote</a>
+                            <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
                         </div>
                     </div>
                 </div>
@@ -413,7 +445,7 @@
                             </div>
                         </div>
                         <div class="our-support-btn wow fadeInUp" data-wow-delay="0.8s">
-                            <a href="tel:1-888-447-6320" class="btn-default">contact now</a>
+                            <a href="tel:1-888-447-6320" class="btn-default">Call now</a>
                         </div>
                     </div>
                 </div>
@@ -867,4 +899,63 @@
             </div>
         </div>
     </div>
+     <footer class="main-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="main-footer-box">
+                    <div class="footer-logo">
+                        <a href="/home-ads">
+                            <img src="/frontend/my-img/logo/logo-1.png" alt="The Bookify Logo">
+                        </a>
+                    </div>
+
+                    <div class="footer-contact-details">
+                        <div class="footer-contact-item">
+                            <div class="icon-box">
+                                <img src="/frontend/images/icon-phone.svg" alt="">
+                            </div>
+                            <div class="footer-contact-item-content">
+                                <p>phone number</p>
+                                <h3><a href="tel:18884476320">+1(888) 447-6320</a></h3>
+                            </div>
+                        </div>
+
+                        <div class="footer-contact-item">
+                            <div class="icon-box">
+                                <img src="/frontend/images/icon-mail.svg" alt="">
+                            </div>
+                            <div class="footer-contact-item-content">
+                                <p>email address</p>
+                                <h3><a href="mailto:info@homedefender.net">info@homedefender.net</a></h3>
+                            </div>
+                        </div>
+
+                        <div class="footer-contact-item">
+                            <div class="icon-box">
+                                <img src="/frontend/images/icon-location.svg" alt="">
+                            </div>
+                            <div class="footer-contact-item-content">
+                                <p>location</p>
+                                <h3>Jersey City, NJ 07097</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-copyright-text">
+                        <p>Copyright © 2025 All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 @endsection

@@ -125,11 +125,10 @@
                                     </div>
                                     <div class="form-group col-md-12 mb-4 text-center">
                                         <div class="d-inline-block">
-                                            <div class="g-recaptcha" data-sitekey="6Lc-YBQsAAAAAHGhOINXBXvSwFpgdpekovjhY-vq"></div>
+                                            <div class="g-recaptcha" data-sitekey="6LecCg0sAAAAAEP8MO9zMw4r9nq9WgZA1MOZVgLI"></div>
                                              <div class="field_error" id="captcha-error" style="color:#ff0000; margin-top:5px;"></div>
                                         </div>
                                     </div>
-
                                     <div class="col-md-12 text-center">
                                         <button type="submit" class="btn-default"><span>send message</span></button>
                                         <div id="msgSubmit" class="h3 hidden"></div>
