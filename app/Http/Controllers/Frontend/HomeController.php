@@ -183,7 +183,7 @@ public function contactEnquiry(Request $request)
     // Verify Google reCAPTCHA (only if present)
     if ($request->has('g-recaptcha-response')) {
         $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
-            'secret' => env('RECAPTCHA_SECRET_KEY'),
+            'secret' => env('6LeePR4sAAAAAJ5GKP1pMpC_bpQfeva1Nat1aT9N'),
             'response' => $request->input('g-recaptcha-response'),
             'remoteip' => $request->ip(),
         ]);
