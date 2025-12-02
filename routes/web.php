@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'Frontend.home')->name('home');
-Route::view('/home-ads', 'Frontend.home-ads')->name('home-ads');
+// Route::view('/home-ads', 'Frontend.home-ads')->name('home-ads');
 Route::view('/about', 'Frontend.about')->name('about');
 Route::view('/contact', 'Frontend.contact')->name('contact');
 Route::view('/privacy-policy', 'Frontend.privacy-policy')->name('privacy-policy');
