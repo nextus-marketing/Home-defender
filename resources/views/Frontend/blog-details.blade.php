@@ -96,7 +96,7 @@
                 <div class="col-lg-12">
                     <div class="post-image">
                         <figure class="image-anime reveal">
-                            <img src="{{ asset(Storage::url($blog->photo)) }}" alt="">
+                            <img src="{{ asset(Storage::url($blog->photo)) }}" alt="blog-img">
                         </figure>
                     </div>
                     <div class="post-content">

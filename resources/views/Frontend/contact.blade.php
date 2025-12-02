@@ -31,15 +31,6 @@
                             <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque"><span>Secure Your</span> With Us</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.4s">Have question or need a customized security solution? Our team is here to assist you. Get in touch with us today.</p>
                         </div>
-                        <div class="contact-social-list wow fadeInUp" data-wow-delay="0.6s">
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            </ul>
-                        </div>
-
                     </div>
                 </div>
 
@@ -47,16 +38,16 @@
                     <div class="contact-info-list">
                         <div class="contact-info-item wow fadeInUp">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-phone.svg" alt="">
+                                <img src="/frontend/images/icon-phone.svg" alt="icon">
                             </div>
                             <div class="contact-item-content">
                                 <p>phone number</p>
-                                <h3><a href="tel:+18884476320">+1(888) 447-6320</a></h3>
+                                <h3><a href="tel:+18884476320">+1 (888) 447-6320</a></h3>
                             </div>
                         </div>
                         <div class="contact-info-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-mail.svg" alt="">
+                                <img src="/frontend/images/icon-mail.svg" alt="icon">
                             </div>
                             <div class="contact-item-content">
                                 <p>email address</p>
@@ -65,7 +56,7 @@
                         </div>
                         <div class="contact-info-item location-item wow fadeInUp" data-wow-delay="0.4s">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-location.svg" alt="">
+                                <img src="/frontend/images/icon-location.svg" alt="icon">
                             </div>
                             <div class="contact-item-content">
                                 <p>location</p>

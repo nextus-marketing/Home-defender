@@ -117,7 +117,7 @@
                 <div class="col-lg-6">
                     <div class="hero-image">
                         <figure>
-                            <img src="/frontend/images/hero-image.png" alt="">
+                            <img src="/frontend/images/hero-image.png" alt="hero-image">
                         </figure>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                     <div class="best-services-box">
                         <div class="best-service-item wow fadeInUp">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-best-service-1.svg" alt="">
+                                <img src="/frontend/images/icon-best-service-1.svg" alt="icon-best-service">
                             </div>
                             <div class="best-service-item-content">
                                 <h3>Premium Indoor Cameras</h3>
@@ -155,7 +155,7 @@
                         </div>
                         <div class="best-service-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-best-service-2.svg" alt="">
+                                <img src="/frontend/images/icon-best-service-2.svg" alt="icon-best-service">
                             </div>
                             <div class="best-service-item-content">
                                 <h3>24/7 Quick Alarms Response</h3>
@@ -163,7 +163,7 @@
                         </div>
                         <div class="best-service-item wow fadeInUp" data-wow-delay="0.4s">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-best-service-3.svg" alt="">
+                                <img src="/frontend/images/icon-best-service-3.svg" alt="icon-best-service">
                             </div>
                             <div class="best-service-item-content">
                                 <h3>Amazing Security Systems</h3>
@@ -195,7 +195,7 @@
                     <div class="why-choose-box">
                         <div class="why-choose-item wow fadeInUp" data-wow-delay="0.4s">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-why-choose-1.svg" alt="">
+                                <img src="/frontend/images/icon-why-choose-1.svg" alt="icon-why-choose">
                             </div>
                             <div class="why-choose-item-content">
                                 <h3><span class="heightlite">Video Surveillance</span>
@@ -205,7 +205,7 @@
                         </div>
                         <div class="why-choose-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-why-choose-2.svg" alt="">
+                                <img src="/frontend/images/icon-why-choose-2.svg" alt="icon-why-choose">
                             </div>
                             <div class="why-choose-item-content">
                                 <h3><span class="heightlite">Security Professional</span>
@@ -219,7 +219,7 @@
                 <div class="col-lg-6">
                     <div class="why-choose-image">
                         <figure>
-                            <img src="/frontend/images/why-choose-image.png" alt="">
+                            <img src="/frontend/images/why-choose-image.png" alt="why-choose-image">
                         </figure>
                     </div>
                 </div>
@@ -228,7 +228,7 @@
                     <div class="why-choose-box">
                         <div class="why-choose-item wow fadeInUp" data-wow-delay="0.4s">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-why-choose-3.svg" alt="">
+                                <img src="/frontend/images/icon-why-choose-3.svg" alt="icon-why-choose">
                             </div>
                             <div class="why-choose-item-content">
                                 <h3><span class="heightlite">Intelligent Security Access</span>
@@ -238,7 +238,7 @@
                         </div>
                         <div class="why-choose-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-why-choose-4.svg" alt="">
+                                <img src="/frontend/images/icon-why-choose-4.svg" alt="icon-why-choose">
                             </div>
                             <div class="why-choose-item-content">
                                 <h3><span class="heightlite">Our Security Service</span>
@@ -274,7 +274,7 @@
 
                         <div class="about-need-help wow fadeInUp" data-wow-delay="0.8s">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-need-help.svg" alt="">
+                                <img src="/frontend/images/icon-need-help.svg" alt="icon-need-help">
                             </div>
                             <div class="need-help-content">
                                 <p>Call for Any Kind Of Services</p>
@@ -289,7 +289,7 @@
                         <div class="what-we-counter-box">
                                 <div class="what-we-counter-item">
                                     <div class="icon-box d-none d-sm-block">
-                                        <img src="/frontend/images/icon-what-we-counter-1.svg" alt="">
+                                        <img src="/frontend/images/icon-what-we-counter-1.svg" alt="counter">
                                     </div>
 
                                     <div class="what-we-counter-item-content">
@@ -299,7 +299,7 @@
                                 </div>
                                 <div class="what-we-counter-item">
                                     <div class="icon-box d-none d-sm-block">
-                                        <img src="/frontend/images/icon-what-we-counter-2.svg" alt="">
+                                        <img src="/frontend/images/icon-what-we-counter-2.svg" alt="counter">
                                     </div>
                                     <div class="what-we-counter-item-content">
                                         <h3><span class="counter">875</span>+</h3>
@@ -310,7 +310,7 @@
 
                         <div class="what-we-image">
                             <figure>
-                                <img src="/frontend/images/what-we-image.jpg" alt="">
+                                <img src="/frontend/images/what-we-image.jpg" alt="what-we-image">
                             </figure>
                         </div>
                     </div>
@@ -330,16 +330,16 @@
                     <div class="our-support-images">
                         <div class="our-support-image box-1">
                             <figure class="image-anime reveal">
-                                <img src="/frontend/images/support-image-1.jpg" alt="">
+                                <img src="/frontend/images/support-image-1.jpg" alt="support">
                             </figure>
                         </div>
                         <div class="our-support-image box-2">
                             <figure class="image-anime reveal">
-                                <img src="/frontend/images/support-image-2.jpg" alt="">
+                                <img src="/frontend/images/support-image-2.jpg" alt="support">
                             </figure>
                         </div>
                         <div class="our-support-circle">
-                            <a href="/contact"><img src="/frontend/images/contact-now-circle-2.svg" alt=""></a>
+                            <a href="/contact"><img src="/frontend/images/contact-now-circle-2.svg" alt="contact-now-circle"></a>
                         </div>
                     </div>
                 </div>
@@ -356,7 +356,7 @@
                         <div class="our-support-body wow fadeInUp" data-wow-delay="0.6s">
                             <div class="support-item">
                                 <div class="icon-box">
-                                    <img src="/frontend/images/icon-support-item-1.svg" alt="">
+                                    <img src="/frontend/images/icon-support-item-1.svg" alt="icon-support">
                                 </div>
                                 <div class="support-item-content">
                                     <h3>Quality</h3>
@@ -365,7 +365,7 @@
                             </div>
                             <div class="support-item">
                                 <div class="icon-box">
-                                    <img src="/frontend/images/icon-support-item-2.svg" alt="">
+                                    <img src="/frontend/images/icon-support-item-2.svg" alt="icon-support">
                                 </div>
                                 <div class="support-item-content">
                                     <h3>Reliability</h3>
@@ -374,7 +374,7 @@
                             </div>
                             <div class="support-item">
                                 <div class="icon-box">
-                                    <img src="/frontend/images/icon-support-item-2.svg" alt="">
+                                    <img src="/frontend/images/icon-support-item-2.svg" alt="icon-support">
                                 </div>
                                 <div class="support-item-content">
                                     <h3>Unmatched Performance</h3>
@@ -406,7 +406,7 @@
                         <div class="cta-box-body wow fadeInUp" data-wow-delay="0.6s">
                             <div class="cta-box-item">
                                 <div class="icon-box">
-                                    <img src="/frontend/images/icon-phone.svg" alt="">
+                                    <img src="/frontend/images/icon-phone.svg" alt="icon-phone">
                                 </div>
                                 <div class="cta-box-item-content">
                                     <p>Smart Security,Best Engineers</p>
@@ -419,7 +419,7 @@
 
                 <div class="col-lg-6">
                     <div class="cta-box-image">
-                        <img src="/frontend/images/cta-box-image.png" alt="">
+                        <img src="/frontend/images/cta-box-image.png" alt="cta-box-image">
                     </div>
                 </div>
             </div>
@@ -436,7 +436,7 @@
                     <div class="about-us-images">
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="/frontend/my-img/monitoring.jpg" alt="">
+                                <img src="/frontend/my-img/monitoring.jpg" alt="monitoring">
                             </figure>
                         </div>
                     </div>
@@ -456,7 +456,7 @@
                     <div class="about-us-body wow fadeInUp" data-wow-delay="0.8s">
                         <div class="about-contact-box">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-about-contact.svg" alt="">
+                                <img src="/frontend/images/icon-about-contact.svg" alt="icon-about-contact">
                             </div>
                             <div class="about-contact-box-content">
                                 <p>Call Directly 24/7</p>
@@ -489,7 +489,7 @@
 
                 <div class="col-lg-6 col-md-4">
                     <div class="contact-now-circle">
-                        <a href="tel:1-888-447-6320"><img src="/frontend/images/contact-now-circle.svg" alt=""></a>
+                        <a href="tel:1-888-447-6320"><img src="/frontend/images/contact-now-circle.svg" alt="contact-now-circle"></a>
                     </div>
                 </div>
             </div>
@@ -499,22 +499,22 @@
                     <div class="our-feature-box">
                         <div class="feature-item wow fadeInUp">
                             <div class="icon-box">
-                                <img src="/frontend/my-img/client-01.png" alt="">
+                                <img src="/frontend/my-img/client-01.png" alt="client-01">
                             </div>
                         </div>
                         <div class="feature-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="icon-box">
-                                <img src="/frontend/my-img/client-03.webp" alt="">
+                                <img src="/frontend/my-img/client-03.webp" alt="client-03">
                             </div>
                         </div>
                         <div class="feature-item wow fadeInUp" data-wow-delay="0.4s">
                             <div class="icon-box">
-                                <img src="/frontend/my-img/client-04.webp" alt="">
+                                <img src="/frontend/my-img/client-04.webp" alt="client-04">
                             </div>
                         </div>
                         <div class="feature-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="icon-box">
-                                <img src="/frontend/my-img/client-05.png" alt="">
+                                <img src="/frontend/my-img/client-05.png" alt="client-05">
                             </div>
                         </div>
                     </div>
@@ -532,7 +532,7 @@
                     <div class="about-us-images">
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="/frontend/my-img/compresive.jpg" alt="">
+                                <img src="/frontend/my-img/compresive.jpg" alt="compresive">
                             </figure>
 
                         </div>
@@ -578,7 +578,7 @@
                         <div class="service-image">
                             <a href="#0" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="/frontend/images/service-image-1.jpg" alt="">
+                                    <img src="/frontend/images/service-image-1.jpg" alt="service-image">
                                 </figure>
                             </a>
                         </div>
@@ -598,7 +598,7 @@
                         <div class="service-image">
                             <a href="#0" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="/frontend/my-img/door-bell.jpg" alt="">
+                                    <img src="/frontend/my-img/door-bell.jpg" alt="door-bell">
                                 </figure>
                             </a>
                         </div>
@@ -618,7 +618,7 @@
                         <div class="service-image">
                             <a href="#0" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="/frontend/my-img/sensors.jpg" alt="">
+                                    <img src="/frontend/my-img/sensors.jpg" alt="sensors">
                                 </figure>
                             </a>
                         </div>
@@ -638,7 +638,7 @@
                         <div class="service-image">
                             <a href="#0" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="/frontend/my-img/watching.jpg" alt="">
+                                    <img src="/frontend/my-img/watching.jpg" alt="watching">
                                 </figure>
                             </a>
                         </div>
@@ -657,7 +657,7 @@
                         <div class="service-image">
                             <a href="#0" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="/frontend/my-img/home-integration.jpg" alt="">
+                                    <img src="/frontend/my-img/home-integration.jpg" alt="home-integration">
                                 </figure>
                             </a>
                         </div>
@@ -699,7 +699,7 @@
                                             <div class="testimonial-author-box">
                                                 <div class="author-image">
                                                     <figure class="image-anime">
-                                                        <img src="/frontend/images/author-1.jpg" alt="">
+                                                        <img src="/frontend/images/author-1.jpg" alt="author">
                                                     </figure>
                                                 </div>
                                                 <div class="author-content">
@@ -708,7 +708,7 @@
                                                 </div>
                                             </div>
                                             <div class="testimonial-quote">
-                                                <img src="/frontend/images/testimonial-quote.svg" alt="">
+                                                <img src="/frontend/images/testimonial-quote.svg" alt="author">
                                             </div>
                                         </div>
                                         <div class="testimonial-rating">
@@ -732,7 +732,7 @@
                                             <div class="testimonial-author-box">
                                                 <div class="author-image">
                                                     <figure class="image-anime">
-                                                        <img src="/frontend/images/author-2.jpg" alt="">
+                                                        <img src="/frontend/images/author-2.jpg" alt="author">
                                                     </figure>
                                                 </div>
                                                 <div class="author-content">
@@ -741,7 +741,7 @@
                                                 </div>
                                             </div>
                                             <div class="testimonial-quote">
-                                                <img src="/frontend/images/testimonial-quote.svg" alt="">
+                                                <img src="/frontend/images/testimonial-quote.svg" alt="author">
                                             </div>
                                         </div>
                                         <div class="testimonial-rating">
@@ -767,7 +767,7 @@
                                             <div class="testimonial-author-box">
                                                 <div class="author-image">
                                                     <figure class="image-anime">
-                                                        <img src="/frontend/images/author-3.jpg" alt="">
+                                                        <img src="/frontend/images/author-3.jpg" alt="author">
                                                     </figure>
                                                 </div>
                                                 <div class="author-content">
@@ -776,7 +776,7 @@
                                                 </div>
                                             </div>
                                             <div class="testimonial-quote">
-                                                <img src="/frontend/images/testimonial-quote.svg" alt="">
+                                                <img src="/frontend/images/testimonial-quote.svg" alt="testimonial">
                                             </div>
                                         </div>
                                         <div class="testimonial-rating">
@@ -825,7 +825,7 @@
                 <div class="cta-box-body wow fadeInUp" data-wow-delay="0.6s" style="justify-content: center;">
                     <div class="cta-box-item">
                         <div class="icon-box">
-                            <img src="/frontend/images/icon-phone.svg" alt="">
+                            <img src="/frontend/images/icon-phone.svg" alt="icon-phone">
                         </div>
                         <div class="cta-box-item-content">
                             <p>Smart Security,Best Engineers</p>
@@ -845,7 +845,7 @@
 
                     <div class="footer-logo">
                         <a href="/home-ads">
-                            <img src="/frontend/my-img/logo/logo-1.png" alt="The Bookify Logo">
+                            <img src="/frontend/my-img/logo/logo-1.png" alt="Logo">
                         </a>
                     </div>
 
@@ -853,7 +853,7 @@
 
                         <div class="footer-contact-item">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-phone.svg" alt="">
+                                <img src="/frontend/images/icon-phone.svg" alt="icon-phone">
                             </div>
                             <div class="footer-contact-item-content">
                                 <p>phone number</p>
@@ -863,7 +863,7 @@
 
                         <div class="footer-contact-item">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-mail.svg" alt="">
+                                <img src="/frontend/images/icon-mail.svg" alt="icon-mail">
                             </div>
                             <div class="footer-contact-item-content">
                                 <p>email address</p>
@@ -873,7 +873,7 @@
 
                         <div class="footer-contact-item">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-location.svg" alt="">
+                                <img src="/frontend/images/icon-location.svg" alt="icon-location">
                             </div>
                             <div class="footer-contact-item-content">
                                 <p>location</p>

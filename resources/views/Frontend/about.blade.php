@@ -35,7 +35,7 @@
                         <div class="our-commitment-img-box">
                             <div class="commitment-image-1">
                                 <figure class="image-anime reveal">
-                                    <img src="/frontend/images/commitment-image-1.jpg" alt="">
+                                    <img src="/frontend/images/commitment-image-1.jpg" alt="commitment">
                                 </figure>
                             </div>
                             <div class="satisfy-client-box">
@@ -46,27 +46,27 @@
                                 <div class="satisfy-client-images">
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime reveal">
-                                            <img src="/frontend/images/satisfy-client-img-1.jpg" alt="">
+                                            <img src="/frontend/images/satisfy-client-img-1.jpg" alt="client">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime reveal">
-                                            <img src="/frontend/images/satisfy-client-img-2.jpg" alt="">
+                                            <img src="/frontend/images/satisfy-client-img-2.jpg" alt="client">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime reveal">
-                                            <img src="/frontend/images/satisfy-client-img-3.jpg" alt="">
+                                            <img src="/frontend/images/satisfy-client-img-3.jpg" alt="client">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime reveal">
-                                            <img src="/frontend/images/satisfy-client-img-4.jpg" alt="">
+                                            <img src="/frontend/images/satisfy-client-img-4.jpg" alt="client">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime reveal">
-                                            <img src="/frontend/images/satisfy-client-img-5.jpg" alt="">
+                                            <img src="/frontend/images/satisfy-client-img-5.jpg" alt="client">
                                         </figure>
                                     </div>
                                 </div>
@@ -75,7 +75,7 @@
                         <div class="our-commitment-img-box">
                             <div class="commitment-image-2">
                                 <figure class="image-anime reveal">
-                                    <img src="/frontend/my-img/security-guard-workspace.jpg" alt="">
+                                    <img src="/frontend/my-img/security-guard-workspace.jpg" alt="guard-workspace">
                                 </figure>
                             </div>
                         </div>
@@ -124,7 +124,7 @@
 
             <div class="col-lg-6 col-md-4">
                 <div class="contact-now-circle">
-                    <a href="/contact"><img src="/frontend/images/contact-now-circle.svg" alt=""></a>
+                    <a href="/contact"><img src="/frontend/images/contact-now-circle.svg" alt="contact-now"></a>
                 </div>
             </div>
         </div>
@@ -135,7 +135,7 @@
 
                     <div class="feature-item wow fadeInUp">
                         <div class="icon-box">
-                            <img src="/frontend/images/icon-feature-item-1.svg" alt="">
+                            <img src="/frontend/images/icon-feature-item-1.svg" alt="icon-feature">
                         </div>
                         <div class="feature-item-content">
                             <h3>Easy to set up and use (professional installation available)</h3>
@@ -144,7 +144,7 @@
 
                     <div class="feature-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="icon-box">
-                            <img src="/frontend/images/icon-feature-item-2.svg" alt="">
+                            <img src="/frontend/images/icon-feature-item-2.svg" alt="icon-feature">
                         </div>
                         <div class="feature-item-content">
                             <h3>System With Reliable 24/7 Professional Monitoring</h3>
@@ -153,7 +153,7 @@
 
                     <div class="feature-item wow fadeInUp" data-wow-delay="0.4s">
                         <div class="icon-box">
-                            <img src="/frontend/images/icon-feature-item-3.svg" alt="">
+                            <img src="/frontend/images/icon-feature-item-3.svg" alt="icon-feature">
                         </div>
                         <div class="feature-item-content">
                             <h3>Ethernet connection with cellular backup so you’re always connected</h3>
@@ -162,7 +162,7 @@
 
                     <div class="feature-item wow fadeInUp" data-wow-delay="0.6s">
                         <div class="icon-box">
-                            <img src="/frontend/images/icon-feature-item-4.svg" alt="">
+                            <img src="/frontend/images/icon-feature-item-4.svg" alt="icon-feature">
                         </div>
                         <div class="feature-item-content">
                             <h3>Faster emergency dispatch and fewer false alarms</h3>
@@ -215,7 +215,7 @@
                 <div class="about-us-images">
                     <div class="about-img-1">
                     <figure class="image-anime reveal">
-                        <img src="/frontend/my-img/about.jpg" alt="">
+                        <img src="/frontend/my-img/about.jpg" alt="about">
                     </figure>
                     </div>
                 </div>
@@ -289,7 +289,7 @@
                 <div class="about-us-images">
                     <div class="about-img-1">
                         <figure class="image-anime reveal">
-                            <img src="/frontend/images/about-img-1.jpg" alt="">
+                            <img src="/frontend/images/about-img-1.jpg" alt="about">
                         </figure>
                     </div>
                 </div>
@@ -310,22 +310,22 @@
                     <div class="our-feature-box">
                         <div class="feature-item wow fadeInUp">
                             <div class="icon-box">
-                                <img src="/frontend/my-img/client-01.png" alt="">
+                                <img src="/frontend/my-img/client-01.png" alt="client">
                             </div>
                         </div>
                         <div class="feature-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="icon-box">
-                                <img src="/frontend/my-img/client-03.webp" alt="">
+                                <img src="/frontend/my-img/client-03.webp" alt="client">
                             </div>
                         </div>
                         <div class="feature-item wow fadeInUp" data-wow-delay="0.4s">
                             <div class="icon-box">
-                                <img src="/frontend/my-img/client-04.webp" alt="">
+                                <img src="/frontend/my-img/client-04.webp" alt="client">
                             </div>
                         </div>
                         <div class="feature-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="icon-box">
-                                <img src="/frontend/my-img/client-05.png" alt="">
+                                <img src="/frontend/my-img/client-05.png" alt="client">
                             </div>
                         </div>
                     </div>
@@ -369,7 +369,7 @@
                             <div class="about-us-images">
                                 <div class="about-img-1">
                                     <figure class="image-anime reveal">
-                                        <img src="/frontend/my-img/essential-security.jpg" alt="">
+                                        <img src="/frontend/my-img/essential-security.jpg" alt="essential-security">
                                     </figure>
                                 </div>
                             </div>
@@ -385,7 +385,7 @@
                             <div class="about-us-images">
                                 <div class="about-img-1">
                                     <figure class="image-anime reveal">
-                                        <img src="/frontend/my-img/smart-home.jpg" alt="">
+                                        <img src="/frontend/my-img/smart-home.jpg" alt="smart-home">
                                     </figure>
                                 </div>
                             </div>
@@ -437,7 +437,7 @@
                             <div class="about-us-images">
                                 <div class="about-img-1">
                                     <figure class="image-anime reveal">
-                                        <img src="/frontend/my-img/home.avif" alt="">
+                                        <img src="/frontend/my-img/home.avif" alt="home">
                                     </figure>
                                 </div>
                             </div>
@@ -455,7 +455,7 @@
                     <div class="about-us-images">
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="/frontend/my-img/home-solution.jpg" alt="">
+                                <img src="/frontend/my-img/home-solution.jpg" alt="home-solution">
                             </figure>
                         </div>
                     </div>
@@ -529,7 +529,7 @@
                     <div class="about-us-images">
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="/frontend/my-img/meeting.jpg" alt="">
+                                <img src="/frontend/my-img/meeting.jpg" alt="meeting">
                             </figure>
                         </div>
                     </div>
@@ -560,7 +560,7 @@
                     <div class="team-image">
                         <a href="#0" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="/frontend/my-img/person-1.webp" alt="">
+                                <img src="/frontend/my-img/person-1.webp" alt="person-1">
                             </figure>
                         </a>
                     </div>
@@ -576,7 +576,7 @@
                     <div class="team-image">
                         <a href="#0" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="/frontend/my-img/person-2.jpg" alt="">
+                                <img src="/frontend/my-img/person-2.jpg" alt="person">
                             </figure>
                         </a>
                     </div>
@@ -592,7 +592,7 @@
                     <div class="team-image">
                         <a href="#0" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="/frontend/my-img/person-4.jpg" alt="">
+                                <img src="/frontend/my-img/person-4.jpg" alt="person">
                             </figure>
                         </a>
                     </div>
@@ -608,7 +608,7 @@
                     <div class="team-image">
                         <a href="#0" data-cursor-text="View">
                             <figure class="image-anime">
-                                <img src="/frontend/my-img/person-3.jpg" alt="">
+                                <img src="/frontend/my-img/person-3.jpg" alt="person">
                             </figure>
                         </a>
                     </div>
@@ -641,7 +641,7 @@
                         <div class="cta-box-body wow fadeInUp" data-wow-delay="0.6s">
                             <div class="cta-box-item">
                                 <div class="icon-box">
-                                    <img src="/frontend/images/icon-phone.svg" alt="">
+                                    <img src="/frontend/images/icon-phone.svg" alt="icon">
                                 </div>
                                 <div class="cta-box-item-content">
                                     <p>Contact Us</p>
@@ -654,7 +654,7 @@
 
                 <div class="col-lg-6">
                     <div class="cta-box-image">
-                        <img src="/frontend/my-img/security-person.png" alt="">
+                        <img src="/frontend/my-img/security-person.png" alt="security-person">
                     </div>
                 </div>
             </div>

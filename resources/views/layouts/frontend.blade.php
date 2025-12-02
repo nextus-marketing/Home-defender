@@ -43,71 +43,32 @@
     <meta name="description" content="@yield('meta_description')">
 @endif
     @yield('structured_data')
-    
- <script type="application/ld+json" class="rank-math-schema">
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Place",
-      "@id": "https://homedefender.net/#place",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Burke",
-        "addressRegion": "Virginia",
-        "postalCode": "22015",
-        "addressCountry": "US"
-      }
-    },
-    {
       "@type": "Organization",
-      "@id": "https://homedefender.net/#organization",
-      "name": "Home Defender",
-      "url": "https://homedefender.net",
-      "email": "Info@homedefender.net",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Burke",
-        "addressRegion": "Virginia",
-        "postalCode": "22015",
-        "addressCountry": "US"
-      },
-      "logo": {
-        "@type": "ImageObject",
-        "@id": "https://homedefender.net/#logo",
-        "url": "https://homedefender.net/frontend/my-img/logo_new.png",
-        "caption": "Home Defender",
-        "inLanguage": "en-US",
-        "width": "450",
-        "height": "150"
-      },
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "telephone": "+1-888-447-6320",
-          "contactType": "sales"
-        },
-        {
-          "@type": "ContactPoint",
-          "telephone": "+1-571-500-8149",
-          "contactType": "sales"
-        }
-      ],
-      "description": "Home Defender offers reliable smart home security solutions with 24/7 monitoring to protect your family. Get 3 Months of Free Monitoring! Call Now for Details.",
-      "legalName": "marketingteamnextus@gmail.com",
-      "location": {
-        "@id": "https://homedefender.net/contact"
+      "name": "HomeDefender",
+      "url": "https://homedefender.net/",
+      "logo": "https://homedefender.net/frontend/my-img/logo/logo-2.png",
+      
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "telephone": "+1 (888) 447-6320",
+        "email": "info@homedefender.net",
+        "areaServed": "USA"
       }
     },
     {
       "@type": "WebSite",
-      "@id": "https://homedefender.net/#website",
-      "url": "https://homedefender.net",
-      "name": "Home Defender",
+      "url": "https://homedefender.net/",
+      "name": "HomeDefender",
       "publisher": {
-        "@id": "https://homedefender.net/"
+        "@type": "Organization",
+        "name": "HomeDefender"
       },
-      "inLanguage": "en-US",
       "potentialAction": {
         "@type": "SearchAction",
         "target": "https://homedefender.net/?s={search_term_string}",
@@ -115,30 +76,17 @@
       }
     },
     {
-      "@type": "ImageObject",
-      "@id": "https://homedefender.net/wp-content/uploads/2020/06/service-01-770x500-1.webp?wsr",
-      "url": "https://homedefender.net/wp-content/uploads/2020/06/service-01-770x500-1.webp?wsr",
-      "width": "200",
-      "height": "200",
-      "inLanguage": "en-US"
-    },
-    {
       "@type": "WebPage",
-      "@id": "https://homedefender.net/#webpage",
       "url": "https://homedefender.net/",
-      "name": "Home Defender | Affordable Smart Home Security Solutions",
-      "datePublished": "2020-05-21T03:20:11+00:00",
-      "dateModified": "2025-08-27T18:59:24+00:00",
-      "about": {
-        "@id": "https://homedefender.net/about"
-      },
+      "name": "HomeDefender",
       "isPartOf": {
-        "@id": "https://homedefender.net/"
+        "@type": "WebSite",
+        "url": "https://homedefender.net/"
       },
-      "primaryImageOfPage": {
-        "@id": "https://homedefender.net/frontend/images/hero-bg-2.jpg"
-      },
-      "inLanguage": "en-US"
+      "mainEntityOfPage": {
+        "@type": "WebSite",
+        "url": "https://homedefender.net/"
+      }
     }
   ]
 }
@@ -173,7 +121,7 @@
                         
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="tel:1-888-447-6320" class="btn-default">Call Now</a>
+                            <a href="tel:18884476320" class="btn-default">Call Now</a>
                         </div>
                         <!-- Header Btn End -->
 					</div>
@@ -202,7 +150,7 @@
             <h2>Get <span style="color:#e60000;">3 Months FREE</span> Monitoring!</h2>
             <p>Call now and secure your home with our exclusive limited-time offer.</p>
             <div class="our-support-btn">
-                <a href="tel:1-888-447-6320" class="btn-default">Contact Now</a>
+                <a href="tel:18884476320" class="btn-default">Contact Now</a>
             </div>
         </div>
     </div>
@@ -228,17 +176,13 @@
 </script>
 
 
-
-<a href="tel:1-888-447-6320" class="call-now-btn">
+<a href="tel:+18884476320" class="call-now-btn">
     <i class="fa fa-phone"></i>
 </a>
-
-
 
 <button id="scrollTopBtn">
     <i class="fa fa-arrow-up"></i>
 </button>
-
 
 <script>
     const scrollTopBtn = document.getElementById("scrollTopBtn");
@@ -271,24 +215,24 @@
                 <div class="main-footer-box">
                     <div class="footer-logo">
                         <a href="/">
-                            <img src="/frontend/my-img/logo/logo-1.png" alt="The Bookify Logo">
+                            <img src="/frontend/my-img/logo/logo-1.png" alt="Logo">
                         </a>
                     </div>
 
                     <div class="footer-contact-details">
                         <div class="footer-contact-item">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-phone.svg" alt="">
+                                <img src="/frontend/images/icon-phone.svg" alt="icon">
                             </div>
                             <div class="footer-contact-item-content">
                                 <p>phone number</p>
-                                <h3><a href="tel:18884476320">+1(888) 447-6320</a></h3>
+                                <h3><a href="tel:18884476320">+1 (888) 447-6320</a></h3>
                             </div>
                         </div>
 
                         <div class="footer-contact-item">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-mail.svg" alt="">
+                                <img src="/frontend/images/icon-mail.svg" alt="icon">
                             </div>
                             <div class="footer-contact-item-content">
                                 <p>email address</p>
@@ -298,7 +242,7 @@
 
                         <div class="footer-contact-item">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-location.svg" alt="">
+                                <img src="/frontend/images/icon-location.svg" alt="icon">
                             </div>
                             <div class="footer-contact-item-content">
                                 <p>location</p>
@@ -310,7 +254,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="about-footer">
                     <div class="footer-links">
                         <h3>About Solutions</h3>
@@ -319,7 +263,7 @@
                 </div>               
             </div>
 
-            <div class="col-lg-2 col-md-6">
+            <div class="col-lg-3 col-md-6">
                 <div class="footer-links">
                     <h3>Quick link</h3>
                     <ul>
@@ -330,7 +274,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-2 col-md-6">
+            <div class="col-lg-3 col-md-6">
                 <div class="footer-links">
                     <h3>Support & Policies</h3>
                     <ul>
@@ -340,23 +284,6 @@
                     </ul>
                 </div>
             </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="newsletter-form footer-links">
-                    <h3>Follow Us</h3>
-                    <p>Stay updated with the latest security trends and offers by subscribing to our newsletter.</p>
-
-                    <div class="footer-social-links">
-                        <ul>
-                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 
