@@ -13,7 +13,6 @@
         justify-content: center !important;
     }
 
-    /* Keep Call Now button right aligned on mobile */
     .header-btn {
         position: absolute;
         right: 15px;
