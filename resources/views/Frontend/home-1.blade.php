@@ -277,7 +277,7 @@
                             </div>
                             <div class="need-help-content">
                                 <p>Call for Any Kind Of Services</p>
-                                <h3><a href="tel:18884476320">+1 (888) 447-6320</a></h3>
+                                <h3><a href="tel:1-888-447-6320">+1 (888) 447-6320</a></h3>
                             </div>
                         </div>
                     </div>
@@ -856,7 +856,7 @@
                             </div>
                             <div class="footer-contact-item-content">
                                 <p>phone number</p>
-                                <h3><a href="tel:18884476320">+1 (888) 447-6320</a></h3>
+                                <h3><a href="tel:1-888-447-6320">+1 (888) 447-6320</a></h3>
                             </div>
                         </div>
 
