@@ -2,6 +2,9 @@
 @section('title')
     Blogs | Home Defender
 @endsection
+@section('meta')
+<meta name="description" content="Read expert articles on home security, smart devices, automation tips, and safety solutions. Stay updated with the latest insights on the HomeDefender blog.">
+@endsection
 
 @section('content')
 

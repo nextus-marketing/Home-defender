@@ -1,5 +1,8 @@
 @extends('layouts.frontend')
 @section('title') Contact Us | Home Defender @endsection
+@section('meta')
+<meta name="description" content="Get in touch with HomeDefender for home security solutions, smart automation services, or support. Contact us today for quick assistance.">
+@endsection
 @section('content')
 
 

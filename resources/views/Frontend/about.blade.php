@@ -1,6 +1,9 @@
 
 @extends('layouts.frontend')
 @section('title') About Us | Home Defender @endsection
+@section('meta')
+<meta name="description" content="Learn about HomeDefender’s mission to provide reliable home security and smart automation solutions. Discover our experience, values, and commitment to protecting families with trusted, innovative technology.">
+@endsection
 @section('content')
 <style>
  .page-team {

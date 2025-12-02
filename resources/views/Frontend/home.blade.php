@@ -3,7 +3,7 @@
     Home Defender | Affordable Smart Home Security Solutions
 @endsection
 @section('meta')
-<meta name="description" content="">
+<meta name="description" content="HomeDefender Protect your home with professional security solutions and smart home services. Secure installations, 24/7 monitoring, and peace of mind for you and your family. Get started today.">
 @endsection
 @section('content')
 
