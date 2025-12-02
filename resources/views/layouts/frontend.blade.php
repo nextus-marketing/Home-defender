@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	
     <meta name="robots" 
-    content="{{ request()->is('home-ads') ? 'noindex, nofollow' : 'index, follow' }},
+    content="{{ request()->is('home') ? 'noindex, nofollow' : 'index, follow' }},
     max-snippet:-1, max-video-preview:-1, max-image-preview:large">
     <link rel="canonical" href="{{ url()->current() }}" />
 	<!-- Favicon Icon -->
@@ -96,7 +96,7 @@
 
 
     <!-- Header Start -->
-     @if (!Request::is('home-ads'))
+     @if (!Request::is('home'))
 	<header class="main-header">
 		<div class="header-sticky">
 			<nav class="navbar navbar-expand-lg">
@@ -138,7 +138,7 @@
 @yield(section: 'content')
 
 
-@if(!Request::is('contact') && !Request::is('home-ads'))
+@if(!Request::is('contact') && !Request::is('home'))
     <!-- Popup Overlay -->
     <div id="promoPopup" class="promo-popup-overlay">
         <div class="promo-popup">
@@ -207,7 +207,7 @@
 
 
     <!-- Main Footer Start -->
-     @if(!Request::is('home-ads'))
+     @if(!Request::is('home'))
    <footer class="main-footer">
     <div class="container">
         <div class="row">
