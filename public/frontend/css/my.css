@@ -291,3 +291,15 @@
         padding-left: 15px;
     }
 }
+
+.footer-contact-details {
+    width: calc(100% - 220px);
+    height: 100%;
+    background: var(--dark-divider-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 21px 19px;
+    padding: 38px;
+}
