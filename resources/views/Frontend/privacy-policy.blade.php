@@ -93,7 +93,7 @@
         <p>If you have any questions about this Privacy Policy or how we handle your personal information, please contact us:</p>
 
        <p>
-            <strong>Phone:</strong> <a href="tel:+18884476320">+1(888) 447-6320</a><br>
+            <strong>Phone:</strong> <a href="tel:+18884476320">+1 (888) 447-6320</a><br>
             <strong>Address:</strong> Jersey City, NJ 07097
         </p>
 
