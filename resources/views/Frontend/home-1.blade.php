@@ -54,7 +54,7 @@
             <div class="container d-flex justify-content-between align-items-center">
 
                 <!-- Logo Left -->
-                <a class="navbar-brand" href="/home-ads">
+                <a class="navbar-brand" href="/home">
                     <img src="/frontend/my-img/logo/logo-2.png" alt="Logo" 
                          style="width:161px; height: 51px; object-fit:contain;">
                 </a>
@@ -843,7 +843,7 @@
                 <div class="main-footer-box">
 
                     <div class="footer-logo">
-                        <a href="/home-ads">
+                        <a href="/home">
                             <img src="/frontend/my-img/logo/logo-1.png" alt="Logo">
                         </a>
                     </div>
