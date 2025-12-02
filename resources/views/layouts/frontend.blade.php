@@ -8,9 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	
-    <meta name="robots" 
-    content="{{ request()->is('home') ? 'noindex, nofollow' : 'index, follow' }},
-    max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
     <link rel="canonical" href="{{ url()->current() }}" />
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/logo/favicon.png">
@@ -98,7 +96,6 @@
         <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21 11.36 11.36 0 003.54.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 5a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.54 1 1 0 01-.45 1.25l-2.2 2.2z"/>
     </svg>
 </a>
-
 
     <!-- Header Start -->
      @if (!Request::is('home'))
@@ -206,7 +203,6 @@
     });
 </script>       
 
-
     <!-- Main Footer Start -->
      @if(!Request::is('home'))
    <footer class="main-footer">
@@ -303,7 +299,6 @@
 @endif
 
     <!-- Main Footer End -->
-
     <!-- Jquery Library File -->
     <script src="/frontend/js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap js file -->
@@ -337,5 +332,7 @@
     <script src="/frontend/js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="/frontend/js/function.js"></script>
+
+        <!-- End Script -->
 </body>
 </html>
