@@ -138,7 +138,7 @@
 @yield(section: 'content')
 
 
-@if(!Request::is('contact') && !Request::is('home'))
+@if(!Request::is('contact'))
     <!-- Popup Overlay -->
     <div id="promoPopup" class="promo-popup-overlay">
         <div class="promo-popup">
