@@ -6,6 +6,54 @@
 <meta name="description" content="Buy quality OEM used engines and transmissions in the USA. Affordable, reliable auto parts with warranty and fast nationwide shipping.">
 @endsection
 @section('content')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "HomeDefender",
+      "url": "https://homedefender.net/",
+      "logo": "https://homedefender.net/frontend/my-img/logo/logo-2.png",
+      
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "telephone": "+1 (888) 447-6320",
+        "email": "info@homedefender.net",
+        "areaServed": "USA"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "url": "https://homedefender.net/",
+      "name": "HomeDefender",
+      "publisher": {
+        "@type": "Organization",
+        "name": "HomeDefender"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://homedefender.net/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://homedefender.net/",
+      "name": "HomeDefender",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://homedefender.net/"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebSite",
+        "url": "https://homedefender.net/"
+      }
+    }
+  ]
+}
+</script>
     <style>
         .why-choose-us {
             padding: 10px 0;
@@ -38,7 +86,7 @@
                     <div class="hero-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">welcome to home defender</h3>
-                            <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">We Are Your Solutions</h1>
+                            <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Safeguard Your Home with </br> Advanced Security Technology</h1>
                             <p class="wow fadeInUp" data-wow-delay="0.4s">Creating a smart Surveillance for the present and
                                 future</p>
                         </div>

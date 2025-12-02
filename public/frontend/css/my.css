@@ -303,3 +303,11 @@
     gap: 21px 19px;
     padding: 38px;
 }
+
+.section-title h1 {
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    cursor: none;
+}

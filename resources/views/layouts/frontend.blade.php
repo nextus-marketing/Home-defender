@@ -8,7 +8,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	
-    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+    <meta name="robots" 
+    content="{{ request()->is('home-ads') ? 'noindex, nofollow' : 'index, follow' }},
+    max-snippet:-1, max-video-preview:-1, max-image-preview:large">
     <link rel="canonical" href="https://homedefender.net/"/>
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/logo/favicon.png">
