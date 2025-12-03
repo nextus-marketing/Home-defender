@@ -2,4 +2,4 @@ User-agent: *
 Disallow:  /login
 Allow:  /
 
-Sitemap: https://homedefender.net/sitemap_index.xml
+Sitemap: https://homedefender.net/sitemap.xml
