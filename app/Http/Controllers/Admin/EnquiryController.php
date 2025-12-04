@@ -14,8 +14,8 @@ class EnquiryController extends Controller
     }
 
     public function data(Request $request){
-        $query = Enquiry::where('id','!=',0);
-
+       $query = Enquiry::where('id','!=',0)
+                    ->orderBy('created_at', 'desc');
         return DataTables::eloquent($query)
            ->editColumn('datetime', function ($autoenquiry) {
                 return \Carbon\Carbon::parse($autoenquiry->created_at)
