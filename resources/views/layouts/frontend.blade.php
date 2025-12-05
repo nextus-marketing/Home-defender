@@ -319,8 +319,6 @@
     <script src="/frontend/js/jquery.mb.YTPlayer.min.js"></script>
     <script src="/frontend/js/wow.min.js"></script>
     <script src="/frontend/js/function.js"></script>
-
-        <!-- End Script -->
-
+    <!-- End Script -->
 </body>
 </html>

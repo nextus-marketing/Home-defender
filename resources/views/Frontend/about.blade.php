@@ -13,7 +13,7 @@
     padding: 10px 0;
 }
 </style>
-<div class="page-header parallaxie">
+    <div class="page-header parallaxie">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-12">
@@ -29,7 +29,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+    </div>
     <div class="our-commitment">
         <div class="container">
             <div class="row align-items-center">
