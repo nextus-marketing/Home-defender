@@ -37,9 +37,9 @@
 
      @if(View::hasSection('meta'))
     @yield('meta')
-@elseif(View::hasSection('meta_description'))
-    <meta name="description" content="@yield('meta_description')">
-@endif
+    @elseif(View::hasSection('meta_description'))
+        <meta name="description" content="@yield('meta_description')">
+    @endif
     @yield('structured_data')
     <script type="application/ld+json">
 {

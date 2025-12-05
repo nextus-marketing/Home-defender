@@ -577,8 +577,8 @@
                 <div class="col-lg-12">
                     <div class="section-title section-title-center">
                         <h3 class="wow fadeInUp">testimonials</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">We Are <span>Trusted 15+
-                            </span>Countries Worldwide</h2>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Voices of Our <span>Satisfied 
+                            </span>Customers</h2>
                     </div>
                 </div>
             </div>
