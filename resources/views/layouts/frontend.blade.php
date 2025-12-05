@@ -302,38 +302,25 @@
     <!-- Main Footer End -->
     <!-- Jquery Library File -->
     <script src="/frontend/js/jquery-3.7.1.min.js"></script>
-    <!-- Bootstrap js file -->
     <script src="/frontend/js/bootstrap.min.js"></script>
-    <!-- Validator js file -->
     <script src="/frontend/js/validator.min.js"></script>
-    <!-- SlickNav js file -->
     <script src="/frontend/js/jquery.slicknav.js"></script>
-    <!-- Swiper js file -->
     <script src="/frontend/js/swiper-bundle.min.js"></script>
-    <!-- Counter js file -->
     <script src="/frontend/js/jquery.waypoints.min.js"></script>
     <script src="/frontend/js/jquery.counterup.min.js"></script>
-    <!-- Isotop js file -->
 	<script src="/frontend/js/isotope.min.js"></script>
-    <!-- Magnific js file -->
     <script src="/frontend/js/jquery.magnific-popup.min.js"></script>
-    <!-- SmoothScroll -->
     <script src="/frontend/js/SmoothScroll.js"></script>
-    <!-- Parallax js -->
     <script src="/frontend/js/parallaxie.js"></script>
-    <!-- MagicCursor js file -->
     <script src="/frontend/js/gsap.min.js"></script>
     <script src="/frontend/js/magiccursor.js"></script>
-    <!-- Text Effect js file -->
     <script src="/frontend/js/SplitText.js"></script>
     <script src="/frontend/js/ScrollTrigger.min.js"></script>
-    <!-- YTPlayer js File -->
     <script src="/frontend/js/jquery.mb.YTPlayer.min.js"></script>
-    <!-- Wow js file -->
     <script src="/frontend/js/wow.min.js"></script>
-    <!-- Main Custom js file -->
     <script src="/frontend/js/function.js"></script>
 
         <!-- End Script -->
+
 </body>
 </html>
